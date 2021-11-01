@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.zylin.cdt.feature:4.18.1"/>
+		<item value="ilg.gnuarmeclipse.debug.gdbjtag.jlink:2.2.1.201411261616"/>
+		<item value="ilg.gnuarmeclipse.debug.gdbjtag.openocd:2.1.1.201411261616"/>
+		<item value="ilg.gnuarmeclipse.doc.user:1.1.1.201411261616"/>
+		<item value="ilg.gnuarmeclipse.managedbuild.cross:1.11.1.201411261616"/>
+		<item value="ilg.gnuarmeclipse.packs:2.2.1.201411261616"/>
+		<item value="ilg.gnuarmeclipse.templates.cortexm:1.2.2.201411261616"/>
+		<item value="ilg.gnuarmeclipse.templates.freescale:2.2.2.201411261616"/>
+		<item value="ilg.gnuarmeclipse.templates.stm:2.2.2.201411261616"/>
+		<item value="org.eclipse.cdt.cross.arm.gnu:0.5.4.201202210114"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:8.3.0.201402142303"/>
+	</list>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="C:\Users\Yash Umale\Documents\7th Sem\ISRO Final Year Project\Project Files\Eclipse Project" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

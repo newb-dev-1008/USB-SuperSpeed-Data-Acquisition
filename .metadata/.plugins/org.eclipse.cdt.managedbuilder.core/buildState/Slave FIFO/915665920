@@ -1,0 +1,7 @@
+#
+#Fri Oct 22 01:52:21 IST 2021
+Release/Firmware/slavefifo_spi.o=1
+sync_slave_fifo_2bit.cydsn/slavefifoconfig.h=1
+Firmware/cyfxslfifosync.h=1
+Release/Slave\ FIFO.exe=1
+Firmware/slavefifo_spi.c=1

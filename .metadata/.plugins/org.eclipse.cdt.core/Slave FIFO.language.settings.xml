@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="cdt.managedbuild.config.gnu.mingw.exe.release.563913976" name="Release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="org.eclipse.cdt.ui.UserLanguageSettingsProvider">
+				<language id="org.eclipse.cdt.core.gcc">
+					<resource project-relative-path="">
+						<entry kind="includePath" name="C:\Program Files (x86)\Cypress\EZ-USB FX3 SDK">
+							<flag value="BUILTIN"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Include Paths">
+							<flag value="BUILTIN|VALUE_WORKSPACE_PATH"/>
+						</entry>
+					</resource>
+				</language>
+			</provider>
+		</extension>
+	</configuration>
+</project>

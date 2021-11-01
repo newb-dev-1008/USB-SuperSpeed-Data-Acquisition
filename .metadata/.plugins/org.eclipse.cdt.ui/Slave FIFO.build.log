@@ -1,0 +1,10 @@
+01:52:21 **** Incremental Build of configuration Release for project Slave FIFO ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "Firmware\\slavefifo_spi.o" "..\\Firmware\\slavefifo_spi.c" 
+..\Firmware\slavefifo_spi.c:1:23: fatal error: cyu3error.h: No such file or directory
+ #include "cyu3error.h"
+                       ^
+compilation terminated.
+
+01:52:21 Build Finished (took 257ms)
+
