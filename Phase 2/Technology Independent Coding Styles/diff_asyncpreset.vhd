@@ -1,3 +1,5 @@
+-- D Flip Flop (Asynchronous Preset)
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 

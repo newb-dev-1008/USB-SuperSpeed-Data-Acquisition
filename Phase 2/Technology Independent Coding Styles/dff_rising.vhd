@@ -1,3 +1,5 @@
+-- D Flip Flop (Rising Edge Triggered)
+
 library ieee;
 use IEEE.std_logic_1164.all;
     

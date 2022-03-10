@@ -1,3 +1,5 @@
+-- D Flip Flop with Asynchronous Reset
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 
