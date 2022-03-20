@@ -16,6 +16,8 @@
 --
 --------------------------------------------------------------------------------
 
+-- 32 Bit Counter using 8 Bit Counters
+
 library IEEE;
 
 use IEEE.std_logic_1164.all;
