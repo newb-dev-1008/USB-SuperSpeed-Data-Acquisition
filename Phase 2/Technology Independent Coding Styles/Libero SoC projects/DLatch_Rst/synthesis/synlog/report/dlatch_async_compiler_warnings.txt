@@ -1,0 +1,2 @@
+@W: CL117 :"C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DLatch_Rst\hdl\dlatch_async.vhd":32:8:32:9|Latch generated from process for signal q; possible missing assignment in an if or case statement.
+

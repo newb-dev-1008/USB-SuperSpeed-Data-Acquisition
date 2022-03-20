@@ -1,0 +1,73 @@
+Your license will expire in 13 days!
+
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    LAPTOP-S8H6FNH1
+Date:        Sat Mar 19 19:46:10 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log d_latch_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+
+log file: "C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DLatch\synthesis\d_latch.srr"
+
+Running: synthesis in foreground
+
+
+
+Running d_latch_syn|synthesis
+
+
+Running: compile (Compile) on d_latch_syn|synthesis
+# Sat Mar 19 19:46:10 2022
+
+
+Running: compile_flow (Compile Process) on d_latch_syn|synthesis
+# Sat Mar 19 19:46:10 2022
+
+
+Running: compiler (Compile Input) on d_latch_syn|synthesis
+# Sat Mar 19 19:46:10 2022
+
+compiler exited with errors
+
+Job failed on: d_latch_syn|synthesis
+
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DLatch\synthesis\synlog\d_latch_compiler.srr"
+# Sat Mar 19 19:46:10 2022
+
+Return Code: 2
+Run Time:00h:00m:00s
+
+Complete: Compile Process on d_latch_syn|synthesis
+
+Complete: Compile on d_latch_syn|synthesis
+
+Complete: Logic Synthesis on d_latch_syn|synthesis
+
+Error: At line 2 while processing "d_latch_syn.tcl"
+2
+
+TCL script complete: "d_latch_syn.tcl"
+
+TCL script had errors: "d_latch_syn.tcl"
+
+exit status=9
+
+exit status=9
+
+License checkin: synplifypro_actel
+

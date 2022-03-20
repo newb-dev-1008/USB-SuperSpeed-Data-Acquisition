@@ -1,0 +1,25 @@
+Target Part: M1A3P1000_PQFP208_STD
+Report for cell dasync_pre.behav
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+            DFN1P0     1      1.0        1.0
+                   -----          ----------
+             TOTAL     3                 1.0
+
+
+  IO Cell usage:
+              cell count
+                   -----
+             TOTAL     0
+
+
+Core Cells         : 1 of 24576 (0%)
+IO Cells           : 0
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+

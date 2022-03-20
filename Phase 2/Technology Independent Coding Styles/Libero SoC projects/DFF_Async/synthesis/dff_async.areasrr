@@ -1,0 +1,10 @@
+----------------------------------------------------------------------
+Report for cell dff_async.behav
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1P1C1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0

@@ -1,0 +1,25 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    LAPTOP-S8H6FNH1
+Date:        Sat Mar 19 18:53:47 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro dff_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+Your license will expire in 13 days!
+
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "dff_syn.tcl"
+New HDL Analyst: enabled
+Note: Opening local project RTL file 'C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\dff.srs'
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,4 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DLatch\hdl\dlatch.vhd":24:7:24:12|Synthesizing work.dlatch.behave.
+Post processing for work.dlatch.behave
+@W: CL117 :"C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DLatch\hdl\dlatch.vhd":33:8:33:9|Latch generated from process for signal y; possible missing assignment in an if or case statement.

@@ -1,0 +1,112 @@
+Your license will expire in 13 days!
+
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    LAPTOP-S8H6FNH1
+Date:        Sat Mar 19 18:53:23 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log dff_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+
+log file: "C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\dff.srr"
+
+Running: synthesis in foreground
+
+
+
+Running dff_syn|synthesis
+
+
+Running: compile (Compile) on dff_syn|synthesis
+# Sat Mar 19 18:53:23 2022
+
+
+Running: compile_flow (Compile Process) on dff_syn|synthesis
+# Sat Mar 19 18:53:23 2022
+
+
+Running: compiler (Compile Input) on dff_syn|synthesis
+# Sat Mar 19 18:53:23 2022
+
+Copied C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\synwork\dff_comp.srs to C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\dff.srs
+
+
+compiler completed
+# Sat Mar 19 18:53:24 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on dff_syn|synthesis
+# Sat Mar 19 18:53:24 2022
+
+
+multi_srs_gen completed
+# Sat Mar 19 18:53:25 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Copied C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\synwork\dff_mult.srs to C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\dff.srs
+
+Complete: Compile Process on dff_syn|synthesis
+
+
+Running: premap (Pre-mapping) on dff_syn|synthesis
+# Sat Mar 19 18:53:25 2022
+
+
+premap completed with warnings
+# Sat Mar 19 18:53:25 2022
+
+Return Code: 1
+Run Time:00h:00m:00s
+
+Complete: Compile on dff_syn|synthesis
+
+
+Running: map (Map) on dff_syn|synthesis
+# Sat Mar 19 18:53:25 2022
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on dff_syn|synthesis
+# Sat Mar 19 18:53:25 2022
+
+Copied C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\synwork\dff_m.srm to C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\dff.srm
+
+
+fpga_mapper completed with warnings
+# Sat Mar 19 18:53:26 2022
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Map on dff_syn|synthesis
+
+Complete: Logic Synthesis on dff_syn|synthesis
+
+Copied C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\dff.srr to C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\DFF\synthesis\backup\dff.srr
+
+TCL script complete: "dff_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+
