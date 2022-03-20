@@ -29,11 +29,22 @@ KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
+KEY ActiveRoot "counter::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\designer\impl1\counter.ide_des,ide_des"
+STATE="utd"
+TIME="1647757162"
+SIZE="355"
+ENDFILE
+VALUE "<project>\hdl\counter.vhd,hdl"
+STATE="utd"
+TIME="1647762460"
+SIZE="2472"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
@@ -156,10 +167,15 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:Counter32_8BitCounters.log
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl\counter.vhd;0
+ACTIVEVIEW;hdl\counter.vhd
 ENDLIST
 LIST ModuleSubBlockList
+LIST "counter::work","hdl\counter.vhd","FALSE","FALSE"
+ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 ENDLIST
