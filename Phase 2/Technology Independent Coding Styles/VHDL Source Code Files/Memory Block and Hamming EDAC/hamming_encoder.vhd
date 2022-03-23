@@ -27,17 +27,17 @@ architecture arch of hamming_encoder is
 
         -- Connect the outputs as a single bitstream
         -- Parity check bits
-        hamout(0 to 1) = (p0, p1);
-        hamout(3) = p2;
-        hamout(7) = p3;
-        hamout(15) = p4;
-        hamout(31) = p5;
+        hamout(0 to 1) <= (p0, p1);
+        hamout(3) <= p2;
+        hamout(7) <= p3;
+        hamout(15) <= p4;
+        hamout(31) <= p5;
 
         -- Data bits
-        hamout(2) = datain(0);
-        hamout(4 to 6) = datain(1 to 3);
-        hamout(8 to 14) = datain(4 to 10);
-        hamout(16 to 30) = datain(11 to 25);
-        hamout(32 to 37) = datain(26 to 31);
+        hamout(2) <= datain(0);
+        hamout(4 to 6) <= datain(1 to 3);
+        hamout(8 to 14) <= datain(4 to 10);
+        hamout(16 to 30) <= datain(11 to 25);
+        hamout(32 to 37) <= datain(26 to 31);
 
 end arch;
