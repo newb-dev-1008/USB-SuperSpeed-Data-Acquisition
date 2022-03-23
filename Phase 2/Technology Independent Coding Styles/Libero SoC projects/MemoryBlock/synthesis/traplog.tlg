@@ -1,0 +1,8 @@
+@N: CD630 :".\gentmp1637a00524":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0a00524":8:7:8:13|Synthesizing work.ram_r_w.no_rw_check.
+@W: CD280 :"syng0a00524":55:11:55:19|Unbound component RAM512X18 mapped to black box
+@N: CD630 :"syng0a00524":55:11:55:19|Synthesizing work.ram512x18.syn_black_box.
+Post processing for work.ram512x18.syn_black_box
+@W: CD638 :"syng0a00524":89:8:89:13|Signal zerosd is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.ram_r_w.no_rw_check
+Post processing for work.top.gen

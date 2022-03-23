@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell ram.architecture_ram
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        38       1.0       38.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2         7       1.0        7.0
+                              NOR2A         2       1.0        2.0
+                          RAM512X18         3       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             53                 48.0

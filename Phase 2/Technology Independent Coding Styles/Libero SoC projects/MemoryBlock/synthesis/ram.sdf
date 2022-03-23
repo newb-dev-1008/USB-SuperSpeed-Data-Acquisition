@@ -1,0 +1,166 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "ram")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "ram")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD0  ram128_tile_I_1_RNIIK7U/B  ram128_tile_I_1_RNIIK7U/Y  ram128_tile_I_1/RADDR0  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD1  ram128_tile_I_1_RNIJL7U/B  ram128_tile_I_1_RNIJL7U/Y  ram128_tile_I_1/RADDR1  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD2  ram128_tile_I_1_RNIKM7U/B  ram128_tile_I_1_RNIKM7U/Y  ram128_tile_I_1/RADDR2  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD3  ram128_tile_I_1_RNILN7U/B  ram128_tile_I_1_RNILN7U/Y  ram128_tile_I_1/RADDR3  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD4  ram128_tile_I_1_RNIMO7U/B  ram128_tile_I_1_RNIMO7U/Y  ram128_tile_I_1/RADDR4  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD5  ram128_tile_I_1_RNINP7U/B  ram128_tile_I_1_RNINP7U/Y  ram128_tile_I_1/RADDR5  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD6  ram128_tile_I_1_RNIOQ7U/B  ram128_tile_I_1_RNIOQ7U/Y  ram128_tile_I_1/RADDR6  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD0  ram128_tile_I_1_RNIIK7U/B  ram128_tile_I_1_RNIIK7U/Y  ram128_tile_0_I_1/RADDR0  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD0  ram128_tile_I_1_RNIIK7U/B  ram128_tile_I_1_RNIIK7U/Y  ram128_tile_1_I_1/RADDR0  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD1  ram128_tile_I_1_RNIJL7U/B  ram128_tile_I_1_RNIJL7U/Y  ram128_tile_0_I_1/RADDR1  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD1  ram128_tile_I_1_RNIJL7U/B  ram128_tile_I_1_RNIJL7U/Y  ram128_tile_1_I_1/RADDR1  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD2  ram128_tile_I_1_RNIKM7U/B  ram128_tile_I_1_RNIKM7U/Y  ram128_tile_0_I_1/RADDR2  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD2  ram128_tile_I_1_RNIKM7U/B  ram128_tile_I_1_RNIKM7U/Y  ram128_tile_1_I_1/RADDR2  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD3  ram128_tile_I_1_RNILN7U/B  ram128_tile_I_1_RNILN7U/Y  ram128_tile_0_I_1/RADDR3  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD3  ram128_tile_I_1_RNILN7U/B  ram128_tile_I_1_RNILN7U/Y  ram128_tile_1_I_1/RADDR3  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD4  ram128_tile_I_1_RNIMO7U/B  ram128_tile_I_1_RNIMO7U/Y  ram128_tile_0_I_1/RADDR4  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD4  ram128_tile_I_1_RNIMO7U/B  ram128_tile_I_1_RNIMO7U/Y  ram128_tile_1_I_1/RADDR4  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD5  ram128_tile_I_1_RNINP7U/B  ram128_tile_I_1_RNINP7U/Y  ram128_tile_0_I_1/RADDR5  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD5  ram128_tile_I_1_RNINP7U/B  ram128_tile_I_1_RNINP7U/Y  ram128_tile_1_I_1/RADDR5  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD6  ram128_tile_I_1_RNIOQ7U/B  ram128_tile_I_1_RNIOQ7U/Y  ram128_tile_0_I_1/RADDR6  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD6  ram128_tile_I_1_RNIOQ7U/B  ram128_tile_I_1_RNIOQ7U/Y  ram128_tile_1_I_1/RADDR6  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD0  rdata\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD1  rdata\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD2  rdata\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD3  rdata\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD4  rdata\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD5  rdata\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD6  rdata\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_1_I_1/WCLK  ram128_tile_1_I_1/RD0  rdata\[36\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_1_I_1/WCLK  ram128_tile_1_I_1/RD1  rdata\[37\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD0  rdata\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD1  rdata\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD2  rdata\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD3  rdata\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD4  rdata\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD5  rdata\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD6  rdata\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD7  rdata\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD8  rdata\[26\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD9  rdata\[27\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD10  rdata\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD11  rdata\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD12  rdata\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD13  rdata\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD14  rdata\[32\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD15  rdata\[33\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD16  rdata\[34\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_0_I_1/WCLK  ram128_tile_0_I_1/RD17  rdata\[35\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD7  rdata\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD8  rdata\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD9  rdata\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD10  rdata\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD11  rdata\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD12  rdata\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD13  rdata\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD14  rdata\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD15  rdata\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD16  rdata\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT ram128_tile_I_1/WCLK  ram128_tile_I_1/RD17  rdata\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT rdata\[0\]/CLK  rdata\[0\]/Q  ram128_tile_I_1_RNIIK7U/A  ram128_tile_I_1_RNIIK7U/Y  ram128_tile_I_1/RADDR0  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[1\]/CLK  rdata\[1\]/Q  ram128_tile_I_1_RNIJL7U/A  ram128_tile_I_1_RNIJL7U/Y  ram128_tile_I_1/RADDR1  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[2\]/CLK  rdata\[2\]/Q  ram128_tile_I_1_RNIKM7U/A  ram128_tile_I_1_RNIKM7U/Y  ram128_tile_I_1/RADDR2  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[3\]/CLK  rdata\[3\]/Q  ram128_tile_I_1_RNILN7U/A  ram128_tile_I_1_RNILN7U/Y  ram128_tile_I_1/RADDR3  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[4\]/CLK  rdata\[4\]/Q  ram128_tile_I_1_RNIMO7U/A  ram128_tile_I_1_RNIMO7U/Y  ram128_tile_I_1/RADDR4  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[5\]/CLK  rdata\[5\]/Q  ram128_tile_I_1_RNINP7U/A  ram128_tile_I_1_RNINP7U/Y  ram128_tile_I_1/RADDR5  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[6\]/CLK  rdata\[6\]/Q  ram128_tile_I_1_RNIOQ7U/A  ram128_tile_I_1_RNIOQ7U/Y  ram128_tile_I_1/RADDR6  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT rdata\[0\]/CLK  rdata\[0\]/Q  rdata\(0\)  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rdata\[1\]/CLK  rdata\[1\]/Q  rdata\(1\)  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rdata\[2\]/CLK  rdata\[2\]/Q  rdata\(2\)  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rdata\[3\]/CLK  rdata\[3\]/Q  rdata\(3\)  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rdata\[4\]/CLK  rdata\[4\]/Q  rdata\(4\)  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rdata\[5\]/CLK  rdata\[5\]/Q  rdata\(5\)  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT rdata\[6\]/CLK  rdata\[6\]/Q  rdata\(6\)  	(10.0:10.0:10.0) )
+
+  )
+)
+)

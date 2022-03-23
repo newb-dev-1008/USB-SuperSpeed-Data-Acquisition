@@ -30,36 +30,67 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\Counter32_8BitCounters"
+KEY ProjectLocation "C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\MemoryBlock"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
-KEY ActiveRoot "counter::work"
+KEY ActiveRoot "ram::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
-VALUE "<project>\designer\impl1\counter.ide_des,ide_des"
+VALUE "<project>\designer\impl1\ram.ide_des,ide_des"
 STATE="utd"
-TIME="1647771415"
-SIZE="355"
+TIME="1647774498"
+SIZE="340"
 ENDFILE
-VALUE "<project>\hdl\counter.vhd,hdl"
+VALUE "<project>\hdl\ram.vhd,hdl"
 STATE="utd"
-TIME="1647773165"
-SIZE="2000"
+TIME="1647777147"
+SIZE="1621"
 ENDFILE
-VALUE "<project>\hdl\counter8.vhd,hdl"
+VALUE "<project>\synthesis\ram.edn,syn_edn"
 STATE="utd"
-TIME="1647771415"
-SIZE="672"
+TIME="1647777172"
+SIZE="48625"
+ENDFILE
+VALUE "<project>\synthesis\ram.so,so"
+STATE="utd"
+TIME="1647777172"
+SIZE="361"
+ENDFILE
+VALUE "<project>\synthesis\ram_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1647777172"
+SIZE="392"
+ENDFILE
+VALUE "<project>\synthesis\ram_syn.prj,prj"
+STATE="utd"
+TIME="1647777179"
+SIZE="1610"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "ram::work"
+FILE "<project>\hdl\ram.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\ram.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -165,6 +196,19 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "ram::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\ram.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -178,18 +222,11 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Project Summary:Counter32_8BitCounters.log
 StartPage;StartPage;0
-HDL;hdl\counter8.vhd;0
-HDL;hdl\counter.vhd;0
-ACTIVEVIEW;hdl\counter.vhd
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
-LIST "counter::work","hdl\counter.vhd","FALSE","FALSE"
-SUBBLOCK "counter8::work","hdl\counter8.vhd","FALSE","FALSE"
-ENDLIST
-LIST "counter8::work","hdl\counter8.vhd","FALSE","FALSE"
+LIST "ram::work","hdl\ram.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

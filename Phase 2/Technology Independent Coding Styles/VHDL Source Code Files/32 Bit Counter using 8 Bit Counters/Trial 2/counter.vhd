@@ -7,7 +7,6 @@ use IEEE.math_real.all;
 use IEEE.std_logic_unsigned.all;
 use IEEE.std_logic_arith.all;
 use IEEE.numeric_std.all;
-use IEEE.numeric_std_unsigned.all;
 
 entity counter is
 port (
@@ -27,7 +26,7 @@ architecture architecture_counter of counter is
     end component;
 
 	signal count_val : std_logic_vector(31 downto 0);
-    variable cnt : integer := 0;
+    variable cnt : integer := '0';
 
 begin
 
@@ -39,28 +38,27 @@ begin
     process(clk) begin
         if (clk'event and rst = '1') then
             count_val <= to_unsigned(0, 32);
-            cnt := 0;
+            cnt <= '0';
         
         elsif (clk'event and clk = '1') then
-            cnt := cnt + '1';
+            cnt <= cnt + '1';
 
             if (cnt mod (2 ** 8) = '0') then
                 if (cnt mod (2 ** 16) = '0') then
                     if (cnt mod (2 ** 24) = '0') then
-                        count_val(31 downto 24) <= ctr8(prev => count_val(31 downto 24));
-                        count_val(23 downto 0) <= to_unsigned(0, 24);
+                        count_val[31:24] <= ctr8(prev => count_val[31:24]);
+                        count_val[23:0] <= to_unsigned(0, 24);
                     else
-                        count_val(23 downto 16) <= ctr8(prev => count_val(23 downto 16));
-                        count_val(15 downto 0) <= to_unsigned(0, 16);
+                        count_val[23:16] <= ctr8(prev => count_val[23:16]);
+                        count_val[15:0] <= to_unsigned(0, 16);
                     end if
                 else
-                    count_val(15 downto 8) <= ctr8(prev => count_val(15 downto 8));
-                    count_val(7 downto 0) <= to_unsigned(0, 8);
+                    count_val[15:8] <= ctr8(prev => count_val[15:8]);
+                    count_val[7:0] <= to_unsigned(0, 8);
             
                 end if
             else 
-                count_val(7 downto 0) <= ctr8(prev => count_val(7 downto 0));
+                count_val[7:0] <= ctr8(prev => count_val[7:0]);
             end if
-        end if 
             
 end architecture_counter;

@@ -7,6 +7,7 @@ use IEEE.math_real.all;
 use IEEE.std_logic_unsigned.all;
 use IEEE.std_logic_arith.all;
 use IEEE.numeric_std.all;
+use IEEE.numeric_std_unsigned.all;
 
 entity counter is
 port (
@@ -60,5 +61,6 @@ begin
             else 
                 count_val[7:0] <= ctr8(prev => count_val[7:0]);
             end if
+        end if 
             
 end architecture_counter;

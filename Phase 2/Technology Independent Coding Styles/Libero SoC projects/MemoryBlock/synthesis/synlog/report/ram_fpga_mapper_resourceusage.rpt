@@ -1,0 +1,29 @@
+Target Part: M1A3P1000_PQFP208_STD
+Report for cell ram.architecture_ram
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               INV     1      1.0        1.0
+               MX2     7      1.0        7.0
+             NOR2A     2      1.0        2.0
+               VCC     1      0.0        0.0
+
+
+            DFN1E1    38      1.0       38.0
+         RAM512X18     3      0.0        0.0
+                   -----          ----------
+             TOTAL    53                48.0
+
+
+  IO Cell usage:
+              cell count
+                   -----
+             TOTAL     0
+
+
+Core Cells         : 48 of 24576 (0%)
+IO Cells           : 0
+
+  RAM/ROM Usage Summary
+Block Rams : 3 of 32 (9%)
+
