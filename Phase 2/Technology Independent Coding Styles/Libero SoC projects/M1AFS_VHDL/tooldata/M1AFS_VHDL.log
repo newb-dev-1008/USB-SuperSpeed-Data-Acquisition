@@ -1,0 +1,16 @@
+Project Name: M1AFS_VHDL
+Location: C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\M1AFS_VHDL
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M1AFS1500-1FG484
+Family         : Fusion
+Die            : M1AFS1500
+Package        : 484 FBGA
+Speed          : -1
+Core Voltage   : 1.5
+Range          : COM

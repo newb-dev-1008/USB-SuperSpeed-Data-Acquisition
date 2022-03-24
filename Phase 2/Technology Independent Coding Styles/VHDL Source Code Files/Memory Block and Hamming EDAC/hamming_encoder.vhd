@@ -40,4 +40,6 @@ architecture arch of hamming_encoder is
         hamout(16 to 30) <= datain(11 to 25);
         hamout(32 to 37) <= datain(26 to 31);
 
+        -- End file
+
 end arch;
