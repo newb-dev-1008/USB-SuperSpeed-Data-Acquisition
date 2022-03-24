@@ -2,7 +2,7 @@
 Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
 Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
 Hostname:    LAPTOP-S8H6FNH1
-Date:        Wed Mar 23 21:25:43 2022
+Date:        Wed Mar 23 21:55:49 2022
 Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro ram_syn.tcl

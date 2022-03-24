@@ -1,0 +1,561 @@
+# Thu Mar 24 15:12:46 2022
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 108MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 108MB peak: 110MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+un1_inc / Y                    32                            
+clr_pad / Y                    32 : 32 asynchronous set/reset
+=============================================================
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+Buffering clr_c, fanout 32 segments 2
+Replicating Combinational Instance un1_inc, fanout 32 segments 2
+
+Added 1 Buffers
+Added 1 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 108MB peak: 110MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 32 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   32         q[0]           
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 108MB peak: 110MB)
+
+Writing Analyst data base C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\Counter\synthesis\synwork\bit8register_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 108MB peak: 110MB)
+
+@W: MT420 |Found inferred clock bit8register|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Mar 24 15:12:48 2022
+#
+
+
+Top view:               bit8register
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -5.188
+
+                     Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack      Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+bit8register|clk     100.0 MHz     65.8 MHz      10.000        15.188        -5.188     inferred     Inferred_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------
+bit8register|clk  bit8register|clk  |  10.000      -5.188  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: bit8register|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                            Arrival           
+Instance     Reference            Type       Pin     Net         Time        Slack 
+             Clock                                                                 
+-----------------------------------------------------------------------------------
+q[2]         bit8register|clk     DFN1C1     Q       q_c[2]      0.737       -5.188
+q[3]         bit8register|clk     DFN1C1     Q       q_c[3]      0.737       -4.401
+q[4]         bit8register|clk     DFN1C1     Q       q_c[4]      0.737       -4.293
+q[5]         bit8register|clk     DFN1C1     Q       q_c[5]      0.737       -4.029
+q[8]         bit8register|clk     DFN1C1     Q       q_c[8]      0.737       -3.544
+q[6]         bit8register|clk     DFN1C1     Q       q_c[6]      0.737       -3.495
+q[9]         bit8register|clk     DFN1C1     Q       q_c[9]      0.737       -3.280
+q[7]         bit8register|clk     DFN1C1     Q       q_c[7]      0.737       -3.231
+q[16]        bit8register|clk     DFN1C1     Q       q_c[16]     0.737       -2.699
+q[12]        bit8register|clk     DFN1C1     Q       q_c[12]     0.737       -2.650
+===================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                            Required           
+Instance     Reference            Type       Pin     Net         Time         Slack 
+             Clock                                                                  
+------------------------------------------------------------------------------------
+q[29]        bit8register|clk     DFN1C1     D       q_5[29]     9.461        -5.188
+q[31]        bit8register|clk     DFN1C1     D       q_5[31]     9.461        -5.188
+q[25]        bit8register|clk     DFN1C1     D       q_5[25]     9.461        -4.811
+q[28]        bit8register|clk     DFN1C1     D       q_5[28]     9.461        -4.352
+q[30]        bit8register|clk     DFN1C1     D       q_5[30]     9.461        -4.352
+q[27]        bit8register|clk     DFN1C1     D       q_5[27]     9.461        -4.287
+q[24]        bit8register|clk     DFN1C1     D       q_5[24]     9.461        -3.975
+q[23]        bit8register|clk     DFN1C1     D       q_5[23]     9.461        -3.910
+q[21]        bit8register|clk     DFN1C1     D       q_5[21]     9.461        -3.490
+q[26]        bit8register|clk     DFN1C1     D       q_5[26]     9.461        -3.452
+====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      14.649
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.188
+
+    Number of logic level(s):                10
+    Starting point:                          q[2] / Q
+    Ending point:                            q[29] / D
+    The start point is clocked by            bit8register|clk [rising] on pin CLK
+    The end   point is clocked by            bit8register|clk [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+q[2]                                      DFN1C1     Q        Out     0.737     0.737       -         
+q_c[2]                                    Net        -        -       0.806     -           3         
+un1_q.I_1                                 AND2       A        In      -         1.543       -         
+un1_q.I_1                                 AND2       Y        Out     0.514     2.058       -         
+un1_q.DWACT_ADD_CI_0_TMP[0]               Net        -        -       0.386     -           2         
+un1_q.I_142                               NOR2B      A        In      -         2.443       -         
+un1_q.I_142                               NOR2B      Y        Out     0.514     2.958       -         
+un1_q.DWACT_ADD_CI_0_g_array_1[0]         Net        -        -       0.806     -           3         
+un1_q.I_166                               NOR2B      A        In      -         3.764       -         
+un1_q.I_166                               NOR2B      Y        Out     0.514     4.279       -         
+un1_q.DWACT_ADD_CI_0_g_array_2[0]         Net        -        -       1.184     -           4         
+un1_q.I_138                               NOR2B      A        In      -         5.462       -         
+un1_q.I_138                               NOR2B      Y        Out     0.514     5.977       -         
+un1_q.DWACT_ADD_CI_0_g_array_3[0]         Net        -        -       1.279     -           5         
+un1_q.I_164                               NOR2B      A        In      -         7.256       -         
+un1_q.I_164                               NOR2B      Y        Out     0.514     7.770       -         
+un1_q.DWACT_ADD_CI_0_g_array_4[0]         Net        -        -       1.279     -           5         
+un1_q.I_126                               NOR2B      A        In      -         9.050       -         
+un1_q.I_126                               NOR2B      Y        Out     0.514     9.564       -         
+un1_q.DWACT_ADD_CI_0_g_array_9[0]         Net        -        -       1.184     -           4         
+un1_q.I_148                               NOR2B      A        In      -         10.748      -         
+un1_q.I_148                               NOR2B      Y        Out     0.514     11.262      -         
+un1_q.DWACT_ADD_CI_0_g_array_11_5[0]      Net        -        -       0.386     -           2         
+un1_q.I_147                               NOR2B      A        In      -         11.648      -         
+un1_q.I_147                               NOR2B      Y        Out     0.514     12.162      -         
+un1_q.DWACT_ADD_CI_0_g_array_12_12[0]     Net        -        -       0.322     -           1         
+un1_q.I_105                               XOR2       B        In      -         12.484      -         
+un1_q.I_105                               XOR2       Y        Out     0.937     13.420      -         
+I_105                                     Net        -        -       0.322     -           1         
+q_RNO[29]                                 MX2        B        In      -         13.742      -         
+q_RNO[29]                                 MX2        Y        Out     0.586     14.328      -         
+q_5[29]                                   Net        -        -       0.322     -           1         
+q[29]                                     DFN1C1     D        In      -         14.649      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 15.188 is 6.913(45.5%) logic and 8.274(54.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      14.649
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.188
+
+    Number of logic level(s):                10
+    Starting point:                          q[2] / Q
+    Ending point:                            q[31] / D
+    The start point is clocked by            bit8register|clk [rising] on pin CLK
+    The end   point is clocked by            bit8register|clk [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+q[2]                                      DFN1C1     Q        Out     0.737     0.737       -         
+q_c[2]                                    Net        -        -       0.806     -           3         
+un1_q.I_1                                 AND2       A        In      -         1.543       -         
+un1_q.I_1                                 AND2       Y        Out     0.514     2.058       -         
+un1_q.DWACT_ADD_CI_0_TMP[0]               Net        -        -       0.386     -           2         
+un1_q.I_142                               NOR2B      A        In      -         2.443       -         
+un1_q.I_142                               NOR2B      Y        Out     0.514     2.958       -         
+un1_q.DWACT_ADD_CI_0_g_array_1[0]         Net        -        -       0.806     -           3         
+un1_q.I_166                               NOR2B      A        In      -         3.764       -         
+un1_q.I_166                               NOR2B      Y        Out     0.514     4.279       -         
+un1_q.DWACT_ADD_CI_0_g_array_2[0]         Net        -        -       1.184     -           4         
+un1_q.I_138                               NOR2B      A        In      -         5.462       -         
+un1_q.I_138                               NOR2B      Y        Out     0.514     5.977       -         
+un1_q.DWACT_ADD_CI_0_g_array_3[0]         Net        -        -       1.279     -           5         
+un1_q.I_164                               NOR2B      A        In      -         7.256       -         
+un1_q.I_164                               NOR2B      Y        Out     0.514     7.770       -         
+un1_q.DWACT_ADD_CI_0_g_array_4[0]         Net        -        -       1.279     -           5         
+un1_q.I_126                               NOR2B      A        In      -         9.050       -         
+un1_q.I_126                               NOR2B      Y        Out     0.514     9.564       -         
+un1_q.DWACT_ADD_CI_0_g_array_9[0]         Net        -        -       1.184     -           4         
+un1_q.I_163                               NOR2B      A        In      -         10.748      -         
+un1_q.I_163                               NOR2B      Y        Out     0.514     11.262      -         
+un1_q.DWACT_ADD_CI_0_g_array_10_2[0]      Net        -        -       0.386     -           2         
+un1_q.I_132                               NOR2B      A        In      -         11.648      -         
+un1_q.I_132                               NOR2B      Y        Out     0.514     12.162      -         
+un1_q.DWACT_ADD_CI_0_g_array_12_13[0]     Net        -        -       0.322     -           1         
+un1_q.I_120                               XOR2       B        In      -         12.484      -         
+un1_q.I_120                               XOR2       Y        Out     0.937     13.420      -         
+I_120                                     Net        -        -       0.322     -           1         
+q_RNO[31]                                 MX2        B        In      -         13.742      -         
+q_RNO[31]                                 MX2        Y        Out     0.586     14.328      -         
+q_5[31]                                   Net        -        -       0.322     -           1         
+q[31]                                     DFN1C1     D        In      -         14.649      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 15.188 is 6.913(45.5%) logic and 8.274(54.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      14.272
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.811
+
+    Number of logic level(s):                10
+    Starting point:                          q[2] / Q
+    Ending point:                            q[25] / D
+    The start point is clocked by            bit8register|clk [rising] on pin CLK
+    The end   point is clocked by            bit8register|clk [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+q[2]                                      DFN1C1     Q        Out     0.737     0.737       -         
+q_c[2]                                    Net        -        -       0.806     -           3         
+un1_q.I_1                                 AND2       A        In      -         1.543       -         
+un1_q.I_1                                 AND2       Y        Out     0.514     2.058       -         
+un1_q.DWACT_ADD_CI_0_TMP[0]               Net        -        -       0.386     -           2         
+un1_q.I_142                               NOR2B      A        In      -         2.443       -         
+un1_q.I_142                               NOR2B      Y        Out     0.514     2.958       -         
+un1_q.DWACT_ADD_CI_0_g_array_1[0]         Net        -        -       0.806     -           3         
+un1_q.I_166                               NOR2B      A        In      -         3.764       -         
+un1_q.I_166                               NOR2B      Y        Out     0.514     4.279       -         
+un1_q.DWACT_ADD_CI_0_g_array_2[0]         Net        -        -       1.184     -           4         
+un1_q.I_138                               NOR2B      A        In      -         5.462       -         
+un1_q.I_138                               NOR2B      Y        Out     0.514     5.977       -         
+un1_q.DWACT_ADD_CI_0_g_array_3[0]         Net        -        -       1.279     -           5         
+un1_q.I_164                               NOR2B      A        In      -         7.256       -         
+un1_q.I_164                               NOR2B      Y        Out     0.514     7.770       -         
+un1_q.DWACT_ADD_CI_0_g_array_4[0]         Net        -        -       1.279     -           5         
+un1_q.I_149                               NOR2B      A        In      -         9.050       -         
+un1_q.I_149                               NOR2B      Y        Out     0.514     9.564       -         
+un1_q.DWACT_ADD_CI_0_g_array_10_1[0]      Net        -        -       0.806     -           3         
+un1_q.I_165                               NOR2B      A        In      -         10.370      -         
+un1_q.I_165                               NOR2B      Y        Out     0.514     10.885      -         
+un1_q.DWACT_ADD_CI_0_g_array_11_4[0]      Net        -        -       0.386     -           2         
+un1_q.I_125                               NOR2B      A        In      -         11.271      -         
+un1_q.I_125                               NOR2B      Y        Out     0.514     11.785      -         
+un1_q.DWACT_ADD_CI_0_g_array_12_10[0]     Net        -        -       0.322     -           1         
+un1_q.I_116                               XOR2       B        In      -         12.106      -         
+un1_q.I_116                               XOR2       Y        Out     0.937     13.043      -         
+I_116                                     Net        -        -       0.322     -           1         
+q_RNO[25]                                 MX2        B        In      -         13.365      -         
+q_RNO[25]                                 MX2        Y        Out     0.586     13.950      -         
+q_5[25]                                   Net        -        -       0.322     -           1         
+q[25]                                     DFN1C1     D        In      -         14.272      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 14.811 is 6.913(46.7%) logic and 7.897(53.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      13.862
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.401
+
+    Number of logic level(s):                9
+    Starting point:                          q[3] / Q
+    Ending point:                            q[29] / D
+    The start point is clocked by            bit8register|clk [rising] on pin CLK
+    The end   point is clocked by            bit8register|clk [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+q[3]                                      DFN1C1     Q        Out     0.737     0.737       -         
+q_c[3]                                    Net        -        -       0.806     -           3         
+un1_q.I_142                               NOR2B      B        In      -         1.543       -         
+un1_q.I_142                               NOR2B      Y        Out     0.627     2.171       -         
+un1_q.DWACT_ADD_CI_0_g_array_1[0]         Net        -        -       0.806     -           3         
+un1_q.I_166                               NOR2B      A        In      -         2.977       -         
+un1_q.I_166                               NOR2B      Y        Out     0.514     3.491       -         
+un1_q.DWACT_ADD_CI_0_g_array_2[0]         Net        -        -       1.184     -           4         
+un1_q.I_138                               NOR2B      A        In      -         4.675       -         
+un1_q.I_138                               NOR2B      Y        Out     0.514     5.189       -         
+un1_q.DWACT_ADD_CI_0_g_array_3[0]         Net        -        -       1.279     -           5         
+un1_q.I_164                               NOR2B      A        In      -         6.469       -         
+un1_q.I_164                               NOR2B      Y        Out     0.514     6.983       -         
+un1_q.DWACT_ADD_CI_0_g_array_4[0]         Net        -        -       1.279     -           5         
+un1_q.I_126                               NOR2B      A        In      -         8.262       -         
+un1_q.I_126                               NOR2B      Y        Out     0.514     8.777       -         
+un1_q.DWACT_ADD_CI_0_g_array_9[0]         Net        -        -       1.184     -           4         
+un1_q.I_148                               NOR2B      A        In      -         9.960       -         
+un1_q.I_148                               NOR2B      Y        Out     0.514     10.475      -         
+un1_q.DWACT_ADD_CI_0_g_array_11_5[0]      Net        -        -       0.386     -           2         
+un1_q.I_147                               NOR2B      A        In      -         10.861      -         
+un1_q.I_147                               NOR2B      Y        Out     0.514     11.375      -         
+un1_q.DWACT_ADD_CI_0_g_array_12_12[0]     Net        -        -       0.322     -           1         
+un1_q.I_105                               XOR2       B        In      -         11.696      -         
+un1_q.I_105                               XOR2       Y        Out     0.937     12.633      -         
+I_105                                     Net        -        -       0.322     -           1         
+q_RNO[29]                                 MX2        B        In      -         12.955      -         
+q_RNO[29]                                 MX2        Y        Out     0.586     13.540      -         
+q_5[29]                                   Net        -        -       0.322     -           1         
+q[29]                                     DFN1C1     D        In      -         13.862      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 14.401 is 6.512(45.2%) logic and 7.889(54.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      13.862
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.401
+
+    Number of logic level(s):                9
+    Starting point:                          q[3] / Q
+    Ending point:                            q[31] / D
+    The start point is clocked by            bit8register|clk [rising] on pin CLK
+    The end   point is clocked by            bit8register|clk [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+q[3]                                      DFN1C1     Q        Out     0.737     0.737       -         
+q_c[3]                                    Net        -        -       0.806     -           3         
+un1_q.I_142                               NOR2B      B        In      -         1.543       -         
+un1_q.I_142                               NOR2B      Y        Out     0.627     2.171       -         
+un1_q.DWACT_ADD_CI_0_g_array_1[0]         Net        -        -       0.806     -           3         
+un1_q.I_166                               NOR2B      A        In      -         2.977       -         
+un1_q.I_166                               NOR2B      Y        Out     0.514     3.491       -         
+un1_q.DWACT_ADD_CI_0_g_array_2[0]         Net        -        -       1.184     -           4         
+un1_q.I_138                               NOR2B      A        In      -         4.675       -         
+un1_q.I_138                               NOR2B      Y        Out     0.514     5.189       -         
+un1_q.DWACT_ADD_CI_0_g_array_3[0]         Net        -        -       1.279     -           5         
+un1_q.I_164                               NOR2B      A        In      -         6.469       -         
+un1_q.I_164                               NOR2B      Y        Out     0.514     6.983       -         
+un1_q.DWACT_ADD_CI_0_g_array_4[0]         Net        -        -       1.279     -           5         
+un1_q.I_126                               NOR2B      A        In      -         8.262       -         
+un1_q.I_126                               NOR2B      Y        Out     0.514     8.777       -         
+un1_q.DWACT_ADD_CI_0_g_array_9[0]         Net        -        -       1.184     -           4         
+un1_q.I_163                               NOR2B      A        In      -         9.960       -         
+un1_q.I_163                               NOR2B      Y        Out     0.514     10.475      -         
+un1_q.DWACT_ADD_CI_0_g_array_10_2[0]      Net        -        -       0.386     -           2         
+un1_q.I_132                               NOR2B      A        In      -         10.861      -         
+un1_q.I_132                               NOR2B      Y        Out     0.514     11.375      -         
+un1_q.DWACT_ADD_CI_0_g_array_12_13[0]     Net        -        -       0.322     -           1         
+un1_q.I_120                               XOR2       B        In      -         11.696      -         
+un1_q.I_120                               XOR2       Y        Out     0.937     12.633      -         
+I_120                                     Net        -        -       0.322     -           1         
+q_RNO[31]                                 MX2        B        In      -         12.955      -         
+q_RNO[31]                                 MX2        Y        Out     0.586     13.540      -         
+q_5[31]                                   Net        -        -       0.322     -           1         
+q[31]                                     DFN1C1     D        In      -         13.862      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 14.401 is 6.512(45.2%) logic and 7.889(54.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 110MB)
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_PQFP208_STD
+Report for cell bit8register.description
+  Core Cell usage:
+              cell count     area count*area
+              AND2    22      1.0       22.0
+              BUFF     1      1.0        1.0
+               GND     1      0.0        0.0
+               MX2    30      1.0       30.0
+             NOR2B    28      1.0       28.0
+              OR2A     2      1.0        2.0
+               VCC     1      0.0        0.0
+              XOR2    30      1.0       30.0
+
+
+            DFN1C1    30      1.0       30.0
+          DFN1E0C1     2      1.0        2.0
+                   -----          ----------
+             TOTAL   147               145.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    35
+            OUTBUF    32
+                   -----
+             TOTAL    68
+
+
+Core Cells         : 145 of 24576 (1%)
+IO Cells           : 68
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 24MB peak: 110MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Thu Mar 24 15:12:48 2022
+
+###########################################################]

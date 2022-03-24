@@ -1,0 +1,35 @@
+Target Part: M1A3P1000_PQFP208_STD
+Report for cell bit8register.description
+  Core Cell usage:
+              cell count     area count*area
+              AND2    22      1.0       22.0
+              BUFF     1      1.0        1.0
+               GND     1      0.0        0.0
+               MX2    30      1.0       30.0
+             NOR2B    28      1.0       28.0
+              OR2A     2      1.0        2.0
+               VCC     1      0.0        0.0
+              XOR2    30      1.0       30.0
+
+
+            DFN1C1    30      1.0       30.0
+          DFN1E0C1     2      1.0        2.0
+                   -----          ----------
+             TOTAL   147               145.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    35
+            OUTBUF    32
+                   -----
+             TOTAL    68
+
+
+Core Cells         : 145 of 24576 (1%)
+IO Cells           : 68
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+

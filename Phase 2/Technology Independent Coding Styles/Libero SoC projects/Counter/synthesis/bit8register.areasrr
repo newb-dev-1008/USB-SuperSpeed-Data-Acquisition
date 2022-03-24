@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell bit8register.description
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        22       1.0       22.0
+                               BUFF         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                             DFN1C1        30       1.0       30.0
+                           DFN1E0C1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF        35       0.0        0.0
+                                MX2        30       1.0       30.0
+                              NOR2B        28       1.0       28.0
+                               OR2A         2       1.0        2.0
+                             OUTBUF        32       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XOR2        30       1.0       30.0
+                            
+                         TOTAL            215                145.0
