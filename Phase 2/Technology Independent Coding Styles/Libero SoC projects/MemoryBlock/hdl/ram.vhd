@@ -45,7 +45,7 @@ begin
         variable ram_addr_int : integer;
     begin
         if (clk'event and clk = '1' and wen = '1') then
-            ram_addr_int := to_integer(unsigned(waddr));
+            ram_addr_int := to_integer(unsigned(waddr));  -- (others => (others => `0`)) [for 2D array]
             ram128(ram_addr_int) <= wdata;
         elsif (clk'event and clk = '1' and ren = '1') then
             ram_addr_int := to_integer(unsigned(rdata));

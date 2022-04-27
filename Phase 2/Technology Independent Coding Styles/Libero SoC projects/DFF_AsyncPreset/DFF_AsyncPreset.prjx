@@ -1,6 +1,7 @@
 KEY LIBERO "11.9"
 KEY CAPTURE "11.9.0.4"
-KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_IMPORT_LOC "D:\jijeesh\M1A3PL\A2F_AC335_DF\A2F_AC335_DF\APB_slv_cnt\hdl"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "VERILOG2001"
@@ -67,13 +68,13 @@ SIZE="399"
 ENDFILE
 VALUE "<project>\synthesis\dasync_pre_syn.prj,prj"
 STATE="utd"
-TIME="1647697047"
-SIZE="2021"
+TIME="1647697064"
+SIZE="1635"
 ENDFILE
 VALUE "<project>\synthesis\dff_async_pre_syn.prj,prj"
 STATE="utd"
-TIME="1647696779"
-SIZE="969"
+TIME="1647696967"
+SIZE="926"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -205,6 +206,8 @@ ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "dasync_pre::work","hdl\dasync_pre.vhd","FALSE","FALSE"
+ENDLIST
+LIST "ram::work","hdl\dasync_pre.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

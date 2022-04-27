@@ -2,7 +2,7 @@
 Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
 Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
 Hostname:    LAPTOP-S8H6FNH1
-Date:        Sat Mar 19 19:07:45 2022
+Date:        Wed Apr 13 02:55:37 2022
 Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro dasync_pre_syn.tcl
@@ -14,8 +14,6 @@ Licensed Vendor: actel
 License Option: actel_oem
 
 
-
-Your license will expire in 13 days!
 
 auto_infer_blackbox is not supported in current product.
 TCL script complete: "dasync_pre_syn.tcl"

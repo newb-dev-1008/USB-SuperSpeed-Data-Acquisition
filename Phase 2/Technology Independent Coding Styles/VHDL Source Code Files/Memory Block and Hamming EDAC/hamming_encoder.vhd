@@ -6,6 +6,9 @@ use ieee.std_logic_unsigned.all;
 -- 38 37 36 35 34 33 32' 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16' 15 14 13 12 11 10 9 8' 7 6 5 4' 3 2' 1'
 -- 32 31 30 29 28 27     26 25 24 23 22 21 20 19 18 17 16 15 14 13 12     11 10 09 08 07 06 5    4 3 2    1 
 
+-- Extended Hamming Code required
+-- Hamming code helps with single error correction, while extended does SEC as well as double error detection.
+
 entity hamming_encoder is 
     port(datain : IN bit_vector(0 to 7); hamout : OUT bit_vector(0 to 39));
 end hamming_encoder;

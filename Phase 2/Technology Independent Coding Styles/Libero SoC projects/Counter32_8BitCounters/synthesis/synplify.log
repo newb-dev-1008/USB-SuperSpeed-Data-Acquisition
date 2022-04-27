@@ -1,0 +1,38 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    LAPTOP-S8H6FNH1
+Date:        Wed Apr 13 02:49:01 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log counter_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+Result base name counter is too long; use a shorter name.
+
+Error: At line 24 while processing "C:\Users\Yash Umale\Documents\8th Sem\Final Year Project\Phase 2\Source Code\USB-SuperSpeed-Data-Acquisition\Phase 2\Technology Independent Coding Styles\Libero SoC projects\Counter32_8BitCounters\synthesis\counter_syn.prj"
+
+
+Error: Project load failed.
+
+Error: At line 1 while processing "counter_syn.tcl"
+
+TCL script complete: "counter_syn.tcl"
+
+TCL script had errors: "counter_syn.tcl"
+
+exit status=9
+
+exit status=9
+
+License checkin: synplifypro_actel
+

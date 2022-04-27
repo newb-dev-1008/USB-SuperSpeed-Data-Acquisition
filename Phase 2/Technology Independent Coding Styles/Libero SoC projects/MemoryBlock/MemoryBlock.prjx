@@ -1,6 +1,6 @@
 KEY LIBERO "11.9"
 KEY CAPTURE "11.9.0.4"
-KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_IMPORT_LOC "D:\jijeesh\M1A3PL\A2F_AC335_DF\A2F_AC335_DF\APB_slv_cnt\hdl"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
@@ -58,8 +58,8 @@ SIZE="2097"
 ENDFILE
 VALUE "<project>\hdl\ram.vhd,hdl"
 STATE="utd"
-TIME="1648050908"
-SIZE="1621"
+TIME="1648477990"
+SIZE="1668"
 ENDFILE
 VALUE "<project>\synthesis\ram.edn,syn_edn"
 STATE="ood"
@@ -78,7 +78,7 @@ SIZE="392"
 ENDFILE
 VALUE "<project>\synthesis\ram_syn.prj,prj"
 STATE="utd"
-TIME="1648052748"
+TIME="1649798602"
 SIZE="1610"
 ENDFILE
 ENDLIST
@@ -209,7 +209,7 @@ HDL;hdl\ram.vhd;0
 StartPage;StartPage;0
 HDL;hdl\hamming_encoder.vhd;0
 HDL;hdl\hamming_decoder.vhd;0
-ACTIVEVIEW;hdl\ram.vhd
+ACTIVEVIEW;hdl\hamming_encoder.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "hamming_decoder::work","hdl\hamming_decoder.vhd","FALSE","FALSE"

@@ -1,6 +1,6 @@
 KEY LIBERO "11.9"
 KEY CAPTURE "11.9.0.4"
-KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_IMPORT_LOC "D:\jijeesh\M1A3PL\A2F_AC335_DF\A2F_AC335_DF\APB_slv_cnt\hdl"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
@@ -13,10 +13,15 @@ KEY VendorTechnology_Package "pq208"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -63,8 +68,8 @@ SIZE="401"
 ENDFILE
 VALUE "<project>\synthesis\bit8register_syn.prj,prj"
 STATE="utd"
-TIME="1648114968"
-SIZE="2013"
+TIME="1648114992"
+SIZE="1597"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -226,6 +231,8 @@ ACTIVEVIEW;synthesis\bit8register_sdc.sdc
 ENDLIST
 LIST ModuleSubBlockList
 LIST "bit8register::work","hdl\bit8register.vhd","FALSE","FALSE"
+ENDLIST
+LIST "counter::work","hdl\bit8register.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

@@ -3,6 +3,8 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
+-- Syndrome error correction 
+
 entity hamming_decoder is 
     port(hamin : IN bit_vector(0 to 37); dataout : OUT bit_vector(0 to 31));
 end hamming_decoder;

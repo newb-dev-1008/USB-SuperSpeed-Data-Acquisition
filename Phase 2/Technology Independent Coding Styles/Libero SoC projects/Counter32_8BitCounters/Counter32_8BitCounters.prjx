@@ -1,6 +1,6 @@
 KEY LIBERO "11.9"
 KEY CAPTURE "11.9.0.4"
-KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_IMPORT_LOC "D:\jijeesh\M1A3PL\A2F_AC335_DF\A2F_AC335_DF\APB_slv_cnt\hdl"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
@@ -56,10 +56,31 @@ STATE="utd"
 TIME="1647771415"
 SIZE="672"
 ENDFILE
+VALUE "<project>\synthesis\counter_syn.prj,prj"
+STATE="utd"
+TIME="1649798340"
+SIZE="1197"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "counter::work"
+FILE "<project>\hdl\counter.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\counter.edn,syn_edn)=StateFailure
+ideSYNTHESIS(<project>\synthesis\counter.vm,syn_vm)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
@@ -131,8 +152,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -165,6 +186,19 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "counter::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\counter.edn,syn_edn)=StateFailure
+ideSYNTHESIS(<project>\synthesis\counter.vm,syn_vm)=StateFailure
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -179,11 +213,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Project Summary:Counter32_8BitCounters.log
+ReportsCurrentItem;Synthesize:synplify.log
 StartPage;StartPage;0
 HDL;hdl\counter8.vhd;0
 HDL;hdl\counter.vhd;0
-ACTIVEVIEW;hdl\counter.vhd
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "counter::work","hdl\counter.vhd","FALSE","FALSE"

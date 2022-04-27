@@ -36,8 +36,8 @@ begin
         rst => rst;
     );
 
-    process(clk) begin
-        if (clk'event and rst = '1') then
+    process(clk, rst) begin
+        if (rst = '1') then
             count_val <= to_unsigned(0, 32);
             cnt <= '0';
         
