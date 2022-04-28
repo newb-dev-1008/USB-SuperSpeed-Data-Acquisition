@@ -1,6 +1,6 @@
 KEY LIBERO "11.9"
 KEY CAPTURE "11.9.0.4"
-KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_IMPORT_LOC "D:\jijeesh\M1A3PL\A2F_AC335_DF\A2F_AC335_DF\APB_slv_cnt\hdl"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
@@ -13,10 +13,15 @@ KEY VendorTechnology_Package "fg484"
 KEY VendorTechnology_Speed "-1"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IR10X10M3"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -159,7 +164,6 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Project Summary:M1AFS_VHDL.log
-StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
