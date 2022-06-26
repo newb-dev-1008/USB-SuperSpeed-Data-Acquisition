@@ -1,0 +1,164 @@
+*****************************************************************
+Pin Report - Date: Tue May 10 18:09:47 2022 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: gagRetTopMod
+Family: ProASIC3E
+Die: M1A3PE3000
+Package: 208 PQFP
+*****************************************************************
+Port                    |Pin |Fixed |Function         |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------------------|----|------|-----------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+A1_0[0]                  139  Yes    IO106PSB2V3       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+A1_0[1]                  136  Yes    GCC1/IO112PSB2V3  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+CLK48MHZ                 163  Yes    GBB0/IO80NDB1V4   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+COMMANDS0                5    Yes    GAA2/IO309PDB7V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+COMMANDS1                9    Yes    IO303PDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+COMMANDS2                12   Yes    IO299NDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+COMMANDS3                13   Yes    IO295PDB7V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+COMMANDS4                14   Yes    IO295NDB7V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+COMMANDS5                7    Yes    GAC2/IO307PDB7V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+CTL9                     127  Yes    IO115NDB3V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+CTL10                    132  Yes    GCA0/IO114NPB3V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DESERENBFPGA             193  Yes    IO16PDB0V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[0]                    144  Yes    IO99PDB2V2        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[1]                    145  Yes    IO96NDB2V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[2]                    146  Yes    IO96PDB2V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[3]                    147  Yes    IO91NDB2V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[4]                    148  Yes    IO91PDB2V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[5]                    149  Yes    IO88NDB2V0        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[6]                    150  Yes    IO88PDB2V0        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[7]                    151  Yes    GBC2/IO84PSB2V0   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[8]                    152  Yes    GBA2/IO82PSB2V0   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[9]                    113  Yes    GDB0/IO152NPB3V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[10]                   117  Yes    GDC1/IO151PDB3V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[11]                   124  Yes    GCC2/IO117PSB3V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[12]                   128  Yes    GCA2/IO115PDB3V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[13]                   134  Yes    GCB0/IO113NDB2V3  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[14]                   137  Yes    IO110NDB2V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[15]                   143  Yes    IO99NDB2V2        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[16]                   34   Yes    IO271NPB6V4       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[17]                   33   Yes    GFC2/IO270PPB6V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[18]                   32   Yes    GFB2/IO271PPB6V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[19]                   31   Yes    IO272NDB6V4       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[20]                   28   Yes    GFA1/IO273PPB6V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[21]                   22   Yes    GFC1/IO275PSB7V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[22]                   188  Yes    IO28PDB0V3        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[23]                   48   Yes    GEB0/IO235NPB6V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[24]                   47   Yes    GEA1/IO234PPB6V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[25]                   45   Yes    GEC0/IO236NDB6V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[26]                   42   Yes    IO244PDB6V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[27]                   37   Yes    IO252PDB6V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[28]                   26   Yes    GFA0/IO273NPB6V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[29]                   23   Yes    GFB1/IO274PDB7V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[30]                   11   Yes    IO299PDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+DQ[31]                   8    Yes    IO307NDB7V4       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+FLAGA                    153  Yes    GBB2/IO83PSB2V0   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+FLAGB                    159  Yes    GBA1/IO81PDB1V4   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+FLAGC                    112  Yes    GDA0/IO153NPB3V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+FLAGD                    121  Yes    IO132PDB3V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+GPIO45                   30   Yes    GFA2/IO272PDB6V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+GPIO57_I2S_MCLK_VIO3_SW  46   Yes    GEB1/IO235PPB6V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+I2C_SCL_FX3              118  Yes    IO134NDB3V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+I2C_SDA_FX3              119  Yes    IO134PDB3V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+I2S_CLK                  44   Yes    GEC1/IO236PDB6V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+I2S_SD                   49   Yes    GEA0/IO234NPB6V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+I2S_W                    38   Yes    IO252NDB6V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+INT_N_CTL15              4    Yes    GAB2/IO308PSB7V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+LVDSDESERENBFPGA         206  Yes    GAA0/IO00NDB0V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+LVDSENBFPGA              190  Yes    IO24PDB0V2        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+LVDSRXENB                20   Yes    IO285NDB7V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+LVDSTXENB                199  Yes    IO08NDB0V0        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+LVPBCLK                  19   Yes    IO285PDB7V1       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+LVPBDATA0                56   Yes    GEA2/IO233PDB5V4  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+LVPBDATA1                55   Yes    IO233NDB5V4       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+LVPBDATA2                69   Yes    IO208NDB5V1       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+M_DESERENB               198  Yes    IO08PDB0V0        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+nTRST                    109  Fixed  TRST
+PBCLK                    201  Yes    GAC1/IO02PDB0V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+PBCLKIN                  99   Yes    GDA2/IO154PPB4V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[0]                98   Yes    GDB2/IO155PSB4V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[1]                74   Yes    IO202PDB5V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[2]                75   Yes    IO198NDB5V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[3]                76   Yes    IO198PDB5V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[4]                77   Yes    IO197NDB5V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[5]                78   Yes    IO197PDB5V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[6]                79   Yes    IO194NDB5V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[7]                80   Yes    IO194PDB5V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[8]                82   Yes    IO184NDB4V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[9]                83   Yes    IO184PDB4V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[10]               84   Yes    IO180NDB4V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[11]               85   Yes    IO180PDB4V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[12]               86   Yes    IO176NDB4V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[13]               87   Yes    IO176PDB4V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[14]               90   Yes    IO170NDB4V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[15]               91   Yes    IO170PDB4V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[16]               92   Yes    IO166NDB4V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[17]               93   Yes    IO166PDB4V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[18]               94   Yes    IO156NDB4V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[19]               95   Yes    GDC2/IO156PDB4V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBDATA[20]               96   Yes    IO154NPB4V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PBLVDSENBFPGA            205  Yes    GAA1/IO00PDB0V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+PBREQ                    15   Yes    IO291PSB7V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+PCLK                     135  Yes    GCB1/IO113PDB2V3  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+PKTENDN                  116  Yes    GDC0/IO151NDB3V4  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+PMODE[0]                 24   Yes    GFB0/IO274NDB7V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PMODE[1]                 21   Yes    IO279PSB7V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+PMODE[2]                 10   Yes    IO303NDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+POWERON                  114  Yes    GDA1/IO153PPB3V4  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+RECCLK                   168  Yes    IO70PDB1V3        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[0]               64   Yes    IO218PDB5V3       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[1]               66   Yes    IO214PSB5V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[2]               67   Yes    IO212NDB5V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[3]               68   Yes    IO212PDB5V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[4]               58   Yes    GEB2/IO232PDB5V4  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[5]               57   Yes    IO232NDB5V4       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[6]               59   Yes    IO231NDB5V4       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[7]               60   Yes    GEC2/IO231PDB5V4  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[8]               61   Yes    IO230PSB5V4       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[9]               63   Yes    IO218NDB5V3       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[10]              204  Yes    GAB0/IO01NDB0V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[11]              203  Yes    GAB1/IO01PDB0V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[12]              202  Yes    GAC0/IO02NDB0V0   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[13]              197  Yes    IO11NDB0V1        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[14]              196  Yes    IO11PDB0V1        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[15]              194  Yes    IO16NDB0V1        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[16]              192  Yes    IO21PSB0V2        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[17]              191  Yes    IO24NDB0V2        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[18]              189  Yes    IO28NDB0V3        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[19]              167  Yes    IO74NDB1V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+RECDATA[20]              166  Yes    IO74PDB1V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SERENB                   169  Yes    IO70NDB1V3        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSIN0            176  Yes    IO54NDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Sig1553BUSIN1            175  Yes    IO54PDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Sig1553BUSIN2            174  Yes    IO55NDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Sig1553BUSIN3            173  Yes    IO55PDB1V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Sig1553BUSOUT0           185  Yes    IO32NDB0V3        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT1           184  Yes    IO32PDB0V3        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT2           183  Yes    IO35NDB0V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT3           182  Yes    IO35PDB0V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT4           181  Yes    IO37NDB0V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT5           180  Yes    IO37PDB0V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT6           179  Yes    IO40NDB0V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Sig1553BUSOUT7           177  Yes    IO40PDB0V4        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SLCSN                    125  Yes    GCB2/IO116PSB3V0  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SLOEN                    120  Yes    IO132NDB3V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SLRDN                    115  Yes    GDB1/IO152PPB3V4  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SLWRN                    138  Yes    IO110PDB2V3       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SPECIAL                  6    Yes    IO309NDB7V4       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+SPI_MISO_UART_TX         43   Yes    IO244NDB6V1       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+SPI_MOSI_UART_RX         39   Yes    IO248PSB6V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+SPI_SCK_UART_RTS         35   Yes    IO270NPB6V4       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+SPI_SSN_UART_CTS         160  Yes    GBA0/IO81NDB1V4   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+TCK                      101  Fixed  TCK
+TDI                      102  Fixed  TDI
+TDO                      108  Fixed  TDO
+TMS                      103  Fixed  TMS
+Unused_70                70   Yes    IO208PDB5V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Unused_73                73   Yes    IO202NDB5V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Unused_129               129  Yes    GCA1/IO114PPB3V0  LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Unused_161               161  Yes    GBB1/IO80PDB1V4   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Unused_164               164  Yes    GBC1/IO79PDB1V4   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Unused_165               165  Yes    GBC0/IO79NDB1V4   LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+Unused_172               172  Yes    IO56PSB1V1        LVTTL    12                 High  None           ---              ---          No    35                No           Yes

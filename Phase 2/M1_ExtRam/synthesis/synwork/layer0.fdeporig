@@ -1,0 +1,336 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\synthesis\\synwork\\gagRetTopMod_comp.srs|-top|work.gagRetTopMod|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|CORETIMER_LIB|-lib|CORETIMER_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREGPIO_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1508995828
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\location.map":1509001834
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\std.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\std1164.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\numeric.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\arith.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\unsigned.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508995328
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\AhbWrapper_SRAM.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\SramCtrl.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\AhbSramIf.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\Sram_2k5x8_pa3e.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\Sram_2kx8_pa3e.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\Sram_3k5x8_pa3e.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\Sram_512x8_pa3e.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\Sram_7kx8_pa3e.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\Sram.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.3.103\\rtl\\vhdl\\u\\CoreAhbSram.vhd":1652185320
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.0.102\\CortexM1Integration\\M1A3PE3000\\0_01_1_0_0000_0000_1_1\\timingshell\\vhdl\\arm_synplify.vhd":1651211394
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.0.102\\rtl\\vhdl\\o\\uj_jtag.vhd":1651211394
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.0.102\\rtl\\vhdl\\o\\ResetSync_a3pe.vhd":1651211394
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.0.102\\rtl\\vhdl\\o\\CortexM1Top_a3pe.vhd":1651211394
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMbend.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMdec.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMenc.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMpack.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMmt.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\ram16x16_pa3e.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMcomps.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMreg.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMrt.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\globalbuff_pa3e.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\BRMpc.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\core1553brm.vhd":1459756920
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\core1553_brm.vhd":1650954165
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\edac_decoder.vhd":1650513153
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\edac_encoder.vhd":1650513153
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\smartgen\\ramBlock1kby24\\ramBlock1kby24.vhd":1650619168
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\RAM_1k16_EDAC.vhd":1650956956
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\b1553BRM_AHBSlv.vhd":1650955168
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_addrdec.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_defaultslavesm.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_masterstage.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_slavearbiter.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_slavestage.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_matrix4x16.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite_pkg.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\coreahblite.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vhdl\\core_obfuscated\\ahbtoapbsm.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vhdl\\core_obfuscated\\penablescheduler.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vhdl\\core_obfuscated\\apbaddrdata.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vhdl\\core_obfuscated\\coreahbtoapb3.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vhdl\\core_obfuscated\\coreapb3_muxptob3.vhd":1651211389
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vhdl\\core_obfuscated\\coreapb3.vhd":1651211389
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreGPIO\\3.0.120\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1651211389
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreGPIO\\3.0.120\\rtl\\vhdl\\core\\coregpio.vhd":1651211389
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer_pkg.vhd":1650446555
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer.vhd":1650446555
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vhdl\\core\\components.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vhdl\\core_obfuscated\\components.vhd":1651211387
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vhdl\\core_obfuscated\\components.vhd":1651211389
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreGPIO\\3.0.120\\rtl\\vhdl\\core\\components.vhd":1651211389
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\component\\work\\M1Proc\\M1Proc.vhd":1652185321
+#CUR:"G:\\omsai\\intern_ezusbcard\\M1_ExtRam\\hdl\\gagRetTopMod.vhd":1652185454
+0 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbWrapper_SRAM.vhd" vhdl
+1 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd" vhdl
+2 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbSramIf.vhd" vhdl
+3 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram_2k5x8_pa3e.vhd" vhdl
+4 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram_2kx8_pa3e.vhd" vhdl
+5 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram_3k5x8_pa3e.vhd" vhdl
+6 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram_512x8_pa3e.vhd" vhdl
+7 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram_7kx8_pa3e.vhd" vhdl
+8 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram.vhd" vhdl
+9 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\CoreAhbSram.vhd" vhdl
+10 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\CortexM1Integration\M1A3PE3000\0_01_1_0_0000_0000_1_1\timingshell\vhdl\arm_synplify.vhd" vhdl
+11 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\uj_jtag.vhd" vhdl
+12 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd" vhdl
+13 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\CortexM1Top_a3pe.vhd" vhdl
+14 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd" vhdl
+15 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMdec.vhd" vhdl
+16 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMenc.vhd" vhdl
+17 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpack.vhd" vhdl
+18 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMmt.vhd" vhdl
+19 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\ram16x16_pa3e.vhd" vhdl
+20 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMcomps.vhd" vhdl
+21 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMreg.vhd" vhdl
+22 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMrt.vhd" vhdl
+23 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\globalbuff_pa3e.vhd" vhdl
+24 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd" vhdl
+25 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\core1553brm.vhd" vhdl
+26 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\core1553_brm.vhd" vhdl
+27 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\edac_decoder.vhd" vhdl
+28 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\edac_encoder.vhd" vhdl
+29 "G:\omsai\intern_ezusbcard\M1_ExtRam\smartgen\ramBlock1kby24\ramBlock1kby24.vhd" vhdl
+30 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\RAM_1k16_EDAC.vhd" vhdl
+31 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\b1553BRM_AHBSlv.vhd" vhdl
+32 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_addrdec.vhd" vhdl
+33 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_defaultslavesm.vhd" vhdl
+34 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd" vhdl
+35 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd" vhdl
+36 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd" vhdl
+37 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd" vhdl
+38 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_pkg.vhd" vhdl
+39 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd" vhdl
+40 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\ahbtoapbsm.vhd" vhdl
+41 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\penablescheduler.vhd" vhdl
+42 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd" vhdl
+43 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\coreahbtoapb3.vhd" vhdl
+44 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3_muxptob3.vhd" vhdl
+45 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd" vhdl
+46 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+47 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio.vhd" vhdl
+48 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer_pkg.vhd" vhdl
+49 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd" vhdl
+50 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\components.vhd" vhdl
+51 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\components.vhd" vhdl
+52 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\components.vhd" vhdl
+53 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\components.vhd" vhdl
+54 "G:\omsai\intern_ezusbcard\M1_ExtRam\component\work\M1Proc\M1Proc.vhd" vhdl
+55 "G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\gagRetTopMod.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 0 1 
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 7 5 3 4 6 
+9 2 8 
+10 -1
+11 -1
+12 11 
+13 10 12 
+14 -1
+15 -1
+16 -1
+17 -1
+18 17 
+19 -1
+20 -1
+21 19 17 20 
+22 17 
+23 -1
+24 23 22 18 21 17 20 
+25 16 15 24 14 17 20 
+26 25 
+27 -1
+28 -1
+29 -1
+30 28 29 27 
+31 26 30 
+32 -1
+33 -1
+34 32 33 
+35 -1
+36 35 
+37 34 36 
+38 -1
+39 37 38 
+40 -1
+41 -1
+42 -1
+43 40 41 42 
+44 -1
+45 44 
+46 -1
+47 46 
+48 -1
+49 48 
+50 -1
+51 -1
+52 -1
+53 -1
+54 31 39 9 43 45 47 49 13 50 51 52 53 
+55 54 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 
+2 9 
+3 8 
+4 8 
+5 8 
+6 8 
+7 8 
+8 9 
+9 54 
+10 13 
+11 12 
+12 13 
+13 54 
+14 25 
+15 25 
+16 25 
+17 25 24 22 21 18 
+18 24 
+19 21 
+20 25 24 21 
+21 24 
+22 24 
+23 24 
+24 25 
+25 26 
+26 31 
+27 30 
+28 30 
+29 30 
+30 31 
+31 54 
+32 34 
+33 34 
+34 37 
+35 36 
+36 37 
+37 39 
+38 39 
+39 54 
+40 43 
+41 43 
+42 43 
+43 54 
+44 45 
+45 54 
+46 47 
+47 54 
+48 49 
+49 54 
+50 54 
+51 54 
+52 54 
+53 54 
+54 55 
+55 -1
+
+# Design Unit to File Association
+arch work ahbwrapper_sram structural 0
+module work ahbwrapper_sram 0
+arch work sramctrl structural 1
+module work sramctrl 1
+arch work ahbsramif structural 2
+module work ahbsramif 2
+arch work sram_2k5x8 structural 3
+module work sram_2k5x8 3
+arch work sram_2kx8 structural 4
+module work sram_2kx8 4
+arch work sram_3k5x8 structural 5
+module work sram_3k5x8 5
+arch work sram_512x8 structural 6
+module work sram_512x8 6
+arch work sram_7kx8 structural 7
+module work sram_7kx8 7
+arch work sram structural 8
+module work sram 8
+arch work coreahbsram structural 9
+module work coreahbsram 9
+arch work cortexm1integration synplify_timing_shell 10
+module work cortexm1integration 10
+arch work uj_jtag cortexm1top_i10 11
+module work uj_jtag 11
+arch work resetsync cortexm1top_i 12
+module work resetsync 12
+arch work cortexm1top cortexm1top_i 13
+module work cortexm1top 13
+arch work brmbend rtl 14
+module work brmbend 14
+arch work brmdec rtl 15
+module work brmdec 15
+arch work brmenc rtl 16
+module work brmenc 16
+arch work brmmt rtl 18
+module work brmmt 18
+arch work ram16x16 rtl 19
+module work ram16x16 19
+arch work brmreg rtl 21
+module work brmreg 21
+arch work brmrt rtl 22
+module work brmrt 22
+arch work globalbuff rtl 23
+module work globalbuff 23
+arch work brmpc rtl 24
+module work brmpc 24
+arch work core1553brm rtl 25
+module work core1553brm 25
+arch work core1553_brm rtl 26
+module work core1553_brm 26
+arch work edac_decoder beh 27
+module work edac_decoder 27
+arch work edac_encoder beh 28
+module work edac_encoder 28
+arch work ramblock1kby24 def_arch 29
+module work ramblock1kby24 29
+arch work ram_1k16_edac rtl 30
+module work ram_1k16_edac 30
+arch work b1553brm_ahbslv beh 31
+module work b1553brm_ahbslv 31
+arch coreahblite_lib coreahblite_addrdec coreahblite_addrdec_arch 32
+module coreahblite_lib coreahblite_addrdec 32
+arch coreahblite_lib coreahblite_defaultslavesm coreahblite_defaultslavesm_arch 33
+module coreahblite_lib coreahblite_defaultslavesm 33
+arch coreahblite_lib coreahblite_masterstage coreahblite_masterstage_arch 34
+module coreahblite_lib coreahblite_masterstage 34
+arch coreahblite_lib coreahblite_slavearbiter coreahblite_slavearbiter_arch 35
+module coreahblite_lib coreahblite_slavearbiter 35
+arch coreahblite_lib coreahblite_slavestage trans 36
+module coreahblite_lib coreahblite_slavestage 36
+arch coreahblite_lib coreahblite_matrix4x16 coreahblite_matrix4x16_arch 37
+module coreahblite_lib coreahblite_matrix4x16 37
+arch coreahblite_lib coreahblite coreahblite_arch 39
+module coreahblite_lib coreahblite 39
+arch coreahbtoapb3_lib cahbtoapb3o cahbtoapb3lol 40
+module coreahbtoapb3_lib cahbtoapb3o 40
+arch coreahbtoapb3_lib cahbtoapb3oii cahbtoapb3lol 41
+module coreahbtoapb3_lib cahbtoapb3oii 41
+arch coreahbtoapb3_lib cahbtoapb3ioi cahbtoapb3lol 42
+module coreahbtoapb3_lib cahbtoapb3ioi 42
+arch coreahbtoapb3_lib coreahbtoapb3 cahbtoapb3lol 43
+module coreahbtoapb3_lib coreahbtoapb3 43
+arch coreapb3_lib capb3o capb3ll 44
+module coreapb3_lib capb3o 44
+arch coreapb3_lib coreapb3 capb3i0l 45
+module coreapb3_lib coreapb3 45
+arch coregpio_lib coregpio rtl 47
+module coregpio_lib coregpio 47
+arch coretimer_lib coretimer synth 49
+module coretimer_lib coretimer 49
+arch work m1proc rtl 54
+module work m1proc 54
+arch work gagrettopmod architecture_gagrettopmod 55
+module work gagrettopmod 55

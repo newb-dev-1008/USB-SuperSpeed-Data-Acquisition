@@ -1,0 +1,83 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Info: The design gagRetTopMod.adb was last modified by software version 11.9.0.4.
+Opened an existing Libero design gagRetTopMod.adb.
+'BA_NAME' set to 'gagRetTopMod_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'G:\omsai\intern_ezusbcard\M1_ExtRam\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue May 10 17:56:22 2022
+
+Placer Finished: Tue May 10 17:58:32 2022
+Total Placer CPU Time:     00:02:10
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: gagRetTopMod                    Started: Tue May 10 17:58:47 2022
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: gagRetTopMod                    
+Finished: Tue May 10 18:09:29 2022
+Total CPU Time:     00:10:45            Total Elapsed Time: 00:10:42
+Total Memory Usage: 1807.2 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:13:30 )
+Wrote status report to file: gagRetTopMod_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: gagRetTopMod_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: gagRetTopMod_globalusage_report.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote iobank report to file: gagRetTopMod_iobank_report.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: gagRetTopMod_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: gagRetTopMod_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file G:\omsai\intern_ezusbcard\M1_ExtRam\designer\impl1\gagRetTopMod.adb.
+
+The Execute Script command succeeded ( 00:13:40 )
+Design closed.
+

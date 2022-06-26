@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synlog\gagRetTopMod_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ResetSyNC|UDRCK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>39.1 MHz</data>
+<data>-7.793</data>
+</row>
+<row>
+<data>gagRetTopMod|CLK48MHZ</data>
+<data>100.0 MHz</data>
+<data>401.6 MHz</data>
+<data>7.510</data>
+</row>
+<row>
+<data>gagRetTopMod|TCK</data>
+<data>100.0 MHz</data>
+<data>146.4 MHz</data>
+<data>3.172</data>
+</row>
+<row>
+<data>gagRetTopMod|clock24_s_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>41.8 MHz</data>
+<data>-13.910</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>50.6 MHz</data>
+<data>-9.772</data>
+</row>
+</report_table>

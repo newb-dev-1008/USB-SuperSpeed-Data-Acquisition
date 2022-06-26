@@ -1,0 +1,31 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Date: Tue May 10 18:09:45 2022
+Design Name: gagRetTopMod  Family: ProASIC3E  Die: M1A3PE3000  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    3382              Net   : PCLK_c_c
+                      Driver: CLKLINT_2/U_GL
+    1504              Net   : M1Proc_0/CortexM1Top_0_HRESETn
+                      Driver: M1Proc_0/CortexM1Top_0/CortexM1TOP_i0/U_GL
+    1081              Net   : M1Proc_0/b1553BRM_AHBSlv_0/RSTOUTn
+                      Driver: M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/UPC/URST/U1/U_GL
+    776               Net   : M1Proc_0/CortexM1Top_0/DBGRESETN
+                      Driver: M1Proc_0/CortexM1Top_0/CorteXM1TOp_o1_CorteXM1Top_i1/U_GL
+    148               Net   : M1Proc_0/CortexM1Top_0/SWCLKTCK
+                      Driver: M1Proc_0/CortexM1Top_0/CorteXM1TOp_o1_CorTEXM1Top_l1/U_GL
+    26                Net   : M1Proc_0/CortexM1Top_0/RS/CORTEXM1Top_l1I
+                      Driver: M1Proc_0/CortexM1Top_0/RS/CortEXM1Top_l00_CortEXM1Top_ii0/U_GL
+
+
+
+

@@ -1,0 +1,220 @@
+*****************************************************************
+Pin Report - Date: Tue May 10 18:09:48 2022 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: gagRetTopMod
+Family: ProASIC3E
+Die: M1A3PE3000
+Package: 208 PQFP
+*****************************************************************
+Number |Port                    |Function         |State       |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|------------------------|-----------------|------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+1                                GND               Reserved
+2                                GNDQ              Reserved
+3                                VMV7              Reserved
+4       INT_N_CTL15              GAB2/IO308PSB7V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+5       COMMANDS0                GAA2/IO309PDB7V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+6       SPECIAL                  IO309NDB7V4       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+7       COMMANDS5                GAC2/IO307PDB7V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+8       DQ[31]                   IO307NDB7V4       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+9       COMMANDS1                IO303PDB7V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+10      PMODE[2]                 IO303NDB7V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+11      DQ[30]                   IO299PDB7V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+12      COMMANDS2                IO299NDB7V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+13      COMMANDS3                IO295PDB7V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+14      COMMANDS4                IO295NDB7V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+15      PBREQ                    IO291PSB7V2       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+16                               VCC               Reserved
+17                               GND               Reserved
+18                               VCCIB7            Reserved
+19      LVPBCLK                  IO285PDB7V1       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+20      LVDSRXENB                IO285NDB7V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+21      PMODE[1]                 IO279PSB7V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+22      DQ[21]                   GFC1/IO275PSB7V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+23      DQ[29]                   GFB1/IO274PDB7V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+24      PMODE[0]                 GFB0/IO274NDB7V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+25                               VCOMPLF           Reserved
+26      DQ[28]                   GFA0/IO273NPB6V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+27                               VCCPLF            Reserved
+28      DQ[20]                   GFA1/IO273PPB6V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+29                               GND               Reserved
+30      GPIO45                   GFA2/IO272PDB6V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+31      DQ[19]                   IO272NDB6V4       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+32      DQ[18]                   GFB2/IO271PPB6V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+33      DQ[17]                   GFC2/IO270PPB6V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+34      DQ[16]                   IO271NPB6V4       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+35      SPI_SCK_UART_RTS         IO270NPB6V4       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+36                               VCC               Reserved
+37      DQ[27]                   IO252PDB6V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+38      I2S_W                    IO252NDB6V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+39      SPI_MOSI_UART_RX         IO248PSB6V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+40                               VCCIB6            Reserved
+41                               GND               Reserved
+42      DQ[26]                   IO244PDB6V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+43      SPI_MISO_UART_TX         IO244NDB6V1       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+44      I2S_CLK                  GEC1/IO236PDB6V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+45      DQ[25]                   GEC0/IO236NDB6V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+46      GPIO57_I2S_MCLK_VIO3_SW  GEB1/IO235PPB6V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+47      DQ[24]                   GEA1/IO234PPB6V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+48      DQ[23]                   GEB0/IO235NPB6V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+49      I2S_SD                   GEA0/IO234NPB6V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+50                               VMV6              Reserved
+51                               GNDQ              Reserved
+52                               GND               Reserved
+53                               VMV5              Reserved
+54                               GNDQ              Reserved
+55      LVPBDATA1                IO233NDB5V4       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+56      LVPBDATA0                GEA2/IO233PDB5V4  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+57      RECDATA[5]               IO232NDB5V4       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+58      RECDATA[4]               GEB2/IO232PDB5V4  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+59      RECDATA[6]               IO231NDB5V4       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+60      RECDATA[7]               GEC2/IO231PDB5V4  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+61      RECDATA[8]               IO230PSB5V4       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+62                               VCCIB5            Reserved
+63      RECDATA[9]               IO218NDB5V3       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+64      RECDATA[0]               IO218PDB5V3       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+65                               GND               Reserved
+66      RECDATA[1]               IO214PSB5V2       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+67      RECDATA[2]               IO212NDB5V2       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+68      RECDATA[3]               IO212PDB5V2       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+69      LVPBDATA2                IO208NDB5V1       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+70      Unused_70                IO208PDB5V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+71                               VCC               Reserved
+72                               VCCIB5            Reserved
+73      Unused_73                IO202NDB5V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+74      PBDATA[1]                IO202PDB5V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+75      PBDATA[2]                IO198NDB5V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+76      PBDATA[3]                IO198PDB5V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+77      PBDATA[4]                IO197NDB5V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+78      PBDATA[5]                IO197PDB5V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+79      PBDATA[6]                IO194NDB5V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+80      PBDATA[7]                IO194PDB5V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+81                               GND               Reserved
+82      PBDATA[8]                IO184NDB4V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+83      PBDATA[9]                IO184PDB4V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+84      PBDATA[10]               IO180NDB4V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+85      PBDATA[11]               IO180PDB4V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+86      PBDATA[12]               IO176NDB4V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+87      PBDATA[13]               IO176PDB4V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+88                               VCC               Reserved
+89                               VCCIB4            Reserved
+90      PBDATA[14]               IO170NDB4V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+91      PBDATA[15]               IO170PDB4V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+92      PBDATA[16]               IO166NDB4V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+93      PBDATA[17]               IO166PDB4V1       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+94      PBDATA[18]               IO156NDB4V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+95      PBDATA[19]               GDC2/IO156PDB4V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+96      PBDATA[20]               IO154NPB4V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+97                               GND               Reserved
+98      PBDATA[0]                GDB2/IO155PSB4V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+99      PBCLKIN                  GDA2/IO154PPB4V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+100                              GNDQ              Reserved
+101     TCK                      TCK               Dedicated
+102     TDI                      TDI               Dedicated
+103     TMS                      TMS               Dedicated
+104                              VMV4              Reserved
+105                              GND               Reserved
+106                              VPUMP             Reserved
+107                              GNDQ              Reserved
+108     TDO                      TDO               Dedicated
+109     nTRST                    TRST              Dedicated
+110                              VJTAG             Reserved
+111                              VMV3              Reserved
+112     FLAGC                    GDA0/IO153NPB3V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+113     DQ[9]                    GDB0/IO152NPB3V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+114     POWERON                  GDA1/IO153PPB3V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+115     SLRDN                    GDB1/IO152PPB3V4  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+116     PKTENDN                  GDC0/IO151NDB3V4  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+117     DQ[10]                   GDC1/IO151PDB3V4  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+118     I2C_SCL_FX3              IO134NDB3V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+119     I2C_SDA_FX3              IO134PDB3V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+120     SLOEN                    IO132NDB3V2       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+121     FLAGD                    IO132PDB3V2       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+122                              GND               Reserved
+123                              VCCIB3            Reserved
+124     DQ[11]                   GCC2/IO117PSB3V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+125     SLCSN                    GCB2/IO116PSB3V0  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+126                              Not Bonded        Unconnected
+127     CTL9                     IO115NDB3V0       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+128     DQ[12]                   GCA2/IO115PDB3V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+129     Unused_129               GCA1/IO114PPB3V0  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+130                              GND               Reserved
+131                              VCCPLC            Reserved
+132     CTL10                    GCA0/IO114NPB3V0  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+133                              VCOMPLC           Reserved
+134     DQ[13]                   GCB0/IO113NDB2V3  Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+135     PCLK                     GCB1/IO113PDB2V3  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+136     A1_0[1]                  GCC1/IO112PSB2V3  Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+137     DQ[14]                   IO110NDB2V3       Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+138     SLWRN                    IO110PDB2V3       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+139     A1_0[0]                  IO106PSB2V3       Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+140                              VCCIB2            Reserved
+141                              GND               Reserved
+142                              VCC               Reserved
+143     DQ[15]                   IO99NDB2V2        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+144     DQ[0]                    IO99PDB2V2        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+145     DQ[1]                    IO96NDB2V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+146     DQ[2]                    IO96PDB2V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+147     DQ[3]                    IO91NDB2V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+148     DQ[4]                    IO91PDB2V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+149     DQ[5]                    IO88NDB2V0        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+150     DQ[6]                    IO88PDB2V0        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+151     DQ[7]                    GBC2/IO84PSB2V0   Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+152     DQ[8]                    GBA2/IO82PSB2V0   Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+153     FLAGA                    GBB2/IO83PSB2V0   Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+154                              VMV2              Reserved
+155                              GNDQ              Reserved
+156                              GND               Reserved
+157                              VMV1              Reserved
+158                              GNDQ              Reserved
+159     FLAGB                    GBA1/IO81PDB1V4   Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+160     SPI_SSN_UART_CTS         GBA0/IO81NDB1V4   Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+161     Unused_161               GBB1/IO80PDB1V4   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+162                              GND               Reserved
+163     CLK48MHZ                 GBB0/IO80NDB1V4   Special      LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+164     Unused_164               GBC1/IO79PDB1V4   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+165     Unused_165               GBC0/IO79NDB1V4   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+166     RECDATA[20]              IO74PDB1V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+167     RECDATA[19]              IO74NDB1V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+168     RECCLK                   IO70PDB1V3        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+169     SERENB                   IO70NDB1V3        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+170                              VCCIB1            Reserved
+171                              VCC               Reserved
+172     Unused_172               IO56PSB1V1        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+173     Sig1553BUSIN3            IO55PDB1V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+174     Sig1553BUSIN2            IO55NDB1V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+175     Sig1553BUSIN1            IO54PDB1V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+176     Sig1553BUSIN0            IO54NDB1V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+177     Sig1553BUSOUT7           IO40PDB0V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+178                              GND               Reserved
+179     Sig1553BUSOUT6           IO40NDB0V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+180     Sig1553BUSOUT5           IO37PDB0V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+181     Sig1553BUSOUT4           IO37NDB0V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+182     Sig1553BUSOUT3           IO35PDB0V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+183     Sig1553BUSOUT2           IO35NDB0V4        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+184     Sig1553BUSOUT1           IO32PDB0V3        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+185     Sig1553BUSOUT0           IO32NDB0V3        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+186                              VCCIB0            Reserved
+187                              VCC               Reserved
+188     DQ[22]                   IO28PDB0V3        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+189     RECDATA[18]              IO28NDB0V3        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+190     LVDSENBFPGA              IO24PDB0V2        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+191     RECDATA[17]              IO24NDB0V2        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+192     RECDATA[16]              IO21PSB0V2        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+193     DESERENBFPGA             IO16PDB0V1        Fixed        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+194     RECDATA[15]              IO16NDB0V1        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+195                              GND               Reserved
+196     RECDATA[14]              IO11PDB0V1        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+197     RECDATA[13]              IO11NDB0V1        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+198     M_DESERENB               IO08PDB0V0        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+199     LVDSTXENB                IO08NDB0V0        Fixed        LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+200                              VCCIB0            Reserved
+201     PBCLK                    GAC1/IO02PDB0V0   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+202     RECDATA[12]              GAC0/IO02NDB0V0   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+203     RECDATA[11]              GAB1/IO01PDB0V0   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+204     RECDATA[10]              GAB0/IO01NDB0V0   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+205     PBLVDSENBFPGA            GAA1/IO00PDB0V0   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+206     LVDSDESERENBFPGA         GAA0/IO00NDB0V0   Special      LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+207                              GNDQ              Reserved
+208                              VMV0              Reserved

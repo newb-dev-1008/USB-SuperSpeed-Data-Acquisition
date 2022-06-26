@@ -1,0 +1,87 @@
+License checkout unsuccessful: synplifypro_actel
+Checkout failed - synplifypro_actel The desired vendor daemon is down.
+ Check the lmgrd log file, or try lmreread.
+Feature:       synplifypro_actel
+Vendor:Host:   10.22.4.16
+License path:  1717@10.22.4.16;
+FlexNet Licensing error:-97,121
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+
+
+
+
+Please choose another license.
+License checkout unsuccessful: synplifypro_actel
+Checkout failed - synplifypro_actel The desired vendor daemon is down.
+ Check the lmgrd log file, or try lmreread.
+Feature:       synplifypro_actel
+Vendor:Host:   10.22.4.16
+License path:  1717@10.22.4.16;
+FlexNet Licensing error:-97,121
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+
+
+
+
+Please choose another license.
+License checkout unsuccessful: synplifypro_actel
+Checkout failed - synplifypro_actel The desired vendor daemon is down.
+ Check the lmgrd log file, or try lmreread.
+Feature:       synplifypro_actel
+Vendor:Host:   10.22.4.16
+License path:  1717@10.22.4.16;
+FlexNet Licensing error:-97,121
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+
+
+
+
+Please choose another license.
+License checkout unsuccessful: synplifypro_actel
+Checkout failed - synplifypro_actel The desired vendor daemon is down.
+ Check the lmgrd log file, or try lmreread.
+Feature:       synplifypro_actel
+Vendor:Host:   10.22.4.16
+License path:  1717@10.22.4.16;
+FlexNet Licensing error:-97,121
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+
+
+
+
+Please choose another license.
+License checkout unsuccessful: synplifypro_actel
+Checkout failed - synplifypro_actel The desired vendor daemon is down.
+ Check the lmgrd log file, or try lmreread.
+Feature:       synplifypro_actel
+Vendor:Host:   10.22.4.16
+License path:  1717@10.22.4.16;
+FlexNet Licensing error:-97,121
+For further information, refer to the FlexNet Licensing documentation,
+available at "www.flexerasoftware.com".
+
+
+
+
+Please choose another license.
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    IS04569PCG01PDM
+Date:        Thu Apr 28 10:45:28 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro gagRetTopMod_syn.tcl
+ProductType: synplify_pro
+
+
+Host ID:  40b034190684
+Please contact support at https://solvnet.synopsys.com/ManageCase?ccf=1
+
+
+
+

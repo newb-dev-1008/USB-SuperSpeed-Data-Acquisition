@@ -1,0 +1,280 @@
+# Tue May 10 17:54:35 2022
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod_scck.rpt 
+Printing clock  summary report in "G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 134MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 134MB)
+
+@W: MO112 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\gagrettopmod.vhd":260:10:260:11|Deleting tristate instance Unused_70_1 (in view: work.gagRetTopMod(architecture_gagrettopmod)) on net Unused_70 (in view: work.gagRetTopMod(architecture_gagrettopmod)) because its enable is connected to 0.
+@W: MO112 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\gagrettopmod.vhd":261:10:261:11|Deleting tristate instance Unused_73_1 (in view: work.gagRetTopMod(architecture_gagrettopmod)) on net Unused_73 (in view: work.gagRetTopMod(architecture_gagrettopmod)) because its enable is connected to 0.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":277:4:277:17|Removing instance address_decode (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_3(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_ADDRDEC_1_1_0_1(coreahblite_addrdec_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":658:4:658:19|Removing instance default_slave_sm (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_3(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_DEFAULTSLAVESM_1_0(coreahblite_defaultslavesm_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":277:4:277:17|Removing instance address_decode (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_2(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_ADDRDEC_1_1_0_2(coreahblite_addrdec_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":658:4:658:19|Removing instance default_slave_sm (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_2(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_DEFAULTSLAVESM_1_1(coreahblite_defaultslavesm_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":277:4:277:17|Removing instance address_decode (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_1(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_ADDRDEC_1_1_0_3(coreahblite_addrdec_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":658:4:658:19|Removing instance default_slave_sm (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_1(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_DEFAULTSLAVESM_1_2(coreahblite_defaultslavesm_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4238:4:4238:16|Removing instance masterstage_1 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_3(coreahblite_masterstage_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4311:4:4311:16|Removing instance masterstage_2 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_2(coreahblite_masterstage_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4384:4:4384:16|Removing instance masterstage_3 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_1(coreahblite_masterstage_arch) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmmt.vhd":189:2:189:3|Removing sequential instance STAMTMSG (in view: work.BRMMT(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmmt.vhd":189:2:189:3|Removing sequential instance CW_COUNT[5:0] (in view: work.BRMMT(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmmt.vhd":189:2:189:3|Removing sequential instance CW_MCODE (in view: work.BRMMT(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmmt.vhd":189:2:189:3|Removing sequential instance CW_BCAST (in view: work.BRMMT(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4512:4:4512:15|Removing instance slavestage_1 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_15(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4566:4:4566:15|Removing instance slavestage_2 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_14(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4620:4:4620:15|Removing instance slavestage_3 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_13(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4674:4:4674:15|Removing instance slavestage_4 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_12(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4728:4:4728:15|Removing instance slavestage_5 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_11(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4782:4:4782:15|Removing instance slavestage_6 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_10(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4836:4:4836:15|Removing instance slavestage_7 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_9(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4890:4:4890:15|Removing instance slavestage_8 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_8(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4944:4:4944:15|Removing instance slavestage_9 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_7(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5052:4:5052:16|Removing instance slavestage_11 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_5(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5160:4:5160:16|Removing instance slavestage_13 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_3(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5214:4:5214:16|Removing instance slavestage_14 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_2(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5268:4:5268:16|Removing instance slavestage_15 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_1(trans) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5322:4:5322:16|Removing instance slavestage_16 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_0(trans) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\cortexm1top\3.0.102\rtl\vhdl\o\resetsync_a3pe.vhd":385:0:385:1|Removing sequential instance WDOGRESN (in view: work.ResetSyNC(cortexm1top_i)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmpc.vhd":1063:2:1063:3|Removing sequential instance INTOUTH (in view: work.BRMPC(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance iMEMREQn (in view: work.BRMbend(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance iMEMCSn (in view: work.BRMbend(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance iMEMCEN (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance iMEMDEN (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\cortexm1top\3.0.102\rtl\vhdl\o\resetsync_a3pe.vhd":385:0:385:1|Removing sequential instance CortexM1TOP_Lil (in view: work.ResetSyNC(cortexm1top_i)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmrt.vhd":382:2:382:3|Removing sequential instance CMDSTB (in view: work.BRMRT(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_15(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_14(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_13(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_12(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_11(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_10(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_9(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_8(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_7(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_5(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_3(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_2(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_1(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":122:8:122:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_0(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_15(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_1(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_14(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_2(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_13(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_3(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_12(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_4(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_11(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_5(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_10(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_6(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_9(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_7(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_8(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_8(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_7(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_9(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_5(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_11(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_3(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_13(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_2(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_14(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_1(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_15(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":137:4:137:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_0(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_16(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmpc.vhd":1063:2:1063:3|Removing sequential instance IHCOUNT[0:3] (in view: work.BRMPC(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_1(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_2(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_3(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_4(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_5(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_6(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_7(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_8(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_9(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_11(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_13(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_14(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_15(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahblite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_16(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                     Requested     Requested     Clock        Clock                   Clock
+Clock                                     Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------------
+ResetSyNC|UDRCK_inferred_clock            100.0 MHz     10.000        inferred     Inferred_clkgroup_3     25   
+gagRetTopMod|CLK48MHZ                     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1    
+gagRetTopMod|TCK                          100.0 MHz     10.000        inferred     Inferred_clkgroup_1     1    
+gagRetTopMod|clock24_s_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     1738 
+================================================================================================================
+
+@W: MT530 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\gagrettopmod.vhd":221:1:221:2|Found inferred clock gagRetTopMod|CLK48MHZ which controls 1 sequential elements including clock24_s. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\cortexm1top\3.0.102\rtl\vhdl\o\resetsync_a3pe.vhd":221:0:221:1|Found inferred clock gagRetTopMod|TCK which controls 1 sequential elements including M1Proc_0.CortexM1Top_0.RS.Dbg_uj\.UJ. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmenc.vhd":148:4:148:5|Found inferred clock gagRetTopMod|clock24_s_inferred_clock which controls 1738 sequential elements including M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.BUSAENC.STATE[0:5]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\cortexm1top\3.0.102\rtl\vhdl\o\uj_jtag.vhd":103:0:103:1|Found inferred clock ResetSyNC|UDRCK_inferred_clock which controls 25 sequential elements including M1Proc_0.CortexM1Top_0.RS.Dbg_uj\.Ujjtag.CORTEXM1Top_o0ol[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+
+Encoding state machine STATE[0:5] (in view: work.BRMenc(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine INTSTATE[0:3] (in view: work.BRMPC(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmpc.vhd":1439:2:1439:3|There are no possible illegal states for state machine INTSTATE[0:3] (in view: work.BRMPC(rtl)); safe FSM implementation is not required.
+Encoding state machine RTSTATE[0:21] (in view: work.BRMPC(rtl))
+original code -> new code
+   0000000000000000000001 -> 0000000000000000000001
+   0000000000000000000010 -> 0000000000000000000010
+   0000000000000000000100 -> 0000000000000000000100
+   0000000000000000001000 -> 0000000000000000001000
+   0000000000000000010000 -> 0000000000000000010000
+   0000000000000000100000 -> 0000000000000000100000
+   0000000000000001000000 -> 0000000000000001000000
+   0000000000000010000000 -> 0000000000000010000000
+   0000000000000100000000 -> 0000000000000100000000
+   0000000000001000000000 -> 0000000000001000000000
+   0000000000010000000000 -> 0000000000010000000000
+   0000000000100000000000 -> 0000000000100000000000
+   0000000001000000000000 -> 0000000001000000000000
+   0000000010000000000000 -> 0000000010000000000000
+   0000000100000000000000 -> 0000000100000000000000
+   0000001000000000000000 -> 0000001000000000000000
+   0000010000000000000000 -> 0000010000000000000000
+   0000100000000000000000 -> 0000100000000000000000
+   0001000000000000000000 -> 0001000000000000000000
+   0010000000000000000000 -> 0010000000000000000000
+   0100000000000000000000 -> 0100000000000000000000
+   1000000000000000000000 -> 1000000000000000000000
+Encoding state machine MSTATE[0:4] (in view: work.BRMbend(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine r\.bstate[0:2] (in view: work.b1553BRM_AHBSlv(beh))
+original code -> new code
+   00 -> 00
+   10 -> 01
+   11 -> 10
+Encoding state machine arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_0(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_1(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_2(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine sramCtrlSMCurrentState[0:2] (in view: work.SramCtrl(structural))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine CAHBtoAPB3iol[0:4] (in view: coreahbtoapb3_lib.CAHBTOAPB3O(cahbtoapb3lol))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine CAHBtoAPB3III[0:2] (in view: coreahbtoapb3_lib.CAHBtoAPB3oii(cahbtoapb3lol))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[12] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[13] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[14] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[15] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[16] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[17] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[18] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[19] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[20] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[21] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[22] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":36:0:36:1|Removing sequential instance CAHBtoAPB3oli[23] (in view: coreahbtoapb3_lib.CAHBTOAPB3ioi(cahbtoapb3lol)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\component\actel\directcore\coreahbsram\1.3.103\rtl\vhdl\u\ahbwrapper_sram.vhd":117:8:117:9|Removing sequential instance currAhbSize[2] (in view: work.AhbWrapper_SRAM(structural)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance MEMADDR[10] (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance MEMADDR[11] (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance MEMADDR[12] (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance MEMADDR[13] (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance MEMADDR[14] (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"g:\omsai\intern_ezusbcard\m1_extram\hdl\brmbend.vhd":177:2:177:3|Removing sequential instance MEMADDR[15] (in view: work.BRMbend(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 40MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue May 10 17:54:37 2022
+
+###########################################################]

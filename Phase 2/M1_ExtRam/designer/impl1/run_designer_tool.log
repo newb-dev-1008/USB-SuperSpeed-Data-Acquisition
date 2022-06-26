@@ -1,0 +1,113 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'G:\omsai\intern_ezusbcard\M1_ExtRam\designer'
+Info: The design gagRetTopMod.adb was last modified by software version 11.9.0.4.
+Opened an existing Libero design gagRetTopMod.adb.
+
+The Execute Script command succeeded ( 00:00:17 )
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io A1_0[0] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW
+       High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 139 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io A1_0[1] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW
+       High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 136 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io CLK48MHZ -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 163 -fixed yes
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at
+       PDC Line : set_io CLK48MHZ -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off
+       -IN_DELAY Off -pinname 163 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io COMMANDS0 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 5 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io COMMANDS1 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 9 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io COMMANDS2 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 12 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io COMMANDS3 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 13 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io COMMANDS4 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 14 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io COMMANDS5 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 7 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io CTL10 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 132 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io CTL9 -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 127 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DESERENBFPGA -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 193 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[0] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 144 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[1] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 145 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[2] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 146 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[3] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 147 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[4] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 148 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[5] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 149 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[6] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 150 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[7] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 151 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[8] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 152 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[9] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 113 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[10] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 117 -fixed yes
+Error: PDC-77: Ignoring the REGISTER option. This option is read only in PDCs imported as a
+       source file with the netlist. Please use I/O Attribute Editor to set the I/O register
+       combining. At PDC line : set_io DQ[11] -iostd LVTTL -REGISTER No -RES_PULL None
+       -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 124 -fixed yes
+PDC Import completed with 148 Errors and 0 Warnings
+
+The Import command failed ( 00:00:01 )
+Design closed.
+

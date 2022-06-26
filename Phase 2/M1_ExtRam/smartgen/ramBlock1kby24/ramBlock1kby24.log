@@ -1,0 +1,86 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri Apr 22 14:49:27 2022
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : ramBlock1kby24
+Family                          : PA3
+Output Format                   : VHDL
+Type                            : RAM
+Write Enable                    : Active Low
+Read Enable                     : Active Low
+Reset                           : Active Low
+LP                              : None
+FF                              : None
+Read Clock                      : Rising
+Write Clock                     : Rising
+Write Depth                     : 1024
+Write Width                     : 24
+Read Depth                      : 1024
+Read Width                      : 24
+RAM Type                        : Two Port
+Clocks                          : Single Read/Write Clock
+Write Mode A                    : Hold Data
+Write Mode B                    : Hold Data
+Read Pipeline A                 : No
+Read Pipeline B                 : No
+Optimized for                   : Speed
+Portname DataIn                 : WD
+Portname DataOut                : RD
+Portname Write En               : WEN
+Portname Read En                : REN
+Portname WClock                 :
+Portname RClock                 :
+Portname WAddress               : WADDR
+Portname RAddress               : RADDR
+Portname Reset                  : RESET
+Portname Clock                  : RWCLK
+Portname DataAIn                :
+Portname DataBIn                :
+Portname DataAOut               :
+Portname DataBOut               :
+Portname AddressA               :
+Portname AddressB               :
+Portname CLKA                   :
+Portname CLKB                   :
+Portname RWA                    :
+Portname RWB                    :
+Portname BLKA                   :
+Portname BLKB                   :
+Portname LP                     :
+Portname FF                     :
+Initialize RAM                  : False
+
+Cascade Configuration:
+     Write Port configuration   : 1024x4
+     Read Port configuration    : 1024x4
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 6
+
+**************
+Compile Report
+**************
+
+Info:  BLK007: No CoreConsole Database file imported for an M1 device.
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:  75264   (0.00%)
+    IO (W/ clocks)             Used:      0  Total:    147   (0.00%)
+    Differential IO            Used:      0  Total:     65   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      2   (0.00%)
+    RAM/FIFO                   Used:      6  Total:    112   (5.36%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to G:/omsai/intern_ezusbcard/M1_ExtRam/smartgen\ramBlock1kby24\ramBlock1kby24.vhd.
+
+ ** Log Ended:   Fri Apr 22 14:49:28 2022
+

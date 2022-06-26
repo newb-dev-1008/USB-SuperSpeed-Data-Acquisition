@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.gagRetTopMod  -multisrs  G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synwork\gagRetTopMod_comp.srs  -osyn  G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synwork\gagRetTopMod_mult.srs  -log  G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synlog\gagRetTopMod_multi_srs_gen.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.gagRetTopMod -multisrs ..\synwork\gagRetTopMod_comp.srs -osyn ..\synwork\gagRetTopMod_mult.srs -log ..\synlog\gagRetTopMod_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\gagRetTopMod_comp.srs|io:i|time:1652185473|size:237471|exec:0|csum:3463443EBE875AA39EAF383D4E49D4B2
+file:..\synwork\gagRetTopMod_mult.srs|io:o|time:1652185475|size:8549|exec:0|csum:
+file:..\synlog\gagRetTopMod_multi_srs_gen.srr|io:o|time:1652185475|size:513|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508995612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508995884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

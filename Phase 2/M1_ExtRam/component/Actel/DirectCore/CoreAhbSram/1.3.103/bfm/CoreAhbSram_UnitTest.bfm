@@ -1,0 +1,46 @@
+#===========================================================
+#
+# Unit Test for CoreAhbSram
+#
+# For this unit test, 5 Sram controllers are modelled
+# in one design, each with different amount of internal SRAM instantiated
+# (this wouldn't map to a real Fusion/PA3/PA3E/Igloo chip, due to lack
+# of SRAM blocks).
+#
+# To run this unit test, construct a subsystem design, in CoreConsole,
+# with the 4 CoreAhbSram instances as follows:
+# 2kB instance at AHB slot 0.
+# 8kB instance at AHB slot 1.
+# 10kB instance at AHB slot 2.
+# 14kB instance at AHB slot 3.
+# 28kB instance at AHB slot 4.
+
+#===========================================================
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap CoreAhbSram_00 0x00000000;
+memmap CoreAhbSram_01 0x10000000;
+memmap CoreAhbSram_02 0x20000000;
+memmap CoreAhbSram_03 0x30000000;
+memmap CoreAhbSram_04 0x40000000;
+
+#-----------------------------------------------------------
+# Include unit test scriptlets for each of the instances.
+# Note this file should replace the automatically generated
+# subsystem.bfm (which would just run the standard CoreAhbSram
+# scriptlet on all three instances.
+# Also the appropriate scriplets should be copied into the
+# BFM compile directory.
+#-----------------------------------------------------------
+
+include sram_2kB CoreAhbSram_00;
+include sram_8kB CoreAhbSram_01;
+include sram_10kB CoreAhbSram_02;
+include sram_14kB CoreAhbSram_03;
+include sram_28kB CoreAhbSram_04;

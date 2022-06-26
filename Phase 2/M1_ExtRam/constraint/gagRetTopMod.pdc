@@ -1,0 +1,182 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.9 11.9.0.4
+
+# Design Name: gagRetTopMod 
+
+# Input Netlist Format: edif 
+
+# Family: ProASIC3E , Die: M1A3PE3000 , Package: 208 PQFP , Speed grade: STD 
+
+# Date generated: Wed Apr 13 22:48:44 2022 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank7 -vcci 3.30 -fixed no
+set_iobank Bank6 -vcci 3.30 -fixed no
+set_iobank Bank5 -vcci 3.30 -fixed no
+set_iobank Bank4 -vcci 3.30 -fixed no
+set_iobank Bank3 -vcci 3.30 -fixed no
+set_iobank Bank2 -vcci 3.30 -fixed no
+set_iobank Bank1 -vcci 3.30 -fixed no
+set_iobank Bank0 -vcci 3.30 -fixed no
+
+#
+# I/O constraints
+#
+
+set_io A1_0\[0\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 139 -fixed yes
+set_io A1_0\[1\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 136 -fixed yes
+set_io CLK48MHZ -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 163 -fixed yes
+set_io COMMANDS0 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 5 -fixed yes
+set_io COMMANDS1 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 9 -fixed yes
+set_io COMMANDS2 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 12 -fixed yes
+set_io COMMANDS3 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 13 -fixed yes
+set_io COMMANDS4 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 14 -fixed yes
+set_io COMMANDS5 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 7 -fixed yes
+set_io CTL10 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 132 -fixed yes
+set_io CTL9 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 127 -fixed yes
+set_io DESERENBFPGA -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 193 -fixed yes
+set_io DQ\[0\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 144 -fixed yes
+set_io DQ\[1\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 145 -fixed yes
+set_io DQ\[2\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 146 -fixed yes
+set_io DQ\[3\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 147 -fixed yes
+set_io DQ\[4\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 148 -fixed yes
+set_io DQ\[5\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 149 -fixed yes
+set_io DQ\[6\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 150 -fixed yes
+set_io DQ\[7\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 151 -fixed yes
+set_io DQ\[8\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 152 -fixed yes
+set_io DQ\[9\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 113 -fixed yes
+set_io DQ\[10\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 117 -fixed yes
+set_io DQ\[11\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 124 -fixed yes
+set_io DQ\[12\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 128 -fixed yes
+set_io DQ\[13\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 134 -fixed yes
+set_io DQ\[14\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 137 -fixed yes
+set_io DQ\[15\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 143 -fixed yes
+set_io DQ\[16\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 34 -fixed yes
+set_io DQ\[17\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 33 -fixed yes
+set_io DQ\[18\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 32 -fixed yes
+set_io DQ\[19\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 31 -fixed yes
+set_io DQ\[20\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 28 -fixed yes
+set_io DQ\[21\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 22 -fixed yes
+set_io DQ\[22\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 188 -fixed yes
+set_io DQ\[23\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 48 -fixed yes
+set_io DQ\[24\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 47 -fixed yes
+set_io DQ\[25\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 45 -fixed yes
+set_io DQ\[26\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 42 -fixed yes
+set_io DQ\[27\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 37 -fixed yes
+set_io DQ\[28\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 26 -fixed yes
+set_io DQ\[29\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 23 -fixed yes
+set_io DQ\[30\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 11 -fixed yes
+set_io DQ\[31\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 8 -fixed yes
+set_io FLAGA -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 153 -fixed yes
+set_io FLAGB -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 159 -fixed yes
+set_io FLAGC -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 112 -fixed yes
+set_io FLAGD -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 121 -fixed yes
+set_io GPIO45 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 30 -fixed yes
+set_io GPIO57_I2S_MCLK_VIO3_SW -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 46 -fixed yes
+set_io I2C_SCL_FX3 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 118 -fixed yes
+set_io I2C_SDA_FX3 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 119 -fixed yes
+set_io I2S_CLK -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 44 -fixed yes
+set_io I2S_SD -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 49 -fixed yes
+set_io I2S_W -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 38 -fixed yes
+set_io INT_N_CTL15 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 4 -fixed yes
+set_io LVDSDESERENBFPGA -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 206 -fixed yes
+set_io LVDSENBFPGA -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 190 -fixed yes
+set_io LVDSRXENB -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 20 -fixed yes
+set_io LVDSTXENB -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 199 -fixed yes
+set_io LVPBCLK -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 19 -fixed yes
+set_io LVPBDATA0 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 56 -fixed yes
+set_io LVPBDATA1 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 55 -fixed yes
+set_io LVPBDATA2 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 69 -fixed yes
+set_io M_DESERENB -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 198 -fixed yes
+set_io PBCLK -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 201 -fixed yes
+set_io PBCLKIN -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 99 -fixed yes
+set_io PBDATA\[0\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 98 -fixed yes
+set_io PBDATA\[1\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 74 -fixed yes
+set_io PBDATA\[2\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 75 -fixed yes
+set_io PBDATA\[3\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 76 -fixed yes
+set_io PBDATA\[4\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 77 -fixed yes
+set_io PBDATA\[5\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 78 -fixed yes
+set_io PBDATA\[6\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 79 -fixed yes
+set_io PBDATA\[7\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 80 -fixed yes
+set_io PBDATA\[8\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 82 -fixed yes
+set_io PBDATA\[9\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 83 -fixed yes
+set_io PBDATA\[10\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 84 -fixed yes
+set_io PBDATA\[11\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 85 -fixed yes
+set_io PBDATA\[12\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 86 -fixed yes
+set_io PBDATA\[13\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 87 -fixed yes
+set_io PBDATA\[14\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 90 -fixed yes
+set_io PBDATA\[15\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 91 -fixed yes
+set_io PBDATA\[16\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 92 -fixed yes
+set_io PBDATA\[17\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 93 -fixed yes
+set_io PBDATA\[18\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 94 -fixed yes
+set_io PBDATA\[19\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 95 -fixed yes
+set_io PBDATA\[20\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 96 -fixed yes
+set_io PBLVDSENBFPGA -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 205 -fixed yes
+set_io PBREQ -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 15 -fixed yes
+set_io PCLK -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 135 -fixed yes
+set_io PKTENDN -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 116 -fixed yes
+set_io PMODE\[0\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 24 -fixed yes
+set_io PMODE\[1\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 21 -fixed yes
+set_io PMODE\[2\] -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 10 -fixed yes
+set_io POWERON -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 114 -fixed yes
+set_io RECCLK -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 168 -fixed yes
+set_io RECDATA\[0\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 64 -fixed yes
+set_io RECDATA\[1\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 66 -fixed yes
+set_io RECDATA\[2\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 67 -fixed yes
+set_io RECDATA\[3\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 68 -fixed yes
+set_io RECDATA\[4\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 58 -fixed yes
+set_io RECDATA\[5\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 57 -fixed yes
+set_io RECDATA\[6\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 59 -fixed yes
+set_io RECDATA\[7\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 60 -fixed yes
+set_io RECDATA\[8\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 61 -fixed yes
+set_io RECDATA\[9\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 63 -fixed yes
+set_io RECDATA\[10\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 204 -fixed yes
+set_io RECDATA\[11\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 203 -fixed yes
+set_io RECDATA\[12\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 202 -fixed yes
+set_io RECDATA\[13\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 197 -fixed yes
+set_io RECDATA\[14\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 196 -fixed yes
+set_io RECDATA\[15\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 194 -fixed yes
+set_io RECDATA\[16\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 192 -fixed yes
+set_io RECDATA\[17\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 191 -fixed yes
+set_io RECDATA\[18\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 189 -fixed yes
+set_io RECDATA\[19\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 167 -fixed yes
+set_io RECDATA\[20\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 166 -fixed yes
+set_io SERENB -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 169 -fixed yes
+set_io SLCSN -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 125 -fixed yes
+set_io SLOEN -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 120 -fixed yes
+set_io SLRDN -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 115 -fixed yes
+set_io SLWRN -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 138 -fixed yes
+set_io SPECIAL -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 6 -fixed yes
+set_io SPI_MISO_UART_TX -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 43 -fixed yes
+set_io SPI_MOSI_UART_RX -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 39 -fixed yes
+set_io SPI_SCK_UART_RTS -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 35 -fixed yes
+set_io SPI_SSN_UART_CTS -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 160 -fixed yes
+set_io Sig1553BUSIN0 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 176 -fixed yes
+set_io Sig1553BUSIN1 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 175 -fixed yes
+set_io Sig1553BUSIN2 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 174 -fixed yes
+set_io Sig1553BUSIN3 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 173 -fixed yes
+set_io Sig1553BUSOUT0 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 185 -fixed yes
+set_io Sig1553BUSOUT1 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 184 -fixed yes
+set_io Sig1553BUSOUT2 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 183 -fixed yes
+set_io Sig1553BUSOUT3 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 182 -fixed yes
+set_io Sig1553BUSOUT4 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 181 -fixed yes
+set_io Sig1553BUSOUT5 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 180 -fixed yes
+set_io Sig1553BUSOUT6 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 179 -fixed yes
+set_io Sig1553BUSOUT7 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 177 -fixed yes
+set_io TCK -pinname 101
+set_io TDI -pinname 102
+set_io TDO -pinname 108
+set_io TMS -pinname 103
+set_io Unused_129 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 129 -fixed yes
+set_io Unused_161 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 161 -fixed yes
+set_io Unused_164 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 164 -fixed yes
+set_io Unused_165 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 165 -fixed yes
+set_io Unused_172 -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname 172 -fixed yes
+set_io Unused_70 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 70 -fixed yes
+set_io Unused_73 -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -IN_DELAY Off -pinname 73 -fixed yes
+set_io nTRST -pinname 109

@@ -1,0 +1,106 @@
+Target Part: M1A3PE3000_PQFP208_STD
+Report for cell gagRetTopMod.architecture_gagrettopmod
+  Core Cell usage:
+              cell count     area count*area
+              AND2    49      1.0       49.0
+             AND2A     8      1.0        8.0
+              AND3    40      1.0       40.0
+             AND3A     2      1.0        2.0
+               AO1   277      1.0      277.0
+              AO12     1      1.0        1.0
+              AO13     1      1.0        1.0
+              AO16     2      1.0        2.0
+              AO18     5      1.0        5.0
+              AO1A    96      1.0       96.0
+              AO1B     3      1.0        3.0
+              AO1C    37      1.0       37.0
+              AO1D    28      1.0       28.0
+              AOI1    19      1.0       19.0
+             AOI1A    14      1.0       14.0
+             AOI1B    22      1.0       22.0
+               AX1     6      1.0        6.0
+              AX1A     1      1.0        1.0
+              AX1B    50      1.0       50.0
+              AX1C     9      1.0        9.0
+              AX1D     5      1.0        5.0
+              BUFF     1      1.0        1.0
+            CLKINT     6      0.0        0.0
+   CortexM1Integration     1      0.0        0.0
+               GND    48      0.0        0.0
+               INV    16      1.0       16.0
+              MAJ3     5      1.0        5.0
+              MIN3     2      1.0        2.0
+             MIN3X     1      1.0        1.0
+               MX2  1278      1.0     1278.0
+              MX2A    15      1.0       15.0
+              MX2B    34      1.0       34.0
+              MX2C    26      1.0       26.0
+              NOR2   172      1.0      172.0
+             NOR2A   384      1.0      384.0
+             NOR2B   691      1.0      691.0
+              NOR3    63      1.0       63.0
+             NOR3A   105      1.0      105.0
+             NOR3B   142      1.0      142.0
+             NOR3C   301      1.0      301.0
+               OA1    50      1.0       50.0
+              OA1A    43      1.0       43.0
+              OA1B    44      1.0       44.0
+              OA1C    33      1.0       33.0
+              OAI1     4      1.0        4.0
+               OR2   192      1.0      192.0
+              OR2A    98      1.0       98.0
+              OR2B    22      1.0       22.0
+               OR3   239      1.0      239.0
+              OR3A    22      1.0       22.0
+              OR3B    34      1.0       34.0
+              OR3C    11      1.0       11.0
+               VCC    48      0.0        0.0
+               XA1    47      1.0       47.0
+              XA1A     3      1.0        3.0
+              XA1B    29      1.0       29.0
+              XA1C     7      1.0        7.0
+              XAI1     1      1.0        1.0
+             XAI1A     2      1.0        2.0
+             XNOR2    36      1.0       36.0
+             XNOR3     3      1.0        3.0
+               XO1    29      1.0       29.0
+              XO1A     6      1.0        6.0
+              XOR2   163      1.0      163.0
+              XOR3    33      1.0       33.0
+
+
+            DFI1C0     1      1.0        1.0
+            DFI1P0     1      1.0        1.0
+            DFN0C0     2      1.0        2.0
+            DFN0P0     1      1.0        1.0
+              DFN1    64      1.0       64.0
+            DFN1C0   356      1.0      356.0
+            DFN1C1     1      1.0        1.0
+            DFN1E0    18      1.0       18.0
+          DFN1E0C0   229      1.0      229.0
+          DFN1E0P0     3      1.0        3.0
+            DFN1E1    32      1.0       32.0
+          DFN1E1C0   698      1.0      698.0
+          DFN1E1C1     5      1.0        5.0
+          DFN1E1P0   171      1.0      171.0
+            DFN1P0    37      1.0       37.0
+            RAM4K9    62      0.0        0.0
+                   -----          ----------
+             TOTAL  6846              6681.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF    92
+            OUTBUF    55
+             UJTAG     1
+                   -----
+             TOTAL   148
+
+
+Core Cells         : 6681 of 75264 (9%)
+IO Cells           : 148
+
+  RAM/ROM Usage Summary
+Block Rams : 62 of 112 (55%)
+

@@ -1,0 +1,1658 @@
+# Synopsys Constraint Checker, version mapact, Build 2172R, built Oct 30 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue May 10 17:54:37 2022
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "gagRetTopMod"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                  Ending                                    |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+gagRetTopMod|CLK48MHZ                     gagRetTopMod|CLK48MHZ                     |     10.000           |     No paths         |     No paths         |     No paths                         
+gagRetTopMod|TCK                          ResetSyNC|UDRCK_inferred_clock            |     No paths         |     Diff grp         |     No paths         |     Diff grp                         
+gagRetTopMod|clock24_s_inferred_clock     gagRetTopMod|clock24_s_inferred_clock     |     10.000           |     No paths         |     5.000            |     5.000                            
+ResetSyNC|UDRCK_inferred_clock            gagRetTopMod|TCK                          |     No paths         |     No paths         |     Diff grp         |     No paths                         
+ResetSyNC|UDRCK_inferred_clock            gagRetTopMod|clock24_s_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ResetSyNC|UDRCK_inferred_clock            ResetSyNC|UDRCK_inferred_clock            |     10.000           |     No paths         |     5.000            |     No paths                         
+===============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:A1_0[0]
+p:A1_0[1]
+p:COMMANDS0
+p:COMMANDS1
+p:COMMANDS2
+p:COMMANDS3
+p:COMMANDS4
+p:COMMANDS5
+p:CTL9
+p:CTL10
+p:DESERENBFPGA
+p:DQ[0]
+p:DQ[1]
+p:DQ[2]
+p:DQ[3]
+p:DQ[4]
+p:DQ[5]
+p:DQ[6]
+p:DQ[7]
+p:DQ[8]
+p:DQ[9]
+p:DQ[10]
+p:DQ[11]
+p:DQ[12]
+p:DQ[13]
+p:DQ[14]
+p:DQ[15]
+p:DQ[16]
+p:DQ[17]
+p:DQ[18]
+p:DQ[19]
+p:DQ[20]
+p:DQ[21]
+p:DQ[22]
+p:DQ[23]
+p:DQ[24]
+p:DQ[25]
+p:DQ[26]
+p:DQ[27]
+p:DQ[28]
+p:DQ[29]
+p:DQ[30]
+p:DQ[31]
+p:FLAGA
+p:FLAGB
+p:FLAGC
+p:FLAGD
+p:GPIO45
+p:GPIO57_I2S_MCLK_VIO3_SW
+p:I2C_SCL_FX3
+p:I2C_SDA_FX3
+p:I2S_CLK
+p:I2S_SD
+p:I2S_W
+p:INT_N_CTL15
+p:LVDSDESERENBFPGA
+p:LVDSENBFPGA
+p:LVDSRXENB
+p:LVDSTXENB
+p:LVPBDATA0
+p:LVPBDATA1
+p:LVPBDATA2
+p:M_DESERENB
+p:PBCLK
+p:PBCLKIN
+p:PBDATA[0]
+p:PBDATA[1]
+p:PBDATA[2]
+p:PBDATA[3]
+p:PBDATA[4]
+p:PBDATA[5]
+p:PBDATA[6]
+p:PBDATA[7]
+p:PBDATA[8]
+p:PBDATA[9]
+p:PBDATA[10]
+p:PBDATA[11]
+p:PBDATA[12]
+p:PBDATA[13]
+p:PBDATA[14]
+p:PBDATA[15]
+p:PBDATA[16]
+p:PBDATA[17]
+p:PBDATA[18]
+p:PBDATA[19]
+p:PBDATA[20]
+p:PBLVDSENBFPGA
+p:PBREQ
+p:PKTENDN
+p:PMODE[0]
+p:PMODE[1]
+p:PMODE[2]
+p:POWERON
+p:RECDATA[0]
+p:RECDATA[1]
+p:RECDATA[2]
+p:RECDATA[3]
+p:RECDATA[4]
+p:RECDATA[5]
+p:RECDATA[6]
+p:RECDATA[7]
+p:RECDATA[8]
+p:RECDATA[9]
+p:RECDATA[10]
+p:RECDATA[11]
+p:RECDATA[12]
+p:RECDATA[13]
+p:RECDATA[14]
+p:RECDATA[15]
+p:RECDATA[16]
+p:RECDATA[17]
+p:RECDATA[18]
+p:RECDATA[19]
+p:RECDATA[20]
+p:SERENB
+p:SLCSN
+p:SLOEN
+p:SLRDN
+p:SLWRN
+p:SPECIAL
+p:SPI_MISO_UART_TX
+p:SPI_MOSI_UART_RX
+p:SPI_SCK_UART_RTS
+p:SPI_SSN_UART_CTS
+p:Sig1553BUSIN0
+p:Sig1553BUSIN1
+p:Sig1553BUSIN2
+p:Sig1553BUSIN3
+p:Sig1553BUSOUT0
+p:Sig1553BUSOUT1
+p:Sig1553BUSOUT2
+p:Sig1553BUSOUT3
+p:Sig1553BUSOUT4
+p:Sig1553BUSOUT5
+p:Sig1553BUSOUT6
+p:Sig1553BUSOUT7
+p:TDI
+p:TDO
+p:TMS
+p:Unused_70 (bidir end point)
+p:Unused_70 (bidir start point)
+p:Unused_73 (bidir end point)
+p:Unused_73 (bidir start point)
+p:Unused_129
+p:Unused_161
+p:Unused_164
+p:Unused_165
+p:Unused_172
+p:nTRST
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+Library: PA3
+
+	Cells:
+
+		AND3B
+			dont_touch: TRUE
+
+		AND3C
+			dont_touch: TRUE
+
+		AO12
+			dont_touch: TRUE
+
+		AO13
+			dont_touch: TRUE
+
+		AO14
+			dont_touch: TRUE
+
+		AO15
+			dont_touch: TRUE
+
+		AO16
+			dont_touch: TRUE
+
+		AO17
+			dont_touch: TRUE
+
+		AO18
+			dont_touch: TRUE
+
+		BIBUF_F_2
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_2D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_2U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_4
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_4D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_4U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_6
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_6D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_6U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_8
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_8D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_8U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_12
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_12D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_12U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_16
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_16D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_16U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_24
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_24D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_F_24U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_GTL25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_GTL33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_GTLP25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_GTLP33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_HSTL_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_HSTL_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS15
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS15D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS15U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS18D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS18U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS25D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS25U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS33D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS33U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS5
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS5D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVCMOS5U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_PCI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_PCIX
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_2
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_2D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_2U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_4
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_4D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_4U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_6
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_6D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_6U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_8
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_8D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_8U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_12
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_12D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_12U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_16
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_16D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_16U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_24
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_24D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_S_24U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_SSTL2_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_SSTL2_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_SSTL3_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_SSTL3_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BIBUF_LVDS
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		BUFD
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBIBUF
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_GTL25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_GTL33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_GTLP25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_GTLP33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_HSTL_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_HSTL_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVCMOS15
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVCMOS18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVCMOS25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVCMOS33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVCMOS5
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_PCI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_PCIX
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_SSTL2_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_SSTL2_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_SSTL3_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_SSTL3_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKINT
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKIO
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_GTL25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_GTL33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_GTLP25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_GTLP33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_HSTL_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_HSTL_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS15
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS15D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS15U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS18D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS18U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS25D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS25U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS33D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS33U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS5
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS5D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVCMOS5U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_PCI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_PCIX
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_SSTL2_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_SSTL2_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_SSTL3_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_SSTL3_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INVD
+			dont_use: TRUE
+
+		IOBI_IB_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OB_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OB_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OB_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OB_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OB_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OB_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OR_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OR_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_ORC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_ORC_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_ORE_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_ORE_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OREC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OREC_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OREP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OREP_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_ORP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_ORP_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_OB_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_OB_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_OR_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_OR_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_ORE_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IR_ORE_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_OB_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_OB_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_ORC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_ORC_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_OREC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRC_OREC_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_OB_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_OB_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_OR_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_OR_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_ORE_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRE_ORE_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_OB_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_OB_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_ORC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_ORC_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_OREC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREC_OREC_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_OB_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_OB_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_OREP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_OREP_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_ORP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IREP_ORP_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_OB_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_OB_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_OREP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_OREP_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_ORP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IRP_ORP_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IR
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IRC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IRE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_IRP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_BI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_BI_D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_BI_U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_IN
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_IN_D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_IN_U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_TRI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_TRI_D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPAD_TRI_U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADN_IN
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADN_OUT
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADN_TRI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADP_BI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADN_BI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADP_TRI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OB_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OR_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OR_ER
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_ORC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_ORC_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_ORE_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_ORE_ERE
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OREC_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OREC_EREC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OREP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OREP_EREP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_ORP_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_ORP_ERP
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_2
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_4
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_6
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_8
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_12
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_16
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_F_24
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_GTL25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_GTL33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_GTLP25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_GTLP33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_HSTL_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_HSTL_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVCMOS15
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVCMOS18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVCMOS25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVCMOS33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVCMOS5
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_PCI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_PCIX
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_2
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_4
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_6
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_8
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_12
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_16
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_S_24
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_SSTL2_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_SSTL2_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_SSTL3_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_SSTL3_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_2
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_2D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_2U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_4
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_4D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_4U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_6
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_6D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_6U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_8
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_8D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_8U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_12
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_12D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_12U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_16
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_16D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_16U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_24
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_24D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_F_24U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_GTL25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_GTL33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_GTLP25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_GTLP33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_HSTL_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_HSTL_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS15
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS15D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS15U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS18D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS18U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS25
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS25D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS25U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS33
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS33D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS33U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS5
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS5D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVCMOS5U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_PCI
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_PCIX
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_2
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_2D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_2U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_4
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_4D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_4U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_6
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_6D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_6U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_8
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_8D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_8U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_12
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_12D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_12U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_16
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_16D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_16U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_24
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_24D
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_S_24U
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_SSTL2_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_SSTL2_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_SSTL3_I
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_SSTL3_II
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		TRIBUFF_LVDS
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKDLY
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKDLYIO
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKDLYINT
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		DDR_OUT
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		DDR_REG
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		PLL
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		DYNCCC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		FIFO4K18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		PLLINT
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		RAM4K9
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		RAM512X18
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		UFROM
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		UFROMH
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		UFROMHS
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		ULSICC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		UJTAG
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_ID_OB_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_IB_OD_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_ID_OD_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOBI_ID_OD_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOIN_ID
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OD_EB
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOTRI_OD_ERC
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVDS
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		INBUF_LVPECL
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVDS
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		OUTBUF_LVPECL
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		IOPADP_IN
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVDS
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		CLKBUF_LVPECL
+			dont_use: TRUE
+			dont_touch: TRUE
+
+		SIMBUF
+			dont_use: TRUE
+			dont_touch: TRUE
+
+
+# End of Constraint Checker Report

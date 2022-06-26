@@ -1,0 +1,846 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.9
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+Date: Tue May 10 18:10:06 2022
+
+
+Design: gagRetTopMod
+Family: ProASIC3E
+Die: M1A3PE3000
+Package: 208 PQFP
+Temperature Range: 0 - 70 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 70 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CLK48MHZ
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      4.282
+
+Clock Domain:               clock24_s:Q
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Hold (ns):         1.701
+Min Clock-To-Out (ns):      3.664
+
+                            Input to Output
+Min Delay (ns):             1.891
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CLK48MHZ
+
+Info: The maximum frequency of this clock domain is limited by the minimum pulse widths of pin CLK48MHZ_pad/U0/U0:PAD
+
+SET Register to Register
+
+Path 1
+  From:                  clock24_s:CLK
+  To:                    clock24_s:D
+  Delay (ns):            0.548
+  Slack (ns):
+  Arrival (ns):          1.546
+  Required (ns):
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: clock24_s:CLK
+  To: clock24_s:D
+  data arrival time                              1.546
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK48MHZ
+               +     0.000          Clock source
+  0.000                        CLK48MHZ (r)
+               +     0.000          net: CLK48MHZ
+  0.000                        CLK48MHZ_pad/U0/U0:PAD (r)
+               +     0.376          cell: ADLIB:IOPAD_IN
+  0.376                        CLK48MHZ_pad/U0/U0:Y (r)
+               +     0.000          net: CLK48MHZ_pad/U0/NET1
+  0.376                        CLK48MHZ_pad/U0/U1:YIN (r)
+               +     0.015          cell: ADLIB:IOIN_IB
+  0.391                        CLK48MHZ_pad/U0/U1:Y (r)
+               +     0.607          net: CLK48MHZ_c
+  0.998                        clock24_s:CLK (r)
+               +     0.183          cell: ADLIB:DFN1C0
+  1.181                        clock24_s:Q (r)
+               +     0.122          net: clock24_s
+  1.303                        clock24_s_RNO:A (r)
+               +     0.124          cell: ADLIB:INV
+  1.427                        clock24_s_RNO:Y (f)
+               +     0.119          net: clock24_s_i_i
+  1.546                        clock24_s:D (f)
+                                    
+  1.546                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK48MHZ
+               +     0.000          Clock source
+  N/C                          CLK48MHZ (r)
+               +     0.000          net: CLK48MHZ
+  N/C                          CLK48MHZ_pad/U0/U0:PAD (r)
+               +     0.376          cell: ADLIB:IOPAD_IN
+  N/C                          CLK48MHZ_pad/U0/U0:Y (r)
+               +     0.000          net: CLK48MHZ_pad/U0/NET1
+  N/C                          CLK48MHZ_pad/U0/U1:YIN (r)
+               +     0.015          cell: ADLIB:IOIN_IB
+  N/C                          CLK48MHZ_pad/U0/U1:Y (r)
+               +     0.607          net: CLK48MHZ_c
+  N/C                          clock24_s:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          clock24_s:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  clock24_s:CLK
+  To:                    PCLK
+  Delay (ns):            3.284
+  Slack (ns):
+  Arrival (ns):          4.282
+  Required (ns):
+  Clock to Out (ns):     4.282
+
+Path 2
+  From:                  clock24_s:CLK
+  To:                    RECCLK
+  Delay (ns):            3.302
+  Slack (ns):
+  Arrival (ns):          4.300
+  Required (ns):
+  Clock to Out (ns):     4.300
+
+Path 3
+  From:                  clock24_s:CLK
+  To:                    LVPBCLK
+  Delay (ns):            3.550
+  Slack (ns):
+  Arrival (ns):          4.548
+  Required (ns):
+  Clock to Out (ns):     4.548
+
+
+Expanded Path 1
+  From: clock24_s:CLK
+  To: PCLK
+  data arrival time                              4.282
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK48MHZ
+               +     0.000          Clock source
+  0.000                        CLK48MHZ (r)
+               +     0.000          net: CLK48MHZ
+  0.000                        CLK48MHZ_pad/U0/U0:PAD (r)
+               +     0.376          cell: ADLIB:IOPAD_IN
+  0.376                        CLK48MHZ_pad/U0/U0:Y (r)
+               +     0.000          net: CLK48MHZ_pad/U0/NET1
+  0.376                        CLK48MHZ_pad/U0/U1:YIN (r)
+               +     0.015          cell: ADLIB:IOIN_IB
+  0.391                        CLK48MHZ_pad/U0/U1:Y (r)
+               +     0.607          net: CLK48MHZ_c
+  0.998                        clock24_s:CLK (r)
+               +     0.183          cell: ADLIB:DFN1C0
+  1.181                        clock24_s:Q (r)
+               +     1.119          net: clock24_s
+  2.300                        CLKLINT_2:A (r)
+               +     0.250          cell: ADLIB:CLKINT
+  2.550                        CLKLINT_2:Y (r)
+               +     0.606          net: PCLK_c_c
+  3.156                        PCLK_pad/U0/U1:D (r)
+               +     0.227          cell: ADLIB:IOTRI_OB_EB
+  3.383                        PCLK_pad/U0/U1:DOUT (r)
+               +     0.000          net: PCLK_pad/U0/NET1
+  3.383                        PCLK_pad/U0/U0:D (r)
+               +     0.899          cell: ADLIB:IOPAD_TRI
+  4.282                        PCLK_pad/U0/U0:PAD (r)
+               +     0.000          net: PCLK
+  4.282                        PCLK (r)
+                                    
+  4.282                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK48MHZ
+               +     0.000          Clock source
+  N/C                          CLK48MHZ (r)
+                                    
+  N/C                          PCLK (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                  POWERON
+  To:                    clock24_s:CLR
+  Delay (ns):            2.562
+  Slack (ns):
+  Arrival (ns):          2.562
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.310
+
+
+Expanded Path 1
+  From: POWERON
+  To: clock24_s:CLR
+  data arrival time                              2.562
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        POWERON (r)
+               +     0.000          net: POWERON
+  0.000                        POWERON_pad/U0/U0:PAD (r)
+               +     0.376          cell: ADLIB:IOPAD_IN
+  0.376                        POWERON_pad/U0/U0:Y (r)
+               +     0.000          net: POWERON_pad/U0/NET1
+  0.376                        POWERON_pad/U0/U1:YIN (r)
+               +     0.015          cell: ADLIB:IOIN_IB
+  0.391                        POWERON_pad/U0/U1:Y (r)
+               +     2.171          net: POWERON_c
+  2.562                        clock24_s:CLR (r)
+                                    
+  2.562                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK48MHZ
+               +     0.000          Clock source
+  N/C                          CLK48MHZ (r)
+               +     0.000          net: CLK48MHZ
+  N/C                          CLK48MHZ_pad/U0/U0:PAD (r)
+               +     0.472          cell: ADLIB:IOPAD_IN
+  N/C                          CLK48MHZ_pad/U0/U0:Y (r)
+               +     0.000          net: CLK48MHZ_pad/U0/NET1
+  N/C                          CLK48MHZ_pad/U0/U1:YIN (r)
+               +     0.019          cell: ADLIB:IOIN_IB
+  N/C                          CLK48MHZ_pad/U0/U1:Y (r)
+               +     0.761          net: CLK48MHZ_c
+  N/C                          clock24_s:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1C0
+  N/C                          clock24_s:CLR
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain clock24_s:Q
+
+SET Register to Register
+
+Path 1
+  From:                  M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[29]:CLK
+  To:                    M1Proc_0/CoreTimer_0/Load[29]:D
+  Delay (ns):            0.324
+  Slack (ns):
+  Arrival (ns):          2.313
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 2
+  From:                  M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[16]:CLK
+  To:                    M1Proc_0/CoreTimer_0/Load[16]:D
+  Delay (ns):            0.324
+  Slack (ns):
+  Arrival (ns):          2.313
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 3
+  From:                  M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[6]:CLK
+  To:                    M1Proc_0/CoreTimer_0/Load[6]:D
+  Delay (ns):            0.329
+  Slack (ns):
+  Arrival (ns):          2.300
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 4
+  From:                  M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[31]:CLK
+  To:                    M1Proc_0/CoreTimer_0/Load[31]:D
+  Delay (ns):            0.324
+  Slack (ns):
+  Arrival (ns):          2.308
+  Required (ns):
+  Hold (ns):             0.000
+
+Path 5
+  From:                  M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[25]:CLK
+  To:                    M1Proc_0/CoreTimer_0/Load[25]:D
+  Delay (ns):            0.325
+  Slack (ns):
+  Arrival (ns):          2.348
+  Required (ns):
+  Hold (ns):             0.000
+
+
+Expanded Path 1
+  From: M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[29]:CLK
+  To: M1Proc_0/CoreTimer_0/Load[29]:D
+  data arrival time                              2.313
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock24_s:Q
+               +     0.000          Clock source
+  0.000                        clock24_s:Q (r)
+               +     1.119          net: clock24_s
+  1.119                        CLKLINT_2:A (r)
+               +     0.250          cell: ADLIB:CLKINT
+  1.369                        CLKLINT_2:Y (r)
+               +     0.620          net: PCLK_c_c
+  1.989                        M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[29]:CLK (r)
+               +     0.202          cell: ADLIB:DFN1E1C0
+  2.191                        M1Proc_0/COREAHBTOAPB3_0/CAHBtoAPB3oi0/CAHBTOAPB3ILi[29]:Q (r)
+               +     0.122          net: M1Proc_0/CoreAPB3_0_APBmslave0_PWDATA[29]
+  2.313                        M1Proc_0/CoreTimer_0/Load[29]:D (r)
+                                    
+  2.313                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock24_s:Q
+               +     0.000          Clock source
+  N/C                          clock24_s:Q (r)
+               +     1.119          net: clock24_s
+  N/C                          CLKLINT_2:A (r)
+               +     0.250          cell: ADLIB:CLKINT
+  N/C                          CLKLINT_2:Y (r)
+               +     0.665          net: PCLK_c_c
+  N/C                          M1Proc_0/CoreTimer_0/Load[29]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1C0
+  N/C                          M1Proc_0/CoreTimer_0/Load[29]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                  Unused_70
+  To:                    M1Proc_0/CoreGPIO_0/gpin1[0]:D
+  Delay (ns):            0.769
+  Slack (ns):
+  Arrival (ns):          0.769
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    1.701
+
+Path 2
+  From:                  Unused_73
+  To:                    M1Proc_0/CoreGPIO_0/gpin1[1]:D
+  Delay (ns):            1.119
+  Slack (ns):
+  Arrival (ns):          1.119
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    1.353
+
+Path 3
+  From:                  Sig1553BUSIN0
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSADEC/DINP:D
+  Delay (ns):            1.588
+  Slack (ns):
+  Arrival (ns):          1.588
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    0.925
+
+Path 4
+  From:                  Sig1553BUSIN2
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBDEC/DINP:D
+  Delay (ns):            1.622
+  Slack (ns):
+  Arrival (ns):          1.622
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    0.849
+
+Path 5
+  From:                  Sig1553BUSIN3
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBDEC/DINN:D
+  Delay (ns):            1.724
+  Slack (ns):
+  Arrival (ns):          1.724
+  Required (ns):
+  Hold (ns):             0.000
+  External Hold (ns):    0.747
+
+
+Expanded Path 1
+  From: Unused_70
+  To: M1Proc_0/CoreGPIO_0/gpin1[0]:D
+  data arrival time                              0.769
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Unused_70 (f)
+               +     0.000          net: Unused_70
+  0.000                        Unused_70_pad/U0/U0:PAD (f)
+               +     0.281          cell: ADLIB:IOPAD_IN
+  0.281                        Unused_70_pad/U0/U0:Y (f)
+               +     0.000          net: Unused_70_pad/U0/NET1
+  0.281                        Unused_70_pad/U0/U1:YIN (f)
+               +     0.014          cell: ADLIB:IOIN_IB
+  0.295                        Unused_70_pad/U0/U1:Y (f)
+               +     0.474          net: Unused_70_c
+  0.769                        M1Proc_0/CoreGPIO_0/gpin1[0]:D (f)
+                                    
+  0.769                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock24_s:Q
+               +     0.000          Clock source
+  N/C                          clock24_s:Q (r)
+               +     1.404          net: clock24_s
+  N/C                          CLKLINT_2:A (r)
+               +     0.314          cell: ADLIB:CLKINT
+  N/C                          CLKLINT_2:Y (r)
+               +     0.752          net: PCLK_c_c
+  N/C                          M1Proc_0/CoreGPIO_0/gpin1[0]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          M1Proc_0/CoreGPIO_0/gpin1[0]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBOUTP:CLK
+  To:                    Sig1553BUSOUT6
+  Delay (ns):            1.691
+  Slack (ns):
+  Arrival (ns):          3.664
+  Required (ns):
+  Clock to Out (ns):     3.664
+
+Path 2
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSAOUTP:CLK
+  To:                    Sig1553BUSOUT2
+  Delay (ns):            1.739
+  Slack (ns):
+  Arrival (ns):          3.751
+  Required (ns):
+  Clock to Out (ns):     3.751
+
+Path 3
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBOUTIN:CLK
+  To:                    Sig1553BUSOUT5
+  Delay (ns):            1.783
+  Slack (ns):
+  Arrival (ns):          3.756
+  Required (ns):
+  Clock to Out (ns):     3.756
+
+Path 4
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBOUTN:CLK
+  To:                    Sig1553BUSOUT7
+  Delay (ns):            1.896
+  Slack (ns):
+  Arrival (ns):          3.872
+  Required (ns):
+  Clock to Out (ns):     3.872
+
+Path 5
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSAOUTN:CLK
+  To:                    Sig1553BUSOUT3
+  Delay (ns):            2.005
+  Slack (ns):
+  Arrival (ns):          3.978
+  Required (ns):
+  Clock to Out (ns):     3.978
+
+
+Expanded Path 1
+  From: M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBOUTP:CLK
+  To: Sig1553BUSOUT6
+  data arrival time                              3.664
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock24_s:Q
+               +     0.000          Clock source
+  0.000                        clock24_s:Q (r)
+               +     1.119          net: clock24_s
+  1.119                        CLKLINT_2:A (r)
+               +     0.250          cell: ADLIB:CLKINT
+  1.369                        CLKLINT_2:Y (r)
+               +     0.604          net: PCLK_c_c
+  1.973                        M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBOUTP:CLK (r)
+               +     0.202          cell: ADLIB:DFN1P0
+  2.175                        M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/BUSBOUTP:Q (r)
+               +     0.381          net: Sig1553BUSOUT6_c
+  2.556                        Sig1553BUSOUT6_pad/U0/U1:D (r)
+               +     0.209          cell: ADLIB:IOTRI_OB_EB
+  2.765                        Sig1553BUSOUT6_pad/U0/U1:DOUT (r)
+               +     0.000          net: Sig1553BUSOUT6_pad/U0/NET1
+  2.765                        Sig1553BUSOUT6_pad/U0/U0:D (r)
+               +     0.899          cell: ADLIB:IOPAD_TRI
+  3.664                        Sig1553BUSOUT6_pad/U0/U0:PAD (r)
+               +     0.000          net: Sig1553BUSOUT6
+  3.664                        Sig1553BUSOUT6 (r)
+                                    
+  3.664                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock24_s:Q
+               +     0.000          Clock source
+  N/C                          clock24_s:Q (r)
+                                    
+  N/C                          Sig1553BUSOUT6 (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                  M1Proc_0/CortexM1Top_0/RS/SYSRESETN:CLK
+  To:                    M1Proc_0/CortexM1Top_0/RS/CORtexM1ToP_LOL:PRE
+  Delay (ns):            0.318
+  Slack (ns):
+  Arrival (ns):          2.297
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.008
+
+Path 2
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/r.command.resetin:CLK
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/UPC/FASTIMG/U1:CLR
+  Delay (ns):            1.298
+  Slack (ns):
+  Arrival (ns):          3.273
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.041
+
+Path 3
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/r.command.resetin:CLK
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/UPC/USEXTOK/U1:CLR
+  Delay (ns):            1.344
+  Slack (ns):
+  Arrival (ns):          3.319
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.059
+
+Path 4
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/r.command.resetin:CLK
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/UPC/FORCEORUN/U1:CLR
+  Delay (ns):            1.344
+  Slack (ns):
+  Arrival (ns):          3.319
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.059
+
+Path 5
+  From:                  M1Proc_0/b1553BRM_AHBSlv_0/r.command.resetin:CLK
+  To:                    M1Proc_0/b1553BRM_AHBSlv_0/CORE1553_BRM_0/CORE1553_BRM_0/UPC/iLOOPBACK/U1:CLR
+  Delay (ns):            1.383
+  Slack (ns):
+  Arrival (ns):          3.358
+  Required (ns):
+  Removal (ns):          0.000
+  Skew (ns):             -0.043
+
+
+Expanded Path 1
+  From: M1Proc_0/CortexM1Top_0/RS/SYSRESETN:CLK
+  To: M1Proc_0/CortexM1Top_0/RS/CORtexM1ToP_LOL:PRE
+  data arrival time                              2.297
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clock24_s:Q
+               +     0.000          Clock source
+  0.000                        clock24_s:Q (r)
+               +     1.119          net: clock24_s
+  1.119                        CLKLINT_2:A (r)
+               +     0.250          cell: ADLIB:CLKINT
+  1.369                        CLKLINT_2:Y (r)
+               +     0.610          net: PCLK_c_c
+  1.979                        M1Proc_0/CortexM1Top_0/RS/SYSRESETN:CLK (r)
+               +     0.202          cell: ADLIB:DFI1P0
+  2.181                        M1Proc_0/CortexM1Top_0/RS/SYSRESETN:QN (r)
+               +     0.116          net: M1Proc_0/CortexM1Top_0/RS/SYSRESETN_i_0_i
+  2.297                        M1Proc_0/CortexM1Top_0/RS/CORtexM1ToP_LOL:PRE (r)
+                                    
+  2.297                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock24_s:Q
+               +     0.000          Clock source
+  N/C                          clock24_s:Q (r)
+               +     1.119          net: clock24_s
+  N/C                          CLKLINT_2:A (r)
+               +     0.250          cell: ADLIB:CLKINT
+  N/C                          CLKLINT_2:Y (r)
+               +     0.618          net: PCLK_c_c
+  N/C                          M1Proc_0/CortexM1Top_0/RS/CORtexM1ToP_LOL:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1P0
+  N/C                          M1Proc_0/CortexM1Top_0/RS/CORtexM1ToP_LOL:PRE
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                  POWERON
+  To:                    M1Proc_0/CortexM1Top_0/RS/CortexM1TOP_iol:CLR
+  Delay (ns):            3.537
+  Slack (ns):
+  Arrival (ns):          3.537
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.062
+
+Path 2
+  From:                  POWERON
+  To:                    M1Proc_0/CortexM1Top_0/RS/SYSRESETN:PRE
+  Delay (ns):            3.733
+  Slack (ns):
+  Arrival (ns):          3.733
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.258
+
+Path 3
+  From:                  POWERON
+  To:                    M1Proc_0/CortexM1Top_0/RS/DBGRESETn:CLR
+  Delay (ns):            4.319
+  Slack (ns):
+  Arrival (ns):          4.319
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.848
+
+Path 4
+  From:                  POWERON
+  To:                    M1Proc_0/CortexM1Top_0/RS/CORTexM1ToP_I0L:CLR
+  Delay (ns):            4.394
+  Slack (ns):
+  Arrival (ns):          4.394
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -1.923
+
+Path 5
+  From:                  POWERON
+  To:                    M1Proc_0/CortexM1Top_0/RS/CORTEXM1Top_iIL:CLR
+  Delay (ns):            4.486
+  Slack (ns):
+  Arrival (ns):          4.486
+  Required (ns):
+  Removal (ns):          0.000
+  External Removal (ns): -2.018
+
+
+Expanded Path 1
+  From: POWERON
+  To: M1Proc_0/CortexM1Top_0/RS/CortexM1TOP_iol:CLR
+  data arrival time                              3.537
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        POWERON (r)
+               +     0.000          net: POWERON
+  0.000                        POWERON_pad/U0/U0:PAD (r)
+               +     0.376          cell: ADLIB:IOPAD_IN
+  0.376                        POWERON_pad/U0/U0:Y (r)
+               +     0.000          net: POWERON_pad/U0/NET1
+  0.376                        POWERON_pad/U0/U1:YIN (r)
+               +     0.015          cell: ADLIB:IOIN_IB
+  0.391                        POWERON_pad/U0/U1:Y (r)
+               +     2.230          net: POWERON_c
+  2.621                        M1Proc_0/CortexM1Top_0/RS/Dbg_uj.Ujjtag/CorTEXM1Top_iL0_RNI148G[0]:A (r)
+               +     0.206          cell: ADLIB:NOR2A
+  2.827                        M1Proc_0/CortexM1Top_0/RS/Dbg_uj.Ujjtag/CorTEXM1Top_iL0_RNI148G[0]:Y (r)
+               +     0.710          net: M1Proc_0/CortexM1Top_0/RS/CorteXM1TOp_i1l
+  3.537                        M1Proc_0/CortexM1Top_0/RS/CortexM1TOP_iol:CLR (r)
+                                    
+  3.537                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clock24_s:Q
+               +     0.000          Clock source
+  N/C                          clock24_s:Q (r)
+               +     1.404          net: clock24_s
+  N/C                          CLKLINT_2:A (r)
+               +     0.314          cell: ADLIB:CLKINT
+  N/C                          CLKLINT_2:Y (r)
+               +     0.757          net: PCLK_c_c
+  N/C                          M1Proc_0/CortexM1Top_0/RS/CortexM1TOP_iol:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFI1C0
+  N/C                          M1Proc_0/CortexM1Top_0/RS/CortexM1TOP_iol:CLR
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+Path 1
+  From:                  FLAGD
+  To:                    SLOEN
+  Delay (ns):            1.891
+  Slack (ns):
+  Arrival (ns):          1.891
+  Required (ns):
+
+Path 2
+  From:                  LVDSRXENB
+  To:                    LVPBCLK
+  Delay (ns):            1.941
+  Slack (ns):
+  Arrival (ns):          1.941
+  Required (ns):
+
+Path 3
+  From:                  FLAGD
+  To:                    SLCSN
+  Delay (ns):            2.367
+  Slack (ns):
+  Arrival (ns):          2.367
+  Required (ns):
+
+Path 4
+  From:                  FLAGD
+  To:                    PKTENDN
+  Delay (ns):            2.490
+  Slack (ns):
+  Arrival (ns):          2.490
+  Required (ns):
+
+Path 5
+  From:                  LVDSENBFPGA
+  To:                    LVDSDESERENBFPGA
+  Delay (ns):            2.523
+  Slack (ns):
+  Arrival (ns):          2.523
+  Required (ns):
+
+
+Expanded Path 1
+  From: FLAGD
+  To: SLOEN
+  data arrival time                              1.891
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        FLAGD (r)
+               +     0.000          net: FLAGD
+  0.000                        FLAGD_pad/U0/U0:PAD (r)
+               +     0.376          cell: ADLIB:IOPAD_IN
+  0.376                        FLAGD_pad/U0/U0:Y (r)
+               +     0.000          net: FLAGD_pad/U0/NET1
+  0.376                        FLAGD_pad/U0/U1:YIN (r)
+               +     0.015          cell: ADLIB:IOIN_IB
+  0.391                        FLAGD_pad/U0/U1:Y (r)
+               +     0.112          net: FLAGD_c
+  0.503                        FLAGC_pad_RNI2I9P:A (r)
+               +     0.162          cell: ADLIB:OR3
+  0.665                        FLAGC_pad_RNI2I9P:Y (r)
+               +     0.118          net: SLCSN_c_c_c_c_c
+  0.783                        SLOEN_pad/U0/U1:D (r)
+               +     0.209          cell: ADLIB:IOTRI_OB_EB
+  0.992                        SLOEN_pad/U0/U1:DOUT (r)
+               +     0.000          net: SLOEN_pad/U0/NET1
+  0.992                        SLOEN_pad/U0/U0:D (r)
+               +     0.899          cell: ADLIB:IOPAD_TRI
+  1.891                        SLOEN_pad/U0/U0:PAD (r)
+               +     0.000          net: SLOEN
+  1.891                        SLOEN (r)
+                                    
+  1.891                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          FLAGD (r)
+                                    
+  N/C                          SLOEN (r)
+                                    
+  N/C                          data required time
+
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

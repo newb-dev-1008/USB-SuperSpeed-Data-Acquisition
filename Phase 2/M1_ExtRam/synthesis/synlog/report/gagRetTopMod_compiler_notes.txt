@@ -1,0 +1,271 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\gagRetTopMod.vhd":25:7:25:18|Top entity is set to gagRetTopMod.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\gagRetTopMod.vhd":25:7:25:18|Synthesizing work.gagrettopmod.architecture_gagrettopmod.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\work\M1Proc\M1Proc.vhd":31:7:31:12|Synthesizing work.m1proc.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\CortexM1Top_a3pe.vhd":34:7:34:17|Synthesizing work.cortexm1top.cortexm1top_i.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":12:7:12:15|Synthesizing work.resetsync.cortexm1top_i.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\uj_jtag.vhd":5:7:5:13|Synthesizing work.uj_jtag.cortexm1top_i10.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":4118:11:4118:15|Synthesizing proasic3e.ujtag.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":3135:10:3135:15|Synthesizing proasic3e.clkint.syn_black_box.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\CortexM1Integration\M1A3PE3000\0_01_1_0_0000_0000_1_1\timingshell\vhdl\arm_synplify.vhd":126:7:126:25|Synthesizing work.cortexm1integration.synplify_timing_shell.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd":29:7:29:15|Synthesizing coretimer_lib.coretimer.synth.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd":323:24:323:28|Removing redundant assignment.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio.vhd":29:7:29:14|Synthesizing coregpio_lib.coregpio.rtl.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio.vhd":626:16:626:24|Removing redundant assignment.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio.vhd":629:12:629:20|Removing redundant assignment.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio.vhd":626:16:626:24|Removing redundant assignment.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vhdl\core\coregpio.vhd":629:12:629:20|Removing redundant assignment.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":14:7:14:14|Synthesizing coreapb3_lib.coreapb3.capb3i0l.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":439:0:439:13|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3_muxptob3.vhd":14:7:14:12|Synthesizing coreapb3_lib.capb3o.capb3ll.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3_muxptob3.vhd":152:0:152:13|OTHERS clause is not synthesized.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3_muxptob3.vhd":195:0:195:13|OTHERS clause is not synthesized.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3_muxptob3.vhd":238:0:238:13|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\coreahbtoapb3.vhd":9:7:9:19|Synthesizing coreahbtoapb3_lib.coreahbtoapb3.cahbtoapb3lol.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\apbaddrdata.vhd":9:7:9:19|Synthesizing coreahbtoapb3_lib.cahbtoapb3ioi.cahbtoapb3lol.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\penablescheduler.vhd":9:7:9:19|Synthesizing coreahbtoapb3_lib.cahbtoapb3oii.cahbtoapb3lol.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\ahbtoapbsm.vhd":9:7:9:17|Synthesizing coreahbtoapb3_lib.cahbtoapb3o.cahbtoapb3lol.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\ahbtoapbsm.vhd":275:0:275:13|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\CoreAhbSram.vhd":27:7:27:17|Synthesizing work.coreahbsram.structural.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram.vhd":25:7:25:10|Synthesizing work.sram.structural.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\Sram_7kx8_pa3e.vhd":25:7:25:15|Synthesizing work.sram_7kx8.structural.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":3161:10:3161:15|Synthesizing proasic3e.ram4k9.syn_black_box.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbSramIf.vhd":27:7:27:15|Synthesizing work.ahbsramif.structural.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd":25:7:25:14|Synthesizing work.sramctrl.structural.
+@N: CD233 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd":80:27:80:28|Using sequential encoding for type sramctrl_state_names.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd":150:12:150:26|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbWrapper_SRAM.vhd":26:7:26:21|Synthesizing work.ahbwrapper_sram.structural.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbWrapper_SRAM.vhd":123:16:123:26|Removing redundant assignment.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbWrapper_SRAM.vhd":124:16:124:27|Removing redundant assignment.
+@N: CD364 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\AhbWrapper_SRAM.vhd":160:20:160:29|Removing redundant assignment.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":27:7:27:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":25:7:25:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_slavestage.vhd":24:7:24:28|Synthesizing coreahblite_lib.coreahblite_slavestage.trans.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":22:7:22:30|Synthesizing coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":391:12:391:25|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":637:12:637:25|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_defaultslavesm.vhd":22:7:22:32|Synthesizing coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_defaultslavesm.vhd":63:12:63:25|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":637:12:637:25|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\b1553BRM_AHBSlv.vhd":6:7:6:21|Synthesizing work.b1553brm_ahbslv.beh.
+@N: CD233 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\b1553BRM_AHBSlv.vhd":133:18:133:19|Using sequential encoding for type memcycletype.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\RAM_1k16_EDAC.vhd":6:7:6:19|Synthesizing work.ram_1k16_edac.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\edac_decoder.vhd":7:7:7:18|Synthesizing work.edac_decoder.beh.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\smartgen\ramBlock1kby24\ramBlock1kby24.vhd":8:7:8:20|Synthesizing work.ramblock1kby24.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":2999:10:2999:12|Synthesizing proasic3e.vcc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3e.vhd":1894:10:1894:12|Synthesizing proasic3e.gnd.syn_black_box.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\edac_encoder.vhd":7:7:7:18|Synthesizing work.edac_encoder.beh.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\core1553_brm.vhd":18:7:18:18|Synthesizing work.core1553_brm.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\core1553brm.vhd":39:7:39:17|Synthesizing work.core1553brm.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd":33:7:33:13|Synthesizing work.brmbend.rtl.
+@N: CD231 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd":81:17:81:18|Using onehot encoding for type t_mstate. For example, enumeration idle is mapped to "10000".
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd":122:5:122:19|OTHERS clause is not synthesized.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd":151:5:151:19|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":44:7:44:11|Synthesizing work.brmpc.rtl.
+@N: CD232 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":231:14:231:15|Using gray code encoding for type tbcstate.
+@N: CD231 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":282:18:282:19|Using onehot encoding for type t_rtstate. For example, enumeration rtidle is mapped to "1000000000000000000000".
+@N: CD233 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":328:14:328:15|Using sequential encoding for type tinstate.
+@N: CD231 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":502:14:502:15|Using onehot encoding for type tmtstate. For example, enumeration mtidle is mapped to "100000000000".
+@N: CD233 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":1430:14:1430:15|Using sequential encoding for type tbufmode.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":868:5:868:19|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMreg.vhd":31:7:31:12|Synthesizing work.brmreg.rtl.
+@N: CD604 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMreg.vhd":149:6:149:19|OTHERS clause is not synthesized.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMmt.vhd":30:7:30:11|Synthesizing work.brmmt.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMrt.vhd":31:7:31:11|Synthesizing work.brmrt.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\globalbuff_pa3e.vhd":31:7:31:16|Synthesizing work.globalbuff.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMdec.vhd":32:7:32:12|Synthesizing work.brmdec.rtl.
+@N: CD630 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMenc.vhd":34:7:34:12|Synthesizing work.brmenc.rtl.
+@N: CD231 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMenc.vhd":78:12:78:13|Using onehot encoding for type tstate. For example, enumeration idle is mapped to "100000".
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMenc.vhd":148:4:148:5|Trying to extract state machine for register STATE.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMrt.vhd":53:9:53:18|Input SMR0_EMODE is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMmt.vhd":49:9:49:19|Input DECA_FROMUS is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMmt.vhd":58:9:58:19|Input DECB_FROMUS is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMreg.vhd":48:9:48:13|Input CPURD is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMreg.vhd":49:9:49:17|Input SMR0_STEX is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMreg.vhd":50:9:50:14|Input CMDSTB is unused.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":1439:2:1439:3|Trying to extract state machine for register INTSTATE.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":1439:2:1439:3|Trying to extract state machine for register RTSTATE.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMpc.vhd":1063:2:1063:3|Trying to extract state machine for register IHCOUNT.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd":177:2:177:3|Trying to extract state machine for register MSTATE.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\BRMbend.vhd":40:9:40:14|Input CLKSPD is unused.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\b1553BRM_AHBSlv.vhd":478:1:478:2|Trying to extract state machine for register r.bstate.
+@N: CL189 :"G:\omsai\intern_ezusbcard\M1_ExtRam\hdl\b1553BRM_AHBSlv.vhd":478:1:478:2|Register bit r.hresp(0) is always 0.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":77:8:77:17|Input HRDATA_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":78:8:78:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":81:8:81:17|Input HRDATA_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":82:8:82:20|Input HREADYOUT_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S16 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S16 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":45:8:45:17|Input SDATAREADY is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":46:8:46:13|Input SHRESP is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":55:8:55:16|Input HRDATA_S0 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":56:8:56:19|Input HREADYOUT_S0 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":75:8:75:17|Input HRDATA_S10 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":76:8:76:20|Input HREADYOUT_S10 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":77:8:77:17|Input HRDATA_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":78:8:78:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":79:8:79:17|Input HRDATA_S12 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":80:8:80:20|Input HREADYOUT_S12 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":81:8:81:17|Input HRDATA_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":82:8:82:20|Input HREADYOUT_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":87:8:87:17|Input HRDATA_S16 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_masterstage.vhd":88:8:88:20|Input HREADYOUT_S16 is unused.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Trying to extract state machine for register arbRegSMCurrentState.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":54:8:54:16|Input HWDATA_M1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":63:8:63:16|Input HWDATA_M2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":72:8:72:16|Input HWDATA_M3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":87:8:87:16|Input HRDATA_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":88:8:88:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":89:8:89:15|Input HRESP_S1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":98:8:98:16|Input HRDATA_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":99:8:99:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":100:8:100:15|Input HRESP_S2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":109:8:109:16|Input HRDATA_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":110:8:110:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":111:8:111:15|Input HRESP_S3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":120:8:120:16|Input HRDATA_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":121:8:121:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":122:8:122:15|Input HRESP_S4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":131:8:131:16|Input HRDATA_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":132:8:132:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":133:8:133:15|Input HRESP_S5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":142:8:142:16|Input HRDATA_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":143:8:143:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":144:8:144:15|Input HRESP_S6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":153:8:153:16|Input HRDATA_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":154:8:154:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":155:8:155:15|Input HRESP_S7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":164:8:164:16|Input HRDATA_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":165:8:165:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":166:8:166:15|Input HRESP_S8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":175:8:175:16|Input HRDATA_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":176:8:176:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":177:8:177:15|Input HRESP_S9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":197:8:197:17|Input HRDATA_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":198:8:198:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":199:8:199:16|Input HRESP_S11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":219:8:219:17|Input HRDATA_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":220:8:220:20|Input HREADYOUT_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":221:8:221:16|Input HRESP_S13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":230:8:230:17|Input HRDATA_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":231:8:231:20|Input HREADYOUT_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":232:8:232:16|Input HRESP_S14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":241:8:241:17|Input HRDATA_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":242:8:242:20|Input HREADYOUT_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":243:8:243:16|Input HRESP_S15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":252:8:252:17|Input HRDATA_S16 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":253:8:253:20|Input HREADYOUT_S16 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite_matrix4x16.vhd":254:8:254:16|Input HRESP_S16 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":127:0:127:8|Input HBURST_M0 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":128:0:128:7|Input HPROT_M0 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":138:0:138:8|Input HBURST_M1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":139:0:139:7|Input HPROT_M1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":149:0:149:8|Input HBURST_M2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":150:0:150:7|Input HPROT_M2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":160:0:160:8|Input HBURST_M3 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vhdl\core\coreahblite.vhd":161:0:161:7|Input HPROT_M3 is unused.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd":158:8:158:9|Trying to extract state machine for register sramCtrlSMCurrentState.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd":42:8:42:13|Input HWDATA is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.3.103\rtl\vhdl\u\SramCtrl.vhd":43:8:43:12|Input HSIZE is unused.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\ahbtoapbsm.vhd":214:0:214:1|Trying to extract state machine for register CAHBtoAPB3iol.
+@N: CL201 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vhdl\core_obfuscated\penablescheduler.vhd":84:0:84:1|Trying to extract state machine for register CAHBtoAPB3III.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":33:52:33:58|Input presetn is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":34:0:34:3|Input pclk is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":65:0:65:7|Input PRDATAS1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":66:0:66:7|Input PRDATAS2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":68:0:68:7|Input PRDATAS4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":69:0:69:7|Input PRDATAS5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":70:0:70:7|Input PRDATAS6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":71:0:71:7|Input PRDATAS7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":72:0:72:7|Input PRDATAS8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":73:0:73:7|Input PRDATAS9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":74:0:74:8|Input PRDATAS10 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":75:0:75:8|Input PRDATAS11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":77:0:77:8|Input PRDATAS13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":78:0:78:8|Input PRDATAS14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":79:0:79:8|Input PRDATAS15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":81:0:81:7|Input preadys1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":82:0:82:7|Input preadys2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":84:0:84:7|Input preadys4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":85:0:85:7|Input PREADYs5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":86:0:86:7|Input preadyS6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":87:0:87:7|Input PREadys7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":88:0:88:7|Input pREADYS8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":89:0:89:7|Input preADYS9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":90:0:90:8|Input preadys10 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":91:0:91:8|Input preaDYS11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":93:0:93:8|Input PREadys13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":94:0:94:8|Input preADYS14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":95:0:95:8|Input PREAdys15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":97:0:97:8|Input PSLVERrs1 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":98:0:98:8|Input pslverrs2 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":100:0:100:8|Input pSLVERRS4 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":101:0:101:8|Input PSLVERRS5 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":102:0:102:8|Input PSLVERRS6 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":103:0:103:8|Input pslvERRS7 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":104:0:104:8|Input pslverrs8 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":105:0:105:8|Input PSLVERRS9 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":106:0:106:9|Input PSLVERRS10 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":107:0:107:9|Input pslverRS11 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":109:0:109:9|Input PSLVERRS13 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":110:0:110:9|Input pslverrs14 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vhdl\core_obfuscated\coreapb3.vhd":111:0:111:9|Input pSLVERRS15 is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":26:0:26:7|Input RV_NTRST is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":27:0:27:5|Input RV_TDI is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":28:0:28:5|Input RV_TMS is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":29:0:29:5|Input RV_TCK is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":32:0:32:10|Input RV_nSRST_IN is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\ResetSync_a3pe.vhd":33:1:33:8|Input RV_DBGRQ is unused.
+@N: CL159 :"G:\omsai\intern_ezusbcard\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.0.102\rtl\vhdl\o\CortexM1Top_a3pe.vhd":45:0:45:7|Input PORESETN is unused.
+@N|Running in 64-bit mode
+

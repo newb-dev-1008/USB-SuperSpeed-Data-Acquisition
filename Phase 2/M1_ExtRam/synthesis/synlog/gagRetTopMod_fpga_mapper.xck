@@ -1,0 +1,4 @@
+CKID0001:@|S:clock24_s@|E:M1Proc_0.CoreTimer_0.iPRDATA[31]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:M1Proc_0.CortexM1Top_0.RS.Dbg_uj.UJ@|E:M1Proc_0.CortexM1Top_0.RS.Dbg_uj.Ujjtag.CORTEXM1Top_o0ol[4]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:TCK@|E:M1Proc_0.CortexM1Top_0.RS.Dbg_uj.UJ@|F:@syn_sample_clock_path1==CKID0003@|M:ClockId0003 
+CKID0004:@|S:CLK48MHZ@|E:clock24_s@|F:@syn_sample_clock_path1==CKID0004@|M:ClockId0004 

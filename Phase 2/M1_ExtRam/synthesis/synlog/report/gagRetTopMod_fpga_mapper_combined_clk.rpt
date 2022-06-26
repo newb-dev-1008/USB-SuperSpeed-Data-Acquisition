@@ -1,0 +1,28 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 27 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1717 clock pin(s) of sequential element(s)
+0 instances converted, 1717 sequential instances remain driven by gated/generated clocks
+
+=========================================================== Non-Gated/Non-Generated Clocks ============================================================
+Clock Tree ID     Driving Element                         Drive Element Type     Fanout     Sample Instance                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       M1Proc_0.CortexM1Top_0.RS.Dbg_uj.UJ     UJTAG                  25         M1Proc_0.CortexM1Top_0.RS.Dbg_uj.Ujjtag.CORTEXM1Top_o0ol[4]
+@K:CKID0003       TCK                                     port                   1          M1Proc_0.CortexM1Top_0.RS.Dbg_uj.UJ                        
+@K:CKID0004       CLK48MHZ                                port                   1          clock24_s                                                  
+=======================================================================================================================================================
+============================================================================== Gated/Generated Clocks ===============================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                      Explanation                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       clock24_s           DFN1C0                 1717       M1Proc_0.CoreTimer_0.iPRDATA[31]     No generated or derived clock directive on output of sequential instance
+=====================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

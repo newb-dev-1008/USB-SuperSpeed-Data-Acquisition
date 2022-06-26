@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Resource: CoreAhbSram
+# Instance: VAR_resource
+#-----------------------------------------------------------
+#
+# BFM scriptlet for CoreAhbSram
+
+# Test byte/halfword/word writes and reads
+write     w VAR_resource 0x0 0x12345678;
+readcheck w VAR_resource 0x0 0x12345678;
+write     b VAR_resource 0x0 0x9a;
+readcheck w VAR_resource 0x0 0x1234569a;
+readcheck b VAR_resource 0x0 0x9a;
+readcheck b VAR_resource 0x1 0x56;
+readcheck b VAR_resource 0x2 0x34;
+readcheck b VAR_resource 0x3 0x12;
+readcheck h VAR_resource 0x0 0x569a;
+readcheck h VAR_resource 0x2 0x1234;
+write     b VAR_resource 0x1 0xbc;
+write     b VAR_resource 0x2 0xde;
+write     b VAR_resource 0x3 0xf0;
+readcheck w VAR_resource 0x0 0xf0debc9a;
+write     w VAR_resource 0x4 0xaabbccdd;
+readcheck h VAR_resource 0x6 0xaabb;
+

@@ -1,0 +1,1059 @@
+----------------------------------------------------------------------
+Report for cell gagRetTopMod.architecture_gagrettopmod
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         1       0.0        0.0
+                             DFN1C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF        92       0.0        0.0
+                                INV         2       1.0        2.0
+                             M1Proc         1    6626.0     6626.0
+                               NOR2         6       1.0        6.0
+                              NOR2B        12       1.0       12.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C        13       1.0       13.0
+                                OR2        10       1.0       10.0
+                                OR3         6       1.0        6.0
+                             OUTBUF        55       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            206               6681.0
+----------------------------------------------------------------------
+Report for cell M1Proc.netlist
+     Instance path:  M1Proc_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                      COREAHBTOAPB3         1     177.0      177.0
+                        CoRTEXM1Top         1     180.0      180.0
+                        CoreAHBLite         1     594.0      594.0
+                           CoreAPB3         1      62.0       62.0
+                        CoreAhbSram         1     479.0      479.0
+                           CoreGPIO         1      11.0       11.0
+                          CoreTimer         1     391.0      391.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                    b1553BRM_AHBSlv         1    4732.0     4732.0
+                            
+                         TOTAL             10               6626.0
+----------------------------------------------------------------------
+Report for cell CoRTEXM1Top.netlist
+     Instance path:  M1Proc_0.CortexM1Top_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         3       0.0        0.0
+                CortexM1Integration         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              NOR3C         1       1.0        1.0
+                          ResetSyNC         1     179.0      179.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              8                180.0
+----------------------------------------------------------------------
+Report for cell ResetSyNC.netlist
+     Instance path:  M1Proc_0.CortexM1Top_0.RS
+                                          Cell usage:
+                               cell       count     area    count*area
+                               BUFF         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFI1C0         1       1.0        1.0
+                             DFI1P0         1       1.0        1.0
+                             DFN1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2B         2       1.0        2.0
+                              UJTAG         1       0.0        0.0
+                            Uj_jtag         1     162.0      162.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             22                179.0
+----------------------------------------------------------------------
+Report for cell Uj_jtag.netlist
+     Instance path:  M1Proc_0.CortexM1Top_0.RS.Dbg_uj.Ujjtag
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1        15       1.0       15.0
+                               AO1A         3       1.0        3.0
+                               AO1C         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                             DFN0C0         2       1.0        2.0
+                             DFN1C0         7       1.0        7.0
+                           DFN1E0C0         7       1.0        7.0
+                           DFN1E1C0         9       1.0        9.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2        12       1.0       12.0
+                               MX2B         3       1.0        3.0
+                               MX2C         1       1.0        1.0
+                               NOR2         8       1.0        8.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        18       1.0       18.0
+                               NOR3         5       1.0        5.0
+                              NOR3A         6       1.0        6.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         9       1.0        9.0
+                                OA1         5       1.0        5.0
+                               OA1A         3       1.0        3.0
+                               OA1B         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                               OR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                OR3         4       1.0        4.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         3       1.0        3.0
+                            
+                         TOTAL            164                162.0
+----------------------------------------------------------------------
+Report for cell CoreTimer.netlist
+     Instance path:  M1Proc_0.CoreTimer_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        20       1.0       20.0
+                               AO1A         5       1.0        5.0
+                               AO1D         2       1.0        2.0
+                                AX1         2       1.0        2.0
+                               AX1B        27       1.0       27.0
+                             DFN1C0        41       1.0       41.0
+                           DFN1E1C0        39       1.0       39.0
+                           DFN1E1P0        31       1.0       31.0
+                             DFN1P0         7       1.0        7.0
+                                GND         1       0.0        0.0
+                                MX2        42       1.0       42.0
+                               MX2A         2       1.0        2.0
+                               NOR2        13       1.0       13.0
+                              NOR2A        23       1.0       23.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         8       1.0        8.0
+                              NOR3A        22       1.0       22.0
+                              NOR3B         7       1.0        7.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         2       1.0        2.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2        47       1.0       47.0
+                               OR2A        12       1.0       12.0
+                               OR2B         2       1.0        2.0
+                                OR3        13       1.0       13.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                                XO1         3       1.0        3.0
+                               XO1A         4       1.0        4.0
+                               XOR2         3       1.0        3.0
+                            
+                         TOTAL            393                391.0
+----------------------------------------------------------------------
+Report for cell CoreGPIO.netlist
+     Instance path:  M1Proc_0.CoreGPIO_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0         6       1.0        6.0
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             13                 11.0
+----------------------------------------------------------------------
+Report for cell CoreAPB3.netlist
+     Instance path:  M1Proc_0.CoreAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CAPB3o         1      55.0       55.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                 62.0
+----------------------------------------------------------------------
+Report for cell CAPB3o.netlist
+     Instance path:  M1Proc_0.CoreAPB3_0.CAPB3O1II
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         3       1.0        3.0
+                               AO1A         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         1       1.0        1.0
+                              NOR3C        38       1.0       38.0
+                                OA1         2       1.0        2.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR3         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell COREAHBTOAPB3.netlist
+     Instance path:  M1Proc_0.COREAHBTOAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                        CAHBTOAPB3O         1      61.0       61.0
+                      CAHBTOAPB3ioi         1     111.0      111.0
+                      CAHBtoAPB3oii         1       5.0        5.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                177.0
+----------------------------------------------------------------------
+Report for cell CAHBTOAPB3ioi.netlist
+     Instance path:  M1Proc_0.COREAHBTOAPB3_0.CAHBtoAPB3oi0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         9       1.0        9.0
+                           DFN1E0C0        13       1.0       13.0
+                           DFN1E1C0        76       1.0       76.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                               OA1A         9       1.0        9.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            113                111.0
+----------------------------------------------------------------------
+Report for cell CAHBtoAPB3oii.netlist
+     Instance path:  M1Proc_0.COREAHBTOAPB3_0.CAHBTOAPB3il0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                             DFN1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              7                  5.0
+----------------------------------------------------------------------
+Report for cell CAHBTOAPB3O.netlist
+     Instance path:  M1Proc_0.COREAHBTOAPB3_0.CAHBtoAPB3LL0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         4       1.0        4.0
+                               AO1A         4       1.0        4.0
+                               AO1C         1       1.0        1.0
+                               AO1D         2       1.0        2.0
+                               AOI1         2       1.0        2.0
+                             DFN1C0         8       1.0        8.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               MX2A         1       1.0        1.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         5       1.0        5.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             63                 61.0
+----------------------------------------------------------------------
+Report for cell CoreAhbSram.netlist
+     Instance path:  M1Proc_0.CoreAhbSram_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                          AhbSramIf         1     198.0      198.0
+                                GND         1       0.0        0.0
+                               Sram         1     281.0      281.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                479.0
+----------------------------------------------------------------------
+Report for cell Sram.netlist
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_Sram
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                        Sram_7kx8_3         1      63.0       63.0
+                      Sram_7kx8_3_0         1      63.0       63.0
+                      Sram_7kx8_3_1         1      63.0       63.0
+                      Sram_7kx8_3_2         1      92.0       92.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                281.0
+----------------------------------------------------------------------
+Report for cell Sram_7kx8_3_2.netlist
+  Original Cell name Sram_7kx8_3
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_Sram.g_sram0.Sram_byte0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0        13       1.0       13.0
+                                GND         1       0.0        0.0
+                                MX2        56       1.0       56.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B        10       1.0       10.0
+                               OR3C         2       1.0        2.0
+                             RAM4K9        14       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            108                 92.0
+----------------------------------------------------------------------
+Report for cell Sram_7kx8_3_1.netlist
+  Original Cell name Sram_7kx8_3
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_Sram.g_sram0.Sram_byte1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2        56       1.0       56.0
+                               OR3A         1       1.0        1.0
+                               OR3B         6       1.0        6.0
+                             RAM4K9        14       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             79                 63.0
+----------------------------------------------------------------------
+Report for cell Sram_7kx8_3_0.netlist
+  Original Cell name Sram_7kx8_3
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_Sram.g_sram0.Sram_byte2
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2        56       1.0       56.0
+                               OR3A         1       1.0        1.0
+                               OR3B         6       1.0        6.0
+                             RAM4K9        14       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             79                 63.0
+----------------------------------------------------------------------
+Report for cell Sram_7kx8_3.netlist
+  Original Cell name Sram_7kx8
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_Sram.g_sram0.Sram_byte3
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2        56       1.0       56.0
+                               OR3A         1       1.0        1.0
+                               OR3B         6       1.0        6.0
+                             RAM4K9        14       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             79                 63.0
+----------------------------------------------------------------------
+Report for cell AhbSramIf.netlist
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_AhbSramIf
+                                          Cell usage:
+                               cell       count     area    count*area
+                    AhbWrapper_SRAM         1      65.0       65.0
+                                GND         1       0.0        0.0
+                           SramCtrl         1     133.0      133.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                198.0
+----------------------------------------------------------------------
+Report for cell SramCtrl.netlist
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_AhbSramIf.u_SramCtrl
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                             DFN1C0        37       1.0       37.0
+                                GND         1       0.0        0.0
+                                MX2        42       1.0       42.0
+                               MX2A         2       1.0        2.0
+                               MX2B        20       1.0       20.0
+                               MX2C        14       1.0       14.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            135                133.0
+----------------------------------------------------------------------
+Report for cell AhbWrapper_SRAM.netlist
+     Instance path:  M1Proc_0.CoreAhbSram_0.u_AhbSramIf.u_AhbWrapper
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E0        18       1.0       18.0
+                           DFN1E0C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        38       1.0       38.0
+                              NOR2A         2       1.0        2.0
+                              NOR3A         6       1.0        6.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             67                 65.0
+----------------------------------------------------------------------
+Report for cell CoreAHBLite.netlist
+     Instance path:  M1Proc_0.CoreAHBLite_0
+                                          Cell usage:
+                               cell       count     area    count*area
+             COREAHBLITE_MATRIX4X16         1     594.0      594.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                594.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_MATRIX4X16.netlist
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16
+                                          Cell usage:
+                               cell       count     area    count*area
+          COREAHBLITE_MASTERSTAGE_1_1_0_5121_0         1     288.0      288.0
+          COREAHBLITE_SLAVESTAGE_16         1      89.0       89.0
+           COREAHBLITE_SLAVESTAGE_4         1      78.0       78.0
+           COREAHBLITE_SLAVESTAGE_6         1     139.0      139.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                594.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVESTAGE_4.netlist
+  Original Cell name COREAHBLITE_SLAVESTAGE
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.slavestage_12
+                                          Cell usage:
+                               cell       count     area    count*area
+          COREAHBLITE_SLAVEARBITER_2_1         1      70.0       70.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             11                 78.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVEARBITER_2_1.netlist
+  Original Cell name COREAHBLITE_SLAVEARBITER_2
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.slavestage_12.slave_arbiter
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         6       1.0        6.0
+                             DFN1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              MIN3X         1       1.0        1.0
+                                MX2         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B        25       1.0       25.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         3       1.0        3.0
+                                OR3         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             72                 70.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVESTAGE_6.netlist
+  Original Cell name COREAHBLITE_SLAVESTAGE
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.slavestage_10
+                                          Cell usage:
+                               cell       count     area    count*area
+                              AOI1B         2       1.0        2.0
+          COREAHBLITE_SLAVEARBITER_2_0         1      48.0       48.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         3       1.0        3.0
+                              NOR3C        80       1.0       80.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             94                139.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVEARBITER_2_0.netlist
+  Original Cell name COREAHBLITE_SLAVEARBITER_2
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.slavestage_10.slave_arbiter
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         3       1.0        3.0
+                               AO1D         1       1.0        1.0
+                             DFN1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B         7       1.0        7.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                OR3         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             50                 48.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVESTAGE_16.netlist
+  Original Cell name COREAHBLITE_SLAVESTAGE
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.slavestage_0
+                                          Cell usage:
+                               cell       count     area    count*area
+          COREAHBLITE_SLAVEARBITER_2         1      79.0       79.0
+                           DFN1E0C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             13                 89.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVEARBITER_2.netlist
+  Original Cell name COREAHBLITE_SLAVEARBITER
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         5       1.0        5.0
+                             DFN1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A        13       1.0       13.0
+                              NOR2B         6       1.0        6.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C        21       1.0       21.0
+                               OA1A         2       1.0        2.0
+                               OA1B         3       1.0        3.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             81                 79.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_MASTERSTAGE_1_1_0_5121_0.netlist
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.masterstage_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         4       1.0        4.0
+                                AO1        13       1.0       13.0
+                               AO12         1       1.0        1.0
+                               AO1A        12       1.0       12.0
+                               AOI1         1       1.0        1.0
+          COREAHBLITE_DEFAULTSLAVESM_0         1       7.0        7.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E0C0        46       1.0       46.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2        26       1.0       26.0
+                               MX2C         4       1.0        4.0
+                               NOR2        14       1.0       14.0
+                              NOR2A        15       1.0       15.0
+                              NOR2B        62       1.0       62.0
+                               NOR3         7       1.0        7.0
+                              NOR3A         9       1.0        9.0
+                              NOR3B         6       1.0        6.0
+                              NOR3C         7       1.0        7.0
+                               OA1B         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                                OR2        14       1.0       14.0
+                               OR2A         4       1.0        4.0
+                               OR2B         2       1.0        2.0
+                                OR3        21       1.0       21.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XOR2         4       1.0        4.0
+                            
+                         TOTAL            284                288.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_DEFAULTSLAVESM_0.netlist
+  Original Cell name COREAHBLITE_DEFAULTSLAVESM
+     Instance path:  M1Proc_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              9                  7.0
+----------------------------------------------------------------------
+Report for cell b1553BRM_AHBSlv.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         4       1.0        4.0
+                               AO1C        22       1.0       22.0
+                              AOI1B         5       1.0        5.0
+                       CORE1553_BRM         1    4426.0     4426.0
+                               DFN1        64       1.0       64.0
+                                GND         1       0.0        0.0
+                                MX2        21       1.0       21.0
+                               MX2A         1       1.0        1.0
+                               MX2B         1       1.0        1.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B        19       1.0       19.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         3       1.0        3.0
+                               OA1B        17       1.0       17.0
+                               OA1C         3       1.0        3.0
+                                OR2         2       1.0        2.0
+                               OR2A        10       1.0       10.0
+                               OR2B         2       1.0        2.0
+                               OR3A         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                      RAM_1k16_EDAC         1     109.0      109.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                            
+                         TOTAL            201               4732.0
+----------------------------------------------------------------------
+Report for cell RAM_1k16_EDAC.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.RAM_1k16_EDAC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         5       1.0        5.0
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                       edac_decoder         1      63.0       63.0
+                       edac_encoder         1      25.0       25.0
+                     ramBlock1kby24         1       0.0        0.0
+                            
+                         TOTAL             26                109.0
+----------------------------------------------------------------------
+Report for cell edac_decoder.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.RAM_1k16_EDAC_0.edac_decoder_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1B        16       1.0       16.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                               OR2A         3       1.0        3.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XAI1         1       1.0        1.0
+                              XAI1A         1       1.0        1.0
+                                XO1         1       1.0        1.0
+                               XO1A         1       1.0        1.0
+                               XOR2         9       1.0        9.0
+                               XOR3        20       1.0       20.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell ramBlock1kby24.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.RAM_1k16_EDAC_0.ramBlock1kby24_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                             RAM4K9         6       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              8                  0.0
+----------------------------------------------------------------------
+Report for cell edac_encoder.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.RAM_1k16_EDAC_0.edac_encoder_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XOR2        14       1.0       14.0
+                               XOR3        11       1.0       11.0
+                            
+                         TOTAL             27                 25.0
+----------------------------------------------------------------------
+Report for cell CORE1553_BRM.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                        CORE1553BRM         1    4426.0     4426.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3               4426.0
+----------------------------------------------------------------------
+Report for cell CORE1553BRM.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3        11       1.0       11.0
+                               AX1C         2       1.0        2.0
+                              BRMPC         1    3614.0     3614.0
+                            BRMbend         1     208.0      208.0
+                           BRMdec_1         1     133.0      133.0
+                         BRMdec_1_0         1     133.0      133.0
+                             BRMenc         1     244.0      244.0
+                             DFN1C0        17       1.0       17.0
+                             DFN1P0         6       1.0        6.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B        15       1.0       15.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                                OR2         6       1.0        6.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1        12       1.0       12.0
+                               XOR2         7       1.0        7.0
+                            
+                         TOTAL            101               4426.0
+----------------------------------------------------------------------
+Report for cell BRMbend.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.UBEND
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         3       1.0        3.0
+                               AO1A         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                                AX1         1       1.0        1.0
+                               AX1A         1       1.0        1.0
+                             DFN0P0         1       1.0        1.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E0C0         3       1.0        3.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0        62       1.0       62.0
+                             DFN1P0         6       1.0        6.0
+                                GND         1       0.0        0.0
+                                MX2        43       1.0       43.0
+                               MX2A         1       1.0        1.0
+                               MX2B         3       1.0        3.0
+                               NOR2         5       1.0        5.0
+                              NOR2A        10       1.0       10.0
+                              NOR2B         8       1.0        8.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         2       1.0        2.0
+                               OA1C         3       1.0        3.0
+                                OR2        13       1.0       13.0
+                               OR2A         3       1.0        3.0
+                               OR2B         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1C         7       1.0        7.0
+                            
+                         TOTAL            210                208.0
+----------------------------------------------------------------------
+Report for cell BRMPC.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.UPC
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        41       1.0       41.0
+                              AND2A         8       1.0        8.0
+                               AND3        29       1.0       29.0
+                              AND3A         2       1.0        2.0
+                                AO1       171       1.0      171.0
+                               AO13         1       1.0        1.0
+                               AO18         5       1.0        5.0
+                               AO1A        26       1.0       26.0
+                               AO1C         7       1.0        7.0
+                               AO1D        14       1.0       14.0
+                               AOI1         8       1.0        8.0
+                              AOI1A        14       1.0       14.0
+                              AOI1B        13       1.0       13.0
+                                AX1         3       1.0        3.0
+                               AX1B         7       1.0        7.0
+                               AX1C         7       1.0        7.0
+                               AX1D         5       1.0        5.0
+                              BRMMT         1      72.0       72.0
+                              BRMRT         1     457.0      457.0
+                             BRMreg         1     791.0      791.0
+                             DFN1C0       102       1.0      102.0
+                             DFN1C1         1       1.0        1.0
+                           DFN1E0C0       100       1.0      100.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0       206       1.0      206.0
+                           DFN1E1C1         5       1.0        5.0
+                             DFN1P0         5       1.0        5.0
+                         GLOBALBUFF         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         3       1.0        3.0
+                               MAJ3         5       1.0        5.0
+                               MIN3         2       1.0        2.0
+                                MX2       228       1.0      228.0
+                               MX2A         7       1.0        7.0
+                               MX2B         6       1.0        6.0
+                               MX2C         6       1.0        6.0
+                               NOR2        49       1.0       49.0
+                              NOR2A       179       1.0      179.0
+                              NOR2B       367       1.0      367.0
+                               NOR3        28       1.0       28.0
+                              NOR3A        30       1.0       30.0
+                              NOR3B        78       1.0       78.0
+                              NOR3C        53       1.0       53.0
+                                OA1        27       1.0       27.0
+                               OA1A        13       1.0       13.0
+                               OA1B        10       1.0       10.0
+                               OA1C         6       1.0        6.0
+                               OAI1         1       1.0        1.0
+                                OR2        65       1.0       65.0
+                               OR2A        41       1.0       41.0
+                               OR2B         3       1.0        3.0
+                                OR3       139       1.0      139.0
+                               OR3A         4       1.0        4.0
+                               OR3B         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1        20       1.0       20.0
+                               XA1B        17       1.0       17.0
+                              XNOR2        25       1.0       25.0
+                              XNOR3         3       1.0        3.0
+                                XO1         3       1.0        3.0
+                               XOR2        90       1.0       90.0
+                               XOR3         1       1.0        1.0
+                            
+                         TOTAL           2299               3614.0
+----------------------------------------------------------------------
+Report for cell BRMreg.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.UPC.UREGS
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1C0       116       1.0      116.0
+                           DFN1E1P0       140       1.0      140.0
+                                GND         1       0.0        0.0
+                                MX2       495       1.0      495.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         3       1.0        3.0
+                              NOR3C        32       1.0       32.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            793                791.0
+----------------------------------------------------------------------
+Report for cell BRMMT.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.UPC.UMT
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        12       1.0       12.0
+                               AO1D         1       1.0        1.0
+                             DFN1C0         1       1.0        1.0
+                           DFN1E1C0        17       1.0       17.0
+                                GND         1       0.0        0.0
+                                MX2        32       1.0       32.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         4       1.0        4.0
+                               OA1A         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             74                 72.0
+----------------------------------------------------------------------
+Report for cell BRMRT.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.UPC.URT
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        34       1.0       34.0
+                               AO1A        13       1.0       13.0
+                               AO1B         2       1.0        2.0
+                               AO1D         5       1.0        5.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         2       1.0        2.0
+                             DFN1C0        20       1.0       20.0
+                           DFN1E0C0         9       1.0        9.0
+                             DFN1E1        32       1.0       32.0
+                           DFN1E1C0        39       1.0       39.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2        36       1.0       36.0
+                               MX2C         1       1.0        1.0
+                               NOR2         9       1.0        9.0
+                              NOR2A        28       1.0       28.0
+                              NOR2B        88       1.0       88.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         7       1.0        7.0
+                              NOR3B        14       1.0       14.0
+                              NOR3C        22       1.0       22.0
+                                OA1         6       1.0        6.0
+                               OA1A         3       1.0        3.0
+                               OA1B         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2         7       1.0        7.0
+                               OR2A         7       1.0        7.0
+                               OR2B         3       1.0        3.0
+                                OR3        20       1.0       20.0
+                               OR3A         3       1.0        3.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1        10       1.0       10.0
+                               XA1A         1       1.0        1.0
+                              XNOR2         1       1.0        1.0
+                                XO1         4       1.0        4.0
+                               XO1A         1       1.0        1.0
+                               XOR2        13       1.0       13.0
+                               XOR3         1       1.0        1.0
+                            
+                         TOTAL            459                457.0
+----------------------------------------------------------------------
+Report for cell GLOBALBUFF.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.UPC.URST
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         1       0.0        0.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  1.0
+----------------------------------------------------------------------
+Report for cell BRMdec_1_0.netlist
+  Original Cell name BRMdec_1
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.BUSBDEC
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO16         1       1.0        1.0
+                               AOI1         2       1.0        2.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E0C0        11       1.0       11.0
+                           DFN1E1C0        42       1.0       42.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2         7       1.0        7.0
+                               NOR2         9       1.0        9.0
+                              NOR2A        14       1.0       14.0
+                              NOR2B        11       1.0       11.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1A         1       1.0        1.0
+                               XA1B         5       1.0        5.0
+                                XO1         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL            135                133.0
+----------------------------------------------------------------------
+Report for cell BRMdec_1.netlist
+  Original Cell name BRMdec
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.BUSADEC
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO16         1       1.0        1.0
+                               AOI1         2       1.0        2.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E0C0        11       1.0       11.0
+                           DFN1E1C0        42       1.0       42.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2         7       1.0        7.0
+                               NOR2         9       1.0        9.0
+                              NOR2A        14       1.0       14.0
+                              NOR2B         9       1.0        9.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         5       1.0        5.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1A         1       1.0        1.0
+                               XA1B         5       1.0        5.0
+                                XO1         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL            135                133.0
+----------------------------------------------------------------------
+Report for cell BRMenc.netlist
+     Instance path:  M1Proc_0.b1553BRM_AHBSlv_0.CORE1553_BRM_0.CORE1553_BRM_0.BUSAENC
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         2       1.0        2.0
+                               AO1A         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1D         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                             DFN1C0        11       1.0       11.0
+                           DFN1E0C0        24       1.0       24.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0        38       1.0       38.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2        19       1.0       19.0
+                               MX2A         1       1.0        1.0
+                               MX2B         1       1.0        1.0
+                               NOR2        12       1.0       12.0
+                              NOR2A         9       1.0        9.0
+                              NOR2B        15       1.0       15.0
+                               NOR3         4       1.0        4.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         3       1.0        3.0
+                                OA1         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         4       1.0        4.0
+                                OR2        11       1.0       11.0
+                               OR2A         4       1.0        4.0
+                               OR2B         2       1.0        2.0
+                                OR3        18       1.0       18.0
+                               OR3A         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         1       1.0        1.0
+                              XAI1A         1       1.0        1.0
+                              XNOR2         5       1.0        5.0
+                                XO1        16       1.0       16.0
+                               XOR2        18       1.0       18.0
+                            
+                         TOTAL            246                244.0

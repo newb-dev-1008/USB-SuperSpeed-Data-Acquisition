@@ -1,0 +1,16 @@
+Project Name: M1_ExtRam
+Location: C:\Users\rosar\Documents\M1_ExtRam
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M1A3PE3000-PQ208
+Family         : ProASIC3E
+Die            : M1A3PE3000
+Package        : 208 PQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

@@ -1,0 +1,225 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\rosar\\Documents\\M1_ExtRam\\synthesis\\synwork\\M1Proc_comp.srs|-top|work.M1Proc|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|COREMEMCTRL_LIB|-lib|COREMEMCTRL_LIB|-lib|CORETIMER_LIB|-lib|CORETIMER_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREGPIO_LIB|-lib|COREMEMCTRL_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1508995828
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\location.map":1509001834
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\std.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\std1164.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\numeric.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\arith.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\unsigned.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1508995328
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.4.104\\rtl\\vhdl\\o\\Sram_512to8192x8_pa3e.vhd":1649363247
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3e.vhd":1508993288
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.4.104\\rtl\\vhdl\\o\\sramctrl.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.4.104\\rtl\\vhdl\\o\\ahbwrapper_sram.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.1.101\\CortexM1Integration\\M1A3PE3000\\0_01_1_0_0000_0000_1_1\\timingshell\\vhdl\\arm_synplify.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.1.101\\rtl\\vhdl\\o\\uj_jtag.vhd":1648062429
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_addrdec.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_defaultslavesm.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_slavearbiter.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_pkg.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.2.101\\rtl\\vhdl\\core\\coreahbtoapb3_ahbtoapbsm.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.2.101\\rtl\\vhdl\\core\\coreahbtoapb3_apbaddrdata.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.2.101\\rtl\\vhdl\\core\\coreahbtoapb3_penablescheduler.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.2.101\\rtl\\vhdl\\core\\ahbtoapb3_pkg.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\work\\M1Proc\\CoreGPIO_0\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1649363247
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\misc.vhd":1508995328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\std_textio.vhd":1508995328
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreMemCtrl\\2.2.106\\rtl\\vhdl\\core\\corememctrl_core_pkg.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer_pkg.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\work\\M1Proc\\CoreAHBLite_0\\rtl\\vhdl\\core\\components.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.2.101\\rtl\\vhdl\\core\\components.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\components.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\work\\M1Proc\\CoreGPIO_0\\rtl\\vhdl\\core\\components.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.4.104\\rtl\\vhdl\\o\\sram.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.4.104\\rtl\\vhdl\\o\\ahbsramif.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAhbSram\\1.4.104\\rtl\\vhdl\\o\\coreahbsram.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.1.101\\rtl\\vhdl\\o\\ResetSync_a3pe.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CortexM1Top\\3.1.101\\rtl\\vhdl\\o\\CortexM1Top_a3pe.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_masterstage.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_slavestage.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAHBLite\\5.6.105\\rtl\\vhdl\\core\\coreahblite_matrix4x16.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\work\\M1Proc\\CoreAHBLite_0\\rtl\\vhdl\\core\\coreahblite.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.2.101\\rtl\\vhdl\\core\\coreahbtoapb3.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vhdl\\core\\coreapb3.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\work\\M1Proc\\CoreGPIO_0\\rtl\\vhdl\\core\\coregpio.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreMemCtrl\\2.2.106\\rtl\\vhdl\\core\\corememctrl.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vhdl\\core\\coretimer.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\Actel\\DirectCore\\CoreMemCtrl\\2.2.106\\rtl\\vhdl\\core\\components.vhd":1649363247
+#CUR:"C:\\Users\\rosar\\Documents\\M1_ExtRam\\component\\work\\M1Proc\\M1Proc.vhd":1649363247
+0			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.4.104\rtl\vhdl\o\Sram_512to8192x8_pa3e.vhd" vhdl
+1			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.4.104\rtl\vhdl\o\sram.vhd" vhdl
+2			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.4.104\rtl\vhdl\o\sramctrl.vhd" vhdl
+3			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.4.104\rtl\vhdl\o\ahbwrapper_sram.vhd" vhdl
+4			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.4.104\rtl\vhdl\o\ahbsramif.vhd" vhdl
+5			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAhbSram\1.4.104\rtl\vhdl\o\coreahbsram.vhd" vhdl
+6			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.1.101\CortexM1Integration\M1A3PE3000\0_01_1_0_0000_0000_1_1\timingshell\vhdl\arm_synplify.vhd" vhdl
+7			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.1.101\rtl\vhdl\o\uj_jtag.vhd" vhdl
+8			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.1.101\rtl\vhdl\o\ResetSync_a3pe.vhd" vhdl
+9			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CortexM1Top\3.1.101\rtl\vhdl\o\CortexM1Top_a3pe.vhd" vhdl
+10			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_addrdec.vhd" vhdl
+11			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_defaultslavesm.vhd" vhdl
+12			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd" vhdl
+13			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd" vhdl
+14			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd" vhdl
+15			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd" vhdl
+16			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAHBLite\5.6.105\rtl\vhdl\core\coreahblite_pkg.vhd" vhdl
+17			"C:\Users\rosar\Documents\M1_ExtRam\component\work\M1Proc\CoreAHBLite_0\rtl\vhdl\core\coreahblite.vhd" vhdl
+18			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\3.2.101\rtl\vhdl\core\coreahbtoapb3_ahbtoapbsm.vhd" vhdl
+19			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd" vhdl
+20			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\3.2.101\rtl\vhdl\core\coreahbtoapb3_penablescheduler.vhd" vhdl
+21			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\3.2.101\rtl\vhdl\core\ahbtoapb3_pkg.vhd" vhdl
+22			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\3.2.101\rtl\vhdl\core\coreahbtoapb3.vhd" vhdl
+23			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+24			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+25			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+26			"C:\Users\rosar\Documents\M1_ExtRam\component\work\M1Proc\CoreGPIO_0\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+27			"C:\Users\rosar\Documents\M1_ExtRam\component\work\M1Proc\CoreGPIO_0\rtl\vhdl\core\coregpio.vhd" vhdl
+28			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreMemCtrl\2.2.106\rtl\vhdl\core\corememctrl_core_pkg.vhd" vhdl
+29			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreMemCtrl\2.2.106\rtl\vhdl\core\corememctrl.vhd" vhdl
+30			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer_pkg.vhd" vhdl
+31			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vhdl\core\coretimer.vhd" vhdl
+32			"C:\Users\rosar\Documents\M1_ExtRam\component\work\M1Proc\CoreAHBLite_0\rtl\vhdl\core\components.vhd" vhdl
+33			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\COREAHBTOAPB3\3.2.101\rtl\vhdl\core\components.vhd" vhdl
+34			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd" vhdl
+35			"C:\Users\rosar\Documents\M1_ExtRam\component\work\M1Proc\CoreGPIO_0\rtl\vhdl\core\components.vhd" vhdl
+36			"C:\Users\rosar\Documents\M1_ExtRam\component\Actel\DirectCore\CoreMemCtrl\2.2.106\rtl\vhdl\core\components.vhd" vhdl
+37			"C:\Users\rosar\Documents\M1_ExtRam\component\work\M1Proc\M1Proc.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 2 3
+5 1 4
+6 -1
+7 -1
+8 7
+9 8 6
+10 -1
+11 -1
+12 11 10
+13 -1
+14 13
+15 14 12
+16 -1
+17 16 15
+18 -1
+19 -1
+20 -1
+21 -1
+22 21 19 20 18
+23 -1
+24 -1
+25 24 23
+26 -1
+27 26
+28 -1
+29 28
+30 -1
+31 30
+32 -1
+33 -1
+34 -1
+35 -1
+36 28
+37 36 35 34 33 32 9 31 29 27 25 22 5 17
+#Dependency Lists(Users Of)
+0 1
+1 5
+2 4
+3 4
+4 5
+5 37
+6 9
+7 8
+8 9
+9 37
+10 12
+11 12
+12 15
+13 14
+14 15
+15 17
+16 17
+17 37
+18 22
+19 22
+20 22
+21 22
+22 37
+23 25
+24 25
+25 37
+26 27
+27 37
+28 29 36
+29 37
+30 31
+31 37
+32 37
+33 37
+34 37
+35 37
+36 37
+37 -1
+#Design Unit to File Association
+module work m1proc 37
+arch work m1proc rtl 37
+module coretimer_lib coretimer 31
+arch coretimer_lib coretimer synth 31
+module corememctrl_lib corememctrl 29
+arch corememctrl_lib corememctrl rtl 29
+module coregpio_lib m1proc_coregpio_0_coregpio 27
+arch coregpio_lib m1proc_coregpio_0_coregpio rtl 27
+module coreapb3_lib coreapb3 25
+arch coreapb3_lib coreapb3 coreapb3_arch 25
+module coreapb3_lib coreapb3_iaddr_reg 24
+arch coreapb3_lib coreapb3_iaddr_reg rtl 24
+module coreapb3_lib coreapb3_muxptob3 23
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 23
+module coreahbtoapb3_lib coreahbtoapb3 22
+arch coreahbtoapb3_lib coreahbtoapb3 trans 22
+module coreahbtoapb3_lib coreahbtoapb3_penablescheduler 20
+arch coreahbtoapb3_lib coreahbtoapb3_penablescheduler trans 20
+module coreahbtoapb3_lib coreahbtoapb3_apbaddrdata 19
+arch coreahbtoapb3_lib coreahbtoapb3_apbaddrdata trans 19
+module coreahbtoapb3_lib coreahbtoapb3_ahbtoapbsm 18
+arch coreahbtoapb3_lib coreahbtoapb3_ahbtoapbsm trans 18
+module coreahblite_lib m1proc_coreahblite_0_coreahblite 17
+arch coreahblite_lib m1proc_coreahblite_0_coreahblite coreahblite_arch 17
+module coreahblite_lib coreahblite_matrix4x16 15
+arch coreahblite_lib coreahblite_matrix4x16 coreahblite_matrix4x16_arch 15
+module coreahblite_lib coreahblite_slavestage 14
+arch coreahblite_lib coreahblite_slavestage trans 14
+module coreahblite_lib coreahblite_slavearbiter 13
+arch coreahblite_lib coreahblite_slavearbiter coreahblite_slavearbiter_arch 13
+module coreahblite_lib coreahblite_masterstage 12
+arch coreahblite_lib coreahblite_masterstage coreahblite_masterstage_arch 12
+module coreahblite_lib coreahblite_defaultslavesm 11
+arch coreahblite_lib coreahblite_defaultslavesm coreahblite_defaultslavesm_arch 11
+module coreahblite_lib coreahblite_addrdec 10
+arch coreahblite_lib coreahblite_addrdec coreahblite_addrdec_arch 10
+module work cortexm1top 9
+arch work cortexm1top cortexm1top_i 9
+module work resetsync 8
+arch work resetsync cortexm1top_i 8
+module work uj_jtag 7
+arch work uj_jtag cortexm1top_i10 7
+module work cortexm1integration 6
+arch work cortexm1integration synplify_timing_shell 6
+module work coreahbsram 5
+arch work coreahbsram coreahbsram_oi 5
+module work coreahbsram_o 4
+arch work coreahbsram_o coreahbsram_oi 4
+module work coreahbsram_li 3
+arch work coreahbsram_li coreahbsram_oi 3
+module work coreahbsram_l1 2
+arch work coreahbsram_l1 coreahbsram_oi 2
+module work coreahbsram_oii 1
+arch work coreahbsram_oii coreahbsram_oi 1
+module work coreahbsram_oo0 0
+arch work coreahbsram_oo0 coreahbsram_oi 0

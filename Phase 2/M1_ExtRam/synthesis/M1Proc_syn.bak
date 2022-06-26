@@ -1,0 +1,59 @@
+#add_file options
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAhbSram/1.4.104/rtl/vhdl/o/Sram_512to8192x8_pa3e.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAhbSram/1.4.104/rtl/vhdl/o/sram.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAhbSram/1.4.104/rtl/vhdl/o/sramctrl.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAhbSram/1.4.104/rtl/vhdl/o/ahbwrapper_sram.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAhbSram/1.4.104/rtl/vhdl/o/ahbsramif.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAhbSram/1.4.104/rtl/vhdl/o/coreahbsram.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CortexM1Top/3.1.101/CortexM1Integration/M1A3PE3000/0_01_1_0_0000_0000_1_1/timingshell/vhdl/arm_synplify.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CortexM1Top/3.1.101/rtl/vhdl/o/uj_jtag.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CortexM1Top/3.1.101/rtl/vhdl/o/ResetSync_a3pe.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CortexM1Top/3.1.101/rtl/vhdl/o/CortexM1Top_a3pe.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_addrdec.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_defaultslavesm.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_masterstage.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_slavearbiter.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_slavestage.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_matrix4x16.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAHBLite/5.6.105/rtl/vhdl/core/coreahblite_pkg.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/work/M1Proc/CoreAHBLite_0/rtl/vhdl/core/coreahblite.vhd"
+add_file -lib COREAHBTOAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/COREAHBTOAPB3/3.2.101/rtl/vhdl/core/coreahbtoapb3_ahbtoapbsm.vhd"
+add_file -lib COREAHBTOAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/COREAHBTOAPB3/3.2.101/rtl/vhdl/core/coreahbtoapb3_apbaddrdata.vhd"
+add_file -lib COREAHBTOAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/COREAHBTOAPB3/3.2.101/rtl/vhdl/core/coreahbtoapb3_penablescheduler.vhd"
+add_file -lib COREAHBTOAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/COREAHBTOAPB3/3.2.101/rtl/vhdl/core/ahbtoapb3_pkg.vhd"
+add_file -lib COREAHBTOAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/COREAHBTOAPB3/3.2.101/rtl/vhdl/core/coreahbtoapb3.vhd"
+add_file -lib COREAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
+add_file -lib COREAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
+add_file -lib COREAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3.vhd"
+add_file -lib COREGPIO_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/work/M1Proc/CoreGPIO_0/rtl/vhdl/core/coregpio_pkg.vhd"
+add_file -lib COREGPIO_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/work/M1Proc/CoreGPIO_0/rtl/vhdl/core/coregpio.vhd"
+add_file -lib COREMEMCTRL_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreMemCtrl/2.2.106/rtl/vhdl/core/corememctrl_core_pkg.vhd"
+add_file -lib COREMEMCTRL_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreMemCtrl/2.2.106/rtl/vhdl/core/corememctrl.vhd"
+add_file -lib CORETIMER_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vhdl/core/coretimer_pkg.vhd"
+add_file -lib CORETIMER_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vhdl/core/coretimer.vhd"
+add_file -lib COREAHBLITE_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/work/M1Proc/CoreAHBLite_0/rtl/vhdl/core/components.vhd"
+add_file -lib COREAHBTOAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/COREAHBTOAPB3/3.2.101/rtl/vhdl/core/components.vhd"
+add_file -lib COREAPB3_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd"
+add_file -lib COREGPIO_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/work/M1Proc/CoreGPIO_0/rtl/vhdl/core/components.vhd"
+add_file -lib COREMEMCTRL_LIB -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/Actel/DirectCore/CoreMemCtrl/2.2.106/rtl/vhdl/core/components.vhd"
+add_file -vhdl "C:/Users/rosar/Documents/M1_ExtRam/component/work/M1Proc/M1Proc.vhd"
+set_option -top_module work.M1Proc
+
+#device options
+set_option -technology ProASIC3E
+set_option -part M1A3PE3000
+set_option -package PQFP208
+set_option -speed_grade STD
+set_option -vhdl2008 0
+set_option -write_verilog 0
+
+set_option -retiming 0
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "C:/Users/rosar/Documents/M1_ExtRam/synthesis/M1Proc.edn"

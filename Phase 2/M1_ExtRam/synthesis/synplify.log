@@ -1,0 +1,108 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    IS04569PCG01PDM
+Date:        Tue May 10 17:54:29 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log gagRetTopMod_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+auto_infer_blackbox is not supported in current product.
+
+log file: "G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod.srr"
+
+Running: synthesis in foreground
+
+
+
+Running gagRetTopMod_syn|synthesis
+
+
+Running: compile (Compile) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:29 2022
+
+
+Running: compile_flow (Compile Process) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:29 2022
+
+
+Running: compiler (Compile Input) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:29 2022
+
+Copied G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synwork\gagRetTopMod_comp.srs to G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod.srs
+
+
+compiler completed
+# Tue May 10 17:54:35 2022
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:35 2022
+
+
+multi_srs_gen completed
+# Tue May 10 17:54:35 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synwork\gagRetTopMod_mult.srs to G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod.srs
+
+Complete: Compile Process on gagRetTopMod_syn|synthesis
+
+
+Running: premap (Pre-mapping) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:35 2022
+
+
+premap completed with warnings
+# Tue May 10 17:54:37 2022
+
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Compile on gagRetTopMod_syn|synthesis
+
+
+Running: map (Map) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:37 2022
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on gagRetTopMod_syn|synthesis
+# Tue May 10 17:54:37 2022
+
+Copied G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\synwork\gagRetTopMod_m.srm to G:\omsai\intern_ezusbcard\M1_ExtRam\synthesis\gagRetTopMod.srm
+
+
+fpga_mapper completed with warnings
+# Tue May 10 17:54:54 2022
+
+Return Code: 1
+Run Time:00h:00m:17s
+
+Complete: Map on gagRetTopMod_syn|synthesis
+
+Complete: Logic Synthesis on gagRetTopMod_syn|synthesis
+
+TCL script complete: "gagRetTopMod_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+

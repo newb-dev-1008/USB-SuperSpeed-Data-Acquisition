@@ -1,0 +1,226 @@
+# Fri Apr 08 01:58:38 2022
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\rosar\Documents\M1_ExtRam\synthesis\M1Proc_scck.rpt 
+Printing clock  summary report in "C:\Users\rosar\Documents\M1_ExtRam\synthesis\M1Proc_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 125MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 125MB)
+
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":287:4:287:17|Removing instance address_decode (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_3(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_ADDRDEC_1_1_0_1(coreahblite_addrdec_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":671:4:671:19|Removing instance default_slave_sm (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_3(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_DEFAULTSLAVESM_1_0(coreahblite_defaultslavesm_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":287:4:287:17|Removing instance address_decode (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_2(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_ADDRDEC_1_1_0_2(coreahblite_addrdec_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":671:4:671:19|Removing instance default_slave_sm (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_2(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_DEFAULTSLAVESM_1_1(coreahblite_defaultslavesm_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":287:4:287:17|Removing instance address_decode (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_1(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_ADDRDEC_1_1_0_3(coreahblite_addrdec_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":671:4:671:19|Removing instance default_slave_sm (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_1(coreahblite_masterstage_arch)) of type view:coreahblite_lib.COREAHBLITE_DEFAULTSLAVESM_1_2(coreahblite_defaultslavesm_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4543:4:4543:16|Removing instance masterstage_1 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_3(coreahblite_masterstage_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4618:4:4618:16|Removing instance masterstage_2 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_2(coreahblite_masterstage_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4693:4:4693:16|Removing instance masterstage_3 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_0_1(coreahblite_masterstage_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4887:4:4887:15|Removing instance slavestage_2 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_14(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":4946:4:4946:15|Removing instance slavestage_3 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_13(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5005:4:5005:15|Removing instance slavestage_4 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_12(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5064:4:5064:15|Removing instance slavestage_5 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_11(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5123:4:5123:15|Removing instance slavestage_6 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_10(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5182:4:5182:15|Removing instance slavestage_7 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_9(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5241:4:5241:15|Removing instance slavestage_8 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_8(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5300:4:5300:15|Removing instance slavestage_9 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_7(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5418:4:5418:16|Removing instance slavestage_11 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_5(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5477:4:5477:16|Removing instance slavestage_12 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_4(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5536:4:5536:16|Removing instance slavestage_13 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_3(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5595:4:5595:16|Removing instance slavestage_14 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_2(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5654:4:5654:16|Removing instance slavestage_15 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_1(trans) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_matrix4x16.vhd":5713:4:5713:16|Removing instance slavestage_16 (in view: coreahblite_lib.COREAHBLITE_MATRIX4X16(coreahblite_matrix4x16_arch)) of type view:coreahblite_lib.COREAHBLITE_SLAVESTAGE_0(trans) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\cortexm1top\3.1.101\rtl\vhdl\o\resetsync_a3pe.vhd":385:0:385:1|Removing sequential instance WDOGRESN (in view: work.ResetSyNC(cortexm1top_i)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\cortexm1top\3.1.101\rtl\vhdl\o\resetsync_a3pe.vhd":385:0:385:1|Removing sequential instance CortexM1TOP_Lil (in view: work.ResetSyNC(cortexm1top_i)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_14(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_13(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_12(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_11(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_10(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_9(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_8(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_7(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_5(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_4(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_3(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_2(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_1(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":127:8:127:9|Removing sequential instance masterDataInProg[3:0] (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_0(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_14(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_2(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_13(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_3(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_12(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_4(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_11(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_5(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_10(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_6(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_9(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_7(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_8(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_8(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_7(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_9(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_5(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_11(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_4(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_12(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_3(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_13(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_2(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_14(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_1(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_15(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN115 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavestage.vhd":142:4:142:16|Removing instance slave_arbiter (in view: coreahblite_lib.COREAHBLITE_SLAVESTAGE_0(trans)) of type view:coreahblite_lib.COREAHBLITE_SLAVEARBITER_16(coreahblite_slavearbiter_arch) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_masterstage.vhd":240:8:240:9|Removing sequential instance regHBURST[2:0] (in view: coreahblite_lib.COREAHBLITE_MASTERSTAGE_1_1_0_1027_0(coreahblite_masterstage_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_2(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_3(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_4(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_5(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_6(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_7(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_8(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_9(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_11(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_12(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_13(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_14(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_15(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_slavearbiter.vhd":398:8:398:9|Removing sequential instance arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_16(coreahblite_slavearbiter_arch)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+
+Clock Summary
+*****************
+
+Start                              Requested     Requested     Clock        Clock                   Clock
+Clock                              Frequency     Period        Type         Group                   Load 
+---------------------------------------------------------------------------------------------------------
+M1Proc|SYSCLK                      100.0 MHz     10.000        inferred     Inferred_clkgroup_1     689  
+M1Proc|TCK                         100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1    
+ResetSyNC|UDRCK_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     25   
+=========================================================================================================
+
+@W: MT530 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\cortexm1top\3.1.101\rtl\vhdl\o\resetsync_a3pe.vhd":221:0:221:1|Found inferred clock M1Proc|TCK which controls 1 sequential elements including CortexM1Top_0.RS.Dbg_uj\.UJ. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahblite\5.6.105\rtl\vhdl\core\coreahblite_defaultslavesm.vhd":70:8:70:9|Found inferred clock M1Proc|SYSCLK which controls 689 sequential elements including CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMCurrentState. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\cortexm1top\3.1.101\rtl\vhdl\o\uj_jtag.vhd":103:0:103:1|Found inferred clock ResetSyNC|UDRCK_inferred_clock which controls 25 sequential elements including CortexM1Top_0.RS.Dbg_uj\.Ujjtag.CORTEXM1Top_o0ol[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\rosar\Documents\M1_ExtRam\synthesis\M1Proc.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+Encoding state machine arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_0(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_1(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine arbRegSMCurrentState[0:15] (in view: coreahblite_lib.COREAHBLITE_SLAVEARBITER_2(coreahblite_slavearbiter_arch))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+Encoding state machine COReAhbSram_l00[0:2] (in view: work.CoreAhbSram_L1(coreahbsram_oi))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine ahbToApbSMState[0:4] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_AhbToApbSM(trans))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine penableSchedulerState[0:2] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_PenableScheduler(trans))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine MemCntlState[0:6] (in view: corememctrl_lib.CoreMemCtrl(rtl))
+original code -> new code
+   0000 -> 0000001
+   0001 -> 0000010
+   0100 -> 0000100
+   0101 -> 0001000
+   0110 -> 0010000
+   1001 -> 0100000
+   1010 -> 1000000
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[8] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[9] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[10] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[11] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[12] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[13] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[14] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[15] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[16] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[17] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[18] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[19] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[20] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[21] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[22] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[23] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[28] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[29] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[30] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbtoapb3\3.2.101\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd":76:6:76:7|Removing sequential instance haddrReg[31] (in view: coreahbtoapb3_lib.CoreAHBtoAPB3_ApbAddrData(trans)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\rosar\documents\m1_extram\component\actel\directcore\coreahbsram\1.4.104\rtl\vhdl\o\ahbwrapper_sram.vhd":71:0:71:1|Removing sequential instance CoreAhbSraM_I0L[2] (in view: work.CoreAhBSRAM_li(coreahbsram_oi)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 36MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 08 01:58:39 2022
+
+###########################################################]

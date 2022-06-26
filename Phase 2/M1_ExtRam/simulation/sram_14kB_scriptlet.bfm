@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# Resource: CoreAhbSram
+# Instance: VAR_resource
+#-----------------------------------------------------------
+
+# BFM scriptlet for 28 RAM4K9 instances (14kB) version
+
+# Test byte/halfword/word writes and reads
+write     w VAR_resource 0x0 0x12345678;
+readcheck w VAR_resource 0x0 0x12345678;
+write     b VAR_resource 0x0 0x9a;
+readcheck w VAR_resource 0x0 0x1234569a;
+readcheck b VAR_resource 0x0 0x9a;
+readcheck b VAR_resource 0x1 0x56;
+readcheck b VAR_resource 0x2 0x34;
+readcheck b VAR_resource 0x3 0x12;
+readcheck h VAR_resource 0x0 0x569a;
+readcheck h VAR_resource 0x2 0x1234;
+write     b VAR_resource 0x1 0xbc;
+write     b VAR_resource 0x2 0xde;
+write     b VAR_resource 0x3 0xf0;
+readcheck w VAR_resource 0x0 0xf0debc9a;
+write     w VAR_resource 0x4 0xaabbccdd;
+readcheck h VAR_resource 0x6 0xaabb;
+
+# Test write and read to each row of SRAM blocks
+# Row 0
+write     w VAR_resource 0x8 0x6758392c;
+readcheck h VAR_resource 0x8 0x6758392c;
+
+# Row 1
+write     w VAR_resource 0x808 0x1920a8b3;
+readcheck h VAR_resource 0x808 0x1920a8b3;
+
+# Row 2
+write     w VAR_resource 0x1008 0x58943903;
+readcheck h VAR_resource 0x1008 0x58943903;
+
+# Row 3
+write     w VAR_resource 0x1808 0xef1a0cb6;
+readcheck h VAR_resource 0x1808 0xef1a0cb6;
+
+# Row 4
+write     w VAR_resource 0x2008 0x04618347;
+readcheck h VAR_resource 0x2008 0x04618347;
+
+# Row 5
+write     w VAR_resource 0x2808 0x04618347;
+readcheck h VAR_resource 0x2808 0x04618347;
+
+# Row 6
+write     w VAR_resource 0x3008 0x04618347;
+readcheck h VAR_resource 0x3008 0x04618347;
+
+# Verify that all these locations are still correct
+readcheck h VAR_resource 0x8 0x6758392c;
+readcheck h VAR_resource 0x808 0x1920a8b3;
+readcheck h VAR_resource 0x1008 0x58943903;
+readcheck h VAR_resource 0x1808 0xef1a0cb6;
+readcheck h VAR_resource 0x2008 0x04618347;
+readcheck h VAR_resource 0x2808 0x04618347;
+readcheck h VAR_resource 0x3008 0x04618347;
+
+# Test top of memory
+write     w VAR_resource 0x37fc 0x98765432;
+readcheck w VAR_resource 0x37fc 0x98765432;
+
+# Write into dead space between top of memory and next aliasing region
+write     w VAR_resource 0x3800 0x98765432;
+# Read data back, but don't expect it to be value just written
+# Actually defaults to returning last value read from row 0
+readcheck w VAR_resource 0x3800 0x6758392c;
+
+# Test aliasing
+readcheck w VAR_resource 0x0 0xf0debc9a;
+write     w VAR_resource 0x4000 0xabcdef01;
+readcheck w VAR_resource 0x0 0xabcdef01;
+readcheck w VAR_resource 0x4000 0xabcdef01;
+
+# Test byte and halfword accesses
+write     w VAR_resource 0x0 0x12345678;
+readcheck w VAR_resource 0x0 0x12345678;
+write     b VAR_resource 0x0 0x9a;
+readcheck w VAR_resource 0x0 0x1234569a;
+readcheck b VAR_resource 0x0 0x9a;
+readcheck b VAR_resource 0x1 0x56;
+readcheck b VAR_resource 0x2 0x34;
+readcheck b VAR_resource 0x3 0x12;
+readcheck h VAR_resource 0x0 0x569a;
+readcheck h VAR_resource 0x2 0x1234;
+write     b VAR_resource 0x1 0xbc;
+write     b VAR_resource 0x2 0xde;
+write     b VAR_resource 0x3 0xf0;
+readcheck w VAR_resource 0x0 0xf0debc9a;
+write     w VAR_resource 0x4 0xaabbccdd;
+readcheck h VAR_resource 0x6 0xaabb;
